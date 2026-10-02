@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
+import { applyYaHeiPack } from './yahei-font-pack.mjs';
 
 const ALL_FONTS = 'sdkjs/common/AllFonts.js';
 export const CHINESE_FONT_ALIASES = {
@@ -14,7 +15,7 @@ export const CHINESE_FONT_ALIASES = {
   微软雅黑: 'Microsoft YaHei',
 };
 export const CHINESE_FALLBACK = 'WenQuanYi Zen Hei';
-export const FONT_CACHE_SUFFIX = '_localfix_v3_cjk';
+export const FONT_CACHE_SUFFIX = '_localfix_v4_yahei';
 // The bundled SDK XORs the first 32 bytes of font downloads with this key.
 const FONT_KEY = [160, 102, 214, 32, 20, 150, 71, 250, 149, 105, 184, 80, 176, 65, 73, 72];
 
@@ -159,18 +160,23 @@ export async function repairChineseFonts(root) {
   }
 
   const records = selectionRecords(catalog.g_fonts_selection_bin);
-  const buffers = records.map(record => {
+  const aliased = records.map(record => {
     const canonical = CHINESE_FONT_ALIASES[record.name];
     const target = canonical ? records.find(item => item.name === canonical) : record;
     assert.ok(target, `Missing font selection metadata: ${canonical}`);
-    const result = Buffer.concat([record.header, target.metrics]);
+    return { ...record, metrics: target.metrics };
+  });
+  const repaired = await applyYaHeiPack(root, catalog, aliased);
+  const buffers = repaired.map(record => {
+    const result = Buffer.concat([record.header, record.metrics]);
     result.writeUInt32LE(result.length, 0);
     return result;
   });
   const count = Buffer.alloc(4);
-  count.writeUInt32LE(records.length);
+  count.writeUInt32LE(repaired.length);
   const selection = Buffer.concat([count, ...buffers]).toString('base64');
   const output = source
+    .replace(/window\["__fonts_files"\] = \[[\s\S]*?\];/, `window["__fonts_files"] = [\n${catalog.__fonts_files.map(file => JSON.stringify(file)).join(',\n')}\n];`)
     .replace(/window\["__fonts_infos"\] = \[[\s\S]*?\];/, `window["__fonts_infos"] = [\n${infos.map(info => JSON.stringify(info)).join(',\n')}\n];`)
     .replace(/window\["__fonts_ranges"\] = \[[\s\S]*?\];/, `window["__fonts_ranges"] = [\n${ranges.join(',')}\n];`)
     .replace(/window\["g_fonts_selection_bin"\] = "[^"]*";/, `window["g_fonts_selection_bin"] = "${selection}";`);

@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { FONT_CACHE_SUFFIX, repairChineseFonts } from "./repair-chinese-fonts.mjs";
+import { readYaHeiPayloads, YAHEI_PACK_PATH } from "./yahei-font-pack.mjs";
 
 const DEFAULT_SOURCE_ROOT = process.env.OFFICE_WASM_VENDOR_SOURCE_DIR?.trim() ?? "";
 const REQUIRED_SOURCE_DIRS = ["web-apps", "sdkjs", "fonts"];
@@ -111,7 +112,18 @@ async function ensureDirectoryExists(directory) {
   }
 }
 
-async function copyRequiredDirectories(sourceRoot, assetRoot) {
+export async function copyRequiredDirectories(sourceRoot, assetRoot) {
+  // A fresh --asset-root has no local pack yet; seed it from this checkout.
+  const hasPack = await fs.stat(path.join(assetRoot, YAHEI_PACK_PATH)).then(() => true).catch(error => {
+    if (error.code === "ENOENT") return false;
+    throw error;
+  });
+  const packRoot = hasPack ? assetRoot : fileURLToPath(new URL("../", import.meta.url));
+  const yahei = await readYaHeiPayloads(packRoot);
+  if (!hasPack) {
+    await fs.mkdir(path.join(assetRoot, path.dirname(YAHEI_PACK_PATH)), { recursive: true });
+    await fs.copyFile(path.join(packRoot, YAHEI_PACK_PATH), path.join(assetRoot, YAHEI_PACK_PATH));
+  }
   for (const directoryName of REQUIRED_SOURCE_DIRS) {
     const sourceDirectory = path.join(sourceRoot, directoryName);
     const targetDirectory = path.join(assetRoot, directoryName);
@@ -119,6 +131,9 @@ async function copyRequiredDirectories(sourceRoot, assetRoot) {
     await ensureDirectoryExists(sourceDirectory);
     await fs.rm(targetDirectory, { recursive: true, force: true });
     await fs.cp(sourceDirectory, targetDirectory, { recursive: true });
+    if (directoryName === "fonts") {
+      for (const { file, data } of yahei) await fs.writeFile(path.join(targetDirectory, file), data);
+    }
   }
 }
 
