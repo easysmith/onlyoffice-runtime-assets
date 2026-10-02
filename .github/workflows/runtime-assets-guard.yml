@@ -22,3 +22,4 @@ jobs:
           node scripts/prune-office-assets.mjs --asset-root . --dry-run
           node scripts/hash-office-assets.mjs --asset-root .
           node scripts/verify-office-assets.mjs --asset-root . --en-only
+          node --test tests/chinese-fonts.test.mjs

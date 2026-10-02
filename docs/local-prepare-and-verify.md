@@ -10,6 +10,10 @@ node scripts/sync-office-assets.mjs \
   --asset-root .
 ```
 
+Sync also repairs the Chinese font mappings, fallback ranges, and WASM PDF font
+handoff. For existing assets, run `node scripts/repair-chinese-fonts.mjs --asset-root .`
+before hashing. See [Chinese font compatibility](chinese-fonts.md).
+
 ## 2) Rebuild integrity manifest
 
 ```bash
@@ -19,6 +23,7 @@ node scripts/hash-office-assets.mjs --asset-root .
 The manifest intentionally tracks core runtime assets only:
 - executable/runtime bundles such as `js`, `css`, `wasm`, `json`, and runtime `.bin` data
 - root runtime files such as `document_editor_service_worker.js`, `plugins.json`, and `themes.json`
+- all font payloads, including extensionless numeric files under `fonts/`
 
 It does not track bulky non-core content such as `help/` docs, screenshots, examples, or sourcemaps.
 
@@ -33,6 +38,7 @@ node scripts/prune-office-assets.mjs --asset-root .
 
 ```bash
 node scripts/verify-office-assets.mjs --asset-root . --en-only
+node --test tests/chinese-fonts.test.mjs
 ```
 
 ## 5) Commit and publish
