@@ -103,3 +103,23 @@ test('CI verifies committed font digests before regenerating the original manife
   const hash = workflow.indexOf('node scripts/hash-office-assets.mjs --asset-root .');
   assert.ok(verify >= 0 && hash > verify);
 });
+
+test('rejects a new font omitted from both manifests before verification or preparation', async t => {
+  const root = await fixture(t);
+  await prepareOfficeFonts({ assetRoot: root });
+  await writeFile(path.join(root, 'fonts/001'), original);
+  for (const full of [true, false]) {
+    await assert.rejects(verifyOfficeFonts({ assetRoot: root, full }), /Original font directory coverage mismatch/);
+  }
+  await assert.rejects(prepareOfficeFonts({ assetRoot: root }), /Original font directory coverage mismatch/);
+});
+
+test('rejects a missing original font and unexpected nested font directory', async t => {
+  const root = await fixture(t);
+  await prepareOfficeFonts({ assetRoot: root });
+  await rm(path.join(root, 'fonts/000'));
+  await assert.rejects(verifyOfficeFonts({ assetRoot: root }), /Original font directory coverage mismatch/);
+  await writeFile(path.join(root, 'fonts/000'), original);
+  await mkdir(path.join(root, 'fonts/nested'));
+  await assert.rejects(verifyOfficeFonts({ assetRoot: root }), /Invalid original font directory entry/);
+});

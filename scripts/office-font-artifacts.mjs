@@ -46,6 +46,14 @@ async function fontEntries(root) {
       throw new Error(`Invalid original font manifest entry: ${name}`);
     }
   }
+  const actual = await readdir(path.join(root, 'fonts'), { withFileTypes: true });
+  for (const entry of actual) {
+    if (!entry.isFile()) throw new Error(`Invalid original font directory entry: ${entry.name}`);
+  }
+  const actualNames = actual.map(entry => `vendor/office/fonts/${entry.name}`).sort();
+  if (JSON.stringify(actualNames) !== JSON.stringify(entries.map(([name]) => name).sort())) {
+    throw new Error('Original font directory coverage mismatch');
+  }
   return entries.sort(([a], [b]) => a.localeCompare(b, 'en'));
 }
 
