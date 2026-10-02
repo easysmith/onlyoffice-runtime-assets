@@ -6,6 +6,8 @@ import path from 'node:path';
 import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
 import { test } from 'node:test';
+import { copyRequiredDirectories } from '../scripts/sync-office-assets.mjs';
+import { readYaHeiPack } from '../scripts/yahei-font-pack.mjs';
 import {
   CHINESE_FONT_ALIASES,
   CHINESE_FALLBACK,
@@ -35,6 +37,78 @@ test('Chinese font selection uses the canonical face metrics', () => {
   const records = new Map(selectionRecords(catalog.g_fonts_selection_bin).map(record => [record.name, record]));
   for (const [alias, canonical] of Object.entries(CHINESE_FONT_ALIASES)) {
     assert.deepEqual(records.get(alias).metrics, records.get(canonical).metrics, alias);
+  }
+});
+
+test('YaHei regular and bold cover GB2312 Han and the presentation regressions', async () => {
+  const decoder = new TextDecoder('gb18030');
+  const han = new Set();
+  for (let lead = 0xb0; lead <= 0xf7; lead++) {
+    for (let trail = 0xa1; trail <= 0xfe; trail++) {
+      const cp = decoder.decode(Uint8Array.of(lead, trail)).codePointAt(0);
+      if (cp >= 0x4e00 && cp <= 0x9fff) han.add(cp);
+    }
+  }
+  assert.equal(han.size, 6763);
+  for (const name of ['Microsoft YaHei', '微软雅黑']) {
+    const info = byName.get(name);
+    assert.ok(info[5] >= 0 && info[5] !== info[1], 'A real bold font is required');
+    for (const slot of [1, 5]) {
+      const cps = await fontCodepoints(root, catalog, [name, info[slot], info[slot + 1]]);
+      for (const cp of han) assert.ok(cps.has(cp), `${name} slot ${slot} missing U+${cp.toString(16)}`);
+      for (const char of '荣昌辉一冉贫辈懈奋逢凝融勃焕丽岗礴砥砺铭喆镕龘') {
+        assert.ok(cps.has(char.codePointAt(0)), `${name} missing ${char}`);
+      }
+    }
+  }
+});
+
+test('YaHei selection metadata preserves distinct regular and bold metrics for both names', async () => {
+  const pack = await readYaHeiPack(root);
+  const records = selectionRecords(catalog.g_fonts_selection_bin);
+  for (const name of ['Microsoft YaHei', '微软雅黑']) {
+    const faces = records.filter(record => record.name === name);
+    assert.equal(faces.length, 2);
+    for (let i = 0; i < faces.length; i++) {
+      assert.deepEqual(faces[i].metrics, Buffer.from(pack.faces[i].metrics, 'base64'));
+      assert.equal(faces[i].metrics.readInt32LE(8), i, 'Incorrect bold flag');
+    }
+  }
+});
+
+test('upstream asset copy preserves the licensed YaHei payloads', async () => {
+  const temp = await fs.mkdtemp(path.join(os.tmpdir(), 'office-yahei-sync-'));
+  try {
+    const source = path.join(temp, 'source');
+    const target = path.join(temp, 'target');
+    for (const dir of ['fonts', 'sdkjs', 'web-apps']) {
+      await fs.mkdir(path.join(source, dir), { recursive: true });
+      await fs.writeFile(path.join(source, dir, 'upstream'), 'upstream');
+      await fs.mkdir(path.join(target, dir), { recursive: true });
+    }
+    await fs.cp(path.join(root, 'font-packs'), path.join(target, 'font-packs'), { recursive: true });
+    const pack = await readYaHeiPack(root);
+    for (const face of pack.faces) {
+      await fs.copyFile(path.join(root, 'fonts', face.file), path.join(target, 'fonts', face.file));
+    }
+    await copyRequiredDirectories(source, target);
+    for (const face of pack.faces) {
+      const data = await fs.readFile(path.join(target, 'fonts', face.file));
+      assert.equal(createHash('sha256').update(data).digest('hex'), face.sha256);
+    }
+    const fresh = path.join(temp, 'fresh');
+    await copyRequiredDirectories(source, fresh);
+    assert.deepEqual(await readYaHeiPack(fresh), pack);
+    for (const face of pack.faces) {
+      const data = await fs.readFile(path.join(fresh, 'fonts', face.file));
+      assert.equal(createHash('sha256').update(data).digest('hex'), face.sha256);
+    }
+    assert.equal(await fs.readFile(path.join(target, 'fonts/upstream'), 'utf8'), 'upstream');
+    await fs.writeFile(path.join(target, 'fonts', pack.faces[0].file), 'corrupt');
+    await assert.rejects(copyRequiredDirectories(source, target), /Corrupt YaHei font/);
+    assert.equal(await fs.readFile(path.join(target, 'fonts/upstream'), 'utf8'), 'upstream');
+  } finally {
+    await fs.rm(temp, { recursive: true, force: true });
   }
 });
 
@@ -73,6 +147,7 @@ test('repair is repeatable and upgrades the old worker cache', async () => {
     const helper = 'sdkjs/common/wasm/x2t/x2t_helper.js';
     await fs.copyFile(path.join(root, helper), path.join(temp, helper));
     await fs.symlink(path.join(root, 'fonts'), path.join(temp, 'fonts'));
+    await fs.cp(path.join(root, 'font-packs'), path.join(temp, 'font-packs'), { recursive: true });
     const relative = 'sdkjs/common/AllFonts.js';
     await fs.copyFile(path.join(root, relative), path.join(temp, relative));
     await fs.writeFile(path.join(temp, 'document_editor_service_worker.js'), 'var g_cacheName=g_cacheNamePrefix+g_version+"_localfix_v2";');

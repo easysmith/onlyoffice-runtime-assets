@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "family": "Microsoft YaHei",
+  "fontVersion": "5.00",
+  "copyright": "© 2006 Microsoft Corporation. All rights reserved.",
+  "license": "Proprietary; deployment owner confirmed separate web/software distribution authorization. Not covered by the repository license.",
+  "source": {
+    "originalUrl": "https://download.microsoft.com/download/d/6/e/d6e2ff26-5821-4f35-a18b-78c963b1535d/VistaFont_CHS.EXE",
+    "archiveUrl": "https://gitlab.com/fontmirror/archive/-/raw/master/VistaFont_CHS.EXE",
+    "archiveSha256": "b1a3080440d3b7d223bfc8359d01d13531b5ca421b1eb0b18f376185161895e3",
+    "formula": "https://github.com/fontist/formulas/blob/master/Formulas/microsoft_yahei.yml"
+  },
+  "faces": [
+    {
+      "slot": 1,
+      "style": "regular",
+      "file": "yahei-v5-regular",
+      "sha256": "ad104283a40eb0d39b1d1e411e6cc7120c1d755e89e2b2e8cd5bd2a7545c3618",
+      "metrics": "AAAAAAAAAAAAAAAAAAAAAAoAAAACCwUDAgIEAgIEhwIAgFI8DyoWAAAAAAAAAB8ABAAAAAAAkAEFAAUIAQDhASwDA/8EABwC9AIIAA=="
+    },
+    {
+      "slot": 5,
+      "style": "bold",
+      "file": "yahei-v5-bold",
+      "sha256": "b4d0e2b41e920f0311280cc18cada7b90aeb8c8a88d2af6cd6d2d20725d9a0fa",
+      "metrics": "AAAAAAAAAAABAAAAAAAAAAoAAAACCwcDAgIEAgIBhwIAgFI8DyoWAAAAAAAAAB8ABAAAAAAAvAIFAAUIAQD7ASwDA/8EABwC9AIIAA=="
+    }
+  ]
+}
