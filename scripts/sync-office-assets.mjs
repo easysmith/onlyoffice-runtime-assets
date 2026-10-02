@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { FONT_CACHE_SUFFIX, repairChineseFonts } from "./repair-chinese-fonts.mjs";
 
 const DEFAULT_SOURCE_ROOT = process.env.OFFICE_WASM_VENDOR_SOURCE_DIR?.trim() ?? "";
 const REQUIRED_SOURCE_DIRS = ["web-apps", "sdkjs", "fonts"];
@@ -12,7 +13,7 @@ const SERVICE_WORKER_SOURCE_RELATIVE_PATH = path.join(
   "document_editor_service_worker.js",
 );
 const SERVICE_WORKER_TARGET_NAME = "document_editor_service_worker.js";
-const SERVICE_WORKER_CACHE_SUFFIX = "_localfix_v2";
+const SERVICE_WORKER_CACHE_SUFFIX = FONT_CACHE_SUFFIX;
 const SOCKET_IO_SCRIPT_RELATIVE_PATH = path.join(
   "web-apps",
   "vendor",
@@ -211,6 +212,7 @@ export async function syncOfficeAssets({ sourceRootArg, assetRootArg } = {}) {
   await exposeDocumentServiceWorker(assetRoot);
   await stripDanglingSocketIoSourceMap(assetRoot);
   await ensureRootEditorConfigFiles(assetRoot);
+  await repairChineseFonts(assetRoot);
 
   console.log(`Synced OFFICE assets from ${sourceRoot} to ${assetRoot}`);
 }

@@ -70,6 +70,11 @@ function shouldHashRuntimeAsset(assetRelativePath) {
     return true;
   }
 
+  // Font payloads use extensionless numeric names and must travel with AllFonts.js.
+  if (normalizedPath.startsWith("fonts/")) {
+    return true;
+  }
+
   if (normalizedPath.endsWith(`/${MANIFEST_FILE_NAME}`) || normalizedPath.endsWith(".map")) {
     return false;
   }

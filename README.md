@@ -17,6 +17,7 @@ node scripts/verify-office-assets.mjs --asset-root . --en-only
 - `docs/local-prepare-and-verify.md`: local preparation and verification flow
 - `docs/runtime-assets-governance.md`: ownership boundary and governance policy
 - `docs/security-checklist.md`: rollout and security checklist
+- `docs/chinese-fonts.md`: Chinese font repair, PDF font handoff, and regression checks
 
 ## Governance boundary
 

@@ -704,23 +704,19 @@
         return null;
     };
 
-    X2TConverter.prototype.fetchFonts = async function () {
-        let that = this;
-        return new Promise(function (resolve, reject) {
-            window["AscCommon"]['fetchFonts'](function (data) {
-                try {
-                    if (data && data.length > 0) {
-                        data.forEach(function (obj) {
-                            that.x2tModule.FS.writeFile('/working/fonts/' + obj['fileName'], obj['binary']);
-                        })
-                    }
-                    resolve();
-                } catch (error) {
-                    reject(error);
-                }
-            });
-        });
-    };
+    X2TConverter.prototype.fetchFonts = async function copyLoadedFontsToConverter() {
+  const fonts = window.AscFonts;
+  if (!fonts || !fonts.getFontStreams || !fonts.getFontStream) {
+    throw new Error('Office font streams are unavailable');
+  }
+  const streams = fonts.getFontStreams();
+  for (let index = 0; index < streams.length; index++) {
+    // getFontStream also expands compressed embedded fonts. These bytes have
+    // already passed through the SDK decoder, unlike raw /fonts/ downloads.
+    const font = fonts.getFontStream(index);
+    this.x2tModule.FS.writeFile(`/working/fonts/loaded-${index}.ttf`, font.data.subarray(0, font.size));
+  }
+};
 
     X2TConverter.prototype.convertFromBin = async function (obj) {
         let {fileExt, targetExt} = obj;
