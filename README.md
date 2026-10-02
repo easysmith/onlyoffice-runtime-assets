@@ -8,6 +8,8 @@ The main app repository consumes this repository as a git submodule.
 ```bash
 node scripts/sync-office-assets.mjs --source-root /path/to/upstream/vendor --asset-root .
 node scripts/hash-office-assets.mjs --asset-root .
+node scripts/prepare-office-fonts.mjs --asset-root .
+node scripts/verify-office-fonts.mjs --asset-root .
 node scripts/prune-office-assets.mjs --asset-root . --dry-run
 node scripts/verify-office-assets.mjs --asset-root . --en-only
 ```
@@ -18,6 +20,7 @@ node scripts/verify-office-assets.mjs --asset-root . --en-only
 - `docs/runtime-assets-governance.md`: ownership boundary and governance policy
 - `docs/security-checklist.md`: rollout and security checklist
 - `docs/chinese-fonts.md`: Chinese font repair, PDF font handoff, and regression checks
+- `docs/font-compression.md`: prebuilt font artifact contract and release checks
 
 ## Governance boundary
 
