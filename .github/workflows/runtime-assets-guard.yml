@@ -1,6 +1,9 @@
 name: runtime-assets-guard
 
 on:
+  pull_request:
+    branches:
+      - runtime-en
   push:
     branches:
       - runtime-en
@@ -19,7 +22,9 @@ jobs:
 
       - name: run governance commands
         run: |
+          node scripts/verify-office-fonts.mjs --asset-root .
           node scripts/prune-office-assets.mjs --asset-root . --dry-run
           node scripts/hash-office-assets.mjs --asset-root .
           node scripts/verify-office-assets.mjs --asset-root . --en-only
           node --test tests/chinese-fonts.test.mjs
+          node --test tests/office-font-artifacts.test.mjs

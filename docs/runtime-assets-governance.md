@@ -10,6 +10,7 @@ Owned in this repository:
 - `scripts/hash-office-assets.mjs`
 - `scripts/prune-office-assets.mjs`
 - `scripts/verify-office-assets.mjs`
+- Font compression generation and verification scripts and `font-compressed/`
 - runtime asset governance docs and workflow
 
 Owned in the main app repository:
@@ -20,5 +21,6 @@ Owned in the main app repository:
 ## Branch and CI policy
 
 - Governance checks run on push events for branch `runtime-en`.
+- Pull requests to `runtime-en` verify committed compression artifacts too.
 - Any runtime asset update must pass prune, hash, and verify checks before
   publishing a new submodule pointer in the main repository.

@@ -1,0 +1,4048 @@
+{
+  "version": "v1",
+  "compression": {
+    "br": {
+      "quality": 5
+    },
+    "gzip": {
+      "level": 6
+    }
+  },
+  "fonts": {
+    "vendor/office/fonts/000": {
+      "sha256": "76710ff62bb81521317d7777d44f745e0d44050bb47f4fce376463edef79513e",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/76710ff62bb81521317d7777d44f745e0d44050bb47f4fce376463edef79513e.br",
+          "size": 3253951,
+          "sha256": "3a87431d14b168e7e72d40b1dae35a7856ba0edae2c0ea531443b3939bc2ff7f"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/76710ff62bb81521317d7777d44f745e0d44050bb47f4fce376463edef79513e.gzip",
+          "size": 3362446,
+          "sha256": "b1802fc9b1d26e9d361ae23b16b0d1d45535e328f62d754328becee7df6b3a79"
+        }
+      }
+    },
+    "vendor/office/fonts/001": {
+      "sha256": "e557087f0ba007d7c91d3955f93b48423c3e7af7f2455b843cfa38afda366d27",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/e557087f0ba007d7c91d3955f93b48423c3e7af7f2455b843cfa38afda366d27.br",
+          "size": 3628008,
+          "sha256": "5ccc256078a7aaa8234effe731a6655b6bb623aa3cd0f56958c50145593433cd"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/e557087f0ba007d7c91d3955f93b48423c3e7af7f2455b843cfa38afda366d27.gzip",
+          "size": 3769464,
+          "sha256": "4d90bb9d1eb5b19f033a5227e121db8795a10da01c7efb0a7872cdb776cae41d"
+        }
+      }
+    },
+    "vendor/office/fonts/002": {
+      "sha256": "586d9633b1257cd5ca72100585dbfd30a5844ecdf3cf7dc1cac94b3f710b77aa",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/586d9633b1257cd5ca72100585dbfd30a5844ecdf3cf7dc1cac94b3f710b77aa.br",
+          "size": 1540011,
+          "sha256": "8dc0a4e80c63747081d0da3394b6461c8d003db5c5b4201471ff7366b3bcfa2c"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/586d9633b1257cd5ca72100585dbfd30a5844ecdf3cf7dc1cac94b3f710b77aa.gzip",
+          "size": 1619821,
+          "sha256": "3c627cdd45b8a35157c95ec93d2628dae889069b54c9d5b8aae13a52e3faed58"
+        }
+      }
+    },
+    "vendor/office/fonts/003": {
+      "sha256": "9858bba40f6af0a878445078960fc1854bacc971af0ecb8928003bba8e82a98a",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/9858bba40f6af0a878445078960fc1854bacc971af0ecb8928003bba8e82a98a.br",
+          "size": 3046963,
+          "sha256": "d2688ea8f17c0088f16a0f4a114c318caaf511f76bc75d4c50af9c37bbd194d0"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/9858bba40f6af0a878445078960fc1854bacc971af0ecb8928003bba8e82a98a.gzip",
+          "size": 3165605,
+          "sha256": "b973fca7440814224a723ca53e3ad6f8ce7b0f5662373a4d8678bf4de855e575"
+        }
+      }
+    },
+    "vendor/office/fonts/004": {
+      "sha256": "29c1d318985a58d9946734a4f2c52f17e13194af2fef66418e74ff3e4814c1e5",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/29c1d318985a58d9946734a4f2c52f17e13194af2fef66418e74ff3e4814c1e5.br",
+          "size": 3704592,
+          "sha256": "7d179639304717f7fb16082d8090c8d20b70fec1e7c26dfde91ee1eb4a97b3f1"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/29c1d318985a58d9946734a4f2c52f17e13194af2fef66418e74ff3e4814c1e5.gzip",
+          "size": 3863005,
+          "sha256": "e5826ea4f474444cbb4e326824077664fa1dae8bdb70381b317b43e650a33bf7"
+        }
+      }
+    },
+    "vendor/office/fonts/005": {
+      "sha256": "12e6af076755b6cf961860b6355321fe5ac3d00367d895f74c17ee87483e141f",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/12e6af076755b6cf961860b6355321fe5ac3d00367d895f74c17ee87483e141f.br",
+          "size": 7315575,
+          "sha256": "2b0196125887cb6264902195558e4df5bfdb5e8b99a338497c0362eada3ffbc3"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/12e6af076755b6cf961860b6355321fe5ac3d00367d895f74c17ee87483e141f.gzip",
+          "size": 7581467,
+          "sha256": "9915cfbcbd909f499afdddd8e14c7c7cf3a4406852e134d8a941bf1df25d82e4"
+        }
+      }
+    },
+    "vendor/office/fonts/006": {
+      "sha256": "0714da660af6c75927e89a375cc583d8b310df4806bd5602891514f576e3cdc7",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/0714da660af6c75927e89a375cc583d8b310df4806bd5602891514f576e3cdc7.br",
+          "size": 2372446,
+          "sha256": "2da7efd7e58bd62161741b4ddb6d1c16a76c7022e4875621a370fae3f83efda6"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/0714da660af6c75927e89a375cc583d8b310df4806bd5602891514f576e3cdc7.gzip",
+          "size": 2471077,
+          "sha256": "a218d699e039869381a39fe9d96da4ed45b8fc2cb7b904666c2001b8b4ca9129"
+        }
+      }
+    },
+    "vendor/office/fonts/007": {
+      "sha256": "c27f7930da073b54717e930be6d6427a985fc97d2dc9da5d637750ee50cd49b1",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c27f7930da073b54717e930be6d6427a985fc97d2dc9da5d637750ee50cd49b1.br",
+          "size": 8309944,
+          "sha256": "f18e87e46638717b2b6b4c275d795a506dac9dd9a4432d83b5ceb91aed2e64fb"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c27f7930da073b54717e930be6d6427a985fc97d2dc9da5d637750ee50cd49b1.gzip",
+          "size": 8657909,
+          "sha256": "e538b472fefe0d647ab05e49488b0411d62c07e369342eafeef0930d61e67182"
+        }
+      }
+    },
+    "vendor/office/fonts/008": {
+      "sha256": "ce0556db110184b7f09e2741e8a4b5764c8580dfc337841e9aa138b3a4cf6ad9",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/ce0556db110184b7f09e2741e8a4b5764c8580dfc337841e9aa138b3a4cf6ad9.br",
+          "size": 2703200,
+          "sha256": "6eecff0b8e111cb63abaeca9499ec7b5ef82b02b2669795ab0d85c1676a527ae"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/ce0556db110184b7f09e2741e8a4b5764c8580dfc337841e9aa138b3a4cf6ad9.gzip",
+          "size": 2818699,
+          "sha256": "ff196fa7ed73b5ef1861581a3fd31d71d8129ce8fda5fb3d3efe73ea64719487"
+        }
+      }
+    },
+    "vendor/office/fonts/009": {
+      "sha256": "22e9abfc4d8d6c02aa90310353d7f5e3c546fba9f7812dc3d7797b3c1399cc84",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/22e9abfc4d8d6c02aa90310353d7f5e3c546fba9f7812dc3d7797b3c1399cc84.br",
+          "size": 7038591,
+          "sha256": "a6a155925ecf57e4060a0bda04bf456e4d6ff8c97b2db8659d3b8ffae6d00cf1"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/22e9abfc4d8d6c02aa90310353d7f5e3c546fba9f7812dc3d7797b3c1399cc84.gzip",
+          "size": 7453404,
+          "sha256": "27cd493a9fc7b28a1fe8dc6070d56f9698d580274cfe9434700955b7f2845dca"
+        }
+      }
+    },
+    "vendor/office/fonts/010": {
+      "sha256": "71a7f23997bcce7bb04c64343603b3c48d4192a52b565e529ee70c6eb201583c",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/71a7f23997bcce7bb04c64343603b3c48d4192a52b565e529ee70c6eb201583c.br",
+          "size": 6094134,
+          "sha256": "9d5af31c8518e3977239ded464104cf6ca90aa6144248864f0053a74808ab77e"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/71a7f23997bcce7bb04c64343603b3c48d4192a52b565e529ee70c6eb201583c.gzip",
+          "size": 6478419,
+          "sha256": "25e2b3d59bd0dabb27512151c2a2e391193427984bd09434a3780f3480020a19"
+        }
+      }
+    },
+    "vendor/office/fonts/011": {
+      "sha256": "64b92a69bce0b6cdbb92fb8281c2bc8730ebe48ae09c7752d92b2b13b2af4d7f",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/64b92a69bce0b6cdbb92fb8281c2bc8730ebe48ae09c7752d92b2b13b2af4d7f.br",
+          "size": 2703732,
+          "sha256": "1de08cacdac111fe9eda388c9d8eb4c677b4f7b47ac06d36fff1c2bf8323cee7"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/64b92a69bce0b6cdbb92fb8281c2bc8730ebe48ae09c7752d92b2b13b2af4d7f.gzip",
+          "size": 2817351,
+          "sha256": "d2c2aef7a818ac71930a438d64683e0ed448b9ea0487ac1bfdba9a156ca29664"
+        }
+      }
+    },
+    "vendor/office/fonts/012": {
+      "sha256": "e0bf6370d94a8867fafd420af2d324d654ec9532e4aa729609458dabf9b233f3",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/e0bf6370d94a8867fafd420af2d324d654ec9532e4aa729609458dabf9b233f3.br",
+          "size": 2677952,
+          "sha256": "6f51c4911af0424f8e33ebb39868cff34048f4b53fd8b7fea26f278a4d5a2aeb"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/e0bf6370d94a8867fafd420af2d324d654ec9532e4aa729609458dabf9b233f3.gzip",
+          "size": 2792958,
+          "sha256": "e9dce4b482964817e8e5c105960c3e5989e39df1a5cdb84e405fcb2fedd005b7"
+        }
+      }
+    },
+    "vendor/office/fonts/013": {
+      "sha256": "4e6e3e72e66711eb610015f5c944096da9c3f86281f676047227436cdb18194a",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/4e6e3e72e66711eb610015f5c944096da9c3f86281f676047227436cdb18194a.br",
+          "size": 7599736,
+          "sha256": "59201a9ee6b1eacedd8c237174b8f50358d12bd2b9fb58fdb934ec9a9c2d71f6"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/4e6e3e72e66711eb610015f5c944096da9c3f86281f676047227436cdb18194a.gzip",
+          "size": 7965294,
+          "sha256": "c9104345588dfba6b2b012c64159ca1647280c6c0f64d1f9569ed51427b6d2a6"
+        }
+      }
+    },
+    "vendor/office/fonts/014": {
+      "sha256": "675695a2370da12ea33ff65aae0286a52b244b32da8488e0768295598304dabc",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/675695a2370da12ea33ff65aae0286a52b244b32da8488e0768295598304dabc.br",
+          "size": 3781195,
+          "sha256": "80f7e42c8239126116b3250b6f0128a54a1505f0b26a8e4b1c1abeedcb55aabc"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/675695a2370da12ea33ff65aae0286a52b244b32da8488e0768295598304dabc.gzip",
+          "size": 3917262,
+          "sha256": "cc76c4b3c882bdb4e2130c330c591d985e69af63cac3403b21058e3b917673a1"
+        }
+      }
+    },
+    "vendor/office/fonts/015": {
+      "sha256": "4a3b6a6cae20aee92838fc2b0f9cefed31e78d08cdeb617d2f240ff260b8ed65",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/4a3b6a6cae20aee92838fc2b0f9cefed31e78d08cdeb617d2f240ff260b8ed65.br",
+          "size": 3737665,
+          "sha256": "2697aaee6431e6072b812ffbb691413933a751ac73a1004847353a3ef29db931"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/4a3b6a6cae20aee92838fc2b0f9cefed31e78d08cdeb617d2f240ff260b8ed65.gzip",
+          "size": 3877200,
+          "sha256": "0f2f426f38ba9edbaaea30ca9c0b81d6ab5b0d6850b9df60aa61e031433e4334"
+        }
+      }
+    },
+    "vendor/office/fonts/016": {
+      "sha256": "db03e8904ec3b0c675df2f99e4b163ea7763f476d2b897fc480881f4272e6c18",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/db03e8904ec3b0c675df2f99e4b163ea7763f476d2b897fc480881f4272e6c18.br",
+          "size": 1022455,
+          "sha256": "96ac16de5e8ed473173a8caaaeacdd24745ffaecdb31ed80993f1afba986a90a"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/db03e8904ec3b0c675df2f99e4b163ea7763f476d2b897fc480881f4272e6c18.gzip",
+          "size": 1083583,
+          "sha256": "160658e8ebb229b4738c40667e614210c6491037a3eea488d82ec07bee5189fc"
+        }
+      }
+    },
+    "vendor/office/fonts/017": {
+      "sha256": "038a575b48fe3554375639aaae98ef4fabdf9d9e4132e2cbf8e4505848d877a2",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/038a575b48fe3554375639aaae98ef4fabdf9d9e4132e2cbf8e4505848d877a2.br",
+          "size": 2859909,
+          "sha256": "f52d2145f40a32d03bd14a32d2d2206f81630abad0689d6b98d59cbc8ebb47d0"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/038a575b48fe3554375639aaae98ef4fabdf9d9e4132e2cbf8e4505848d877a2.gzip",
+          "size": 2968623,
+          "sha256": "5bc478dc44d3491ecca5896458011e1db91dfacb811bcac288d5f646b9d0edc7"
+        }
+      }
+    },
+    "vendor/office/fonts/018": {
+      "sha256": "600dbb2682d7e043ed8e0ca0073e7ce3f048a6dbf74cf839aaeb0e2f059cea61",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/600dbb2682d7e043ed8e0ca0073e7ce3f048a6dbf74cf839aaeb0e2f059cea61.br",
+          "size": 218571,
+          "sha256": "bb97433dafb68d0692f8222e372c1d91ec5ac88d544eebcc452de162f05ef2f6"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/600dbb2682d7e043ed8e0ca0073e7ce3f048a6dbf74cf839aaeb0e2f059cea61.gzip",
+          "size": 234780,
+          "sha256": "4a0b9197c4dffe128ac22d0ec1c0a87ae8e2dc67e0decea06e609974330ff606"
+        }
+      }
+    },
+    "vendor/office/fonts/019": {
+      "sha256": "fc77485cdbb6f583cfddcbda93a1d4fd953179b5def199e99e34816a32ce19b4",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/fc77485cdbb6f583cfddcbda93a1d4fd953179b5def199e99e34816a32ce19b4.br",
+          "size": 1701996,
+          "sha256": "31e2f1ef69ab0e6c520ba9228d6122541d07f50080c801708c56bfe3e602bf21"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/fc77485cdbb6f583cfddcbda93a1d4fd953179b5def199e99e34816a32ce19b4.gzip",
+          "size": 1783252,
+          "sha256": "c1943e0c8fd7b16abe0036817cd46fe8b0418dc1ec86900fa40726e76730908a"
+        }
+      }
+    },
+    "vendor/office/fonts/020": {
+      "sha256": "6ac1487028d0c2298f4d13e3eeeb218b7a95307e2b233118ceb3a712edbec3c6",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/6ac1487028d0c2298f4d13e3eeeb218b7a95307e2b233118ceb3a712edbec3c6.br",
+          "size": 6176361,
+          "sha256": "f9ffd34f156578c2821ac19da5dc4fd5c9cbb31611acd7a2d73a36a85ec525c9"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/6ac1487028d0c2298f4d13e3eeeb218b7a95307e2b233118ceb3a712edbec3c6.gzip",
+          "size": 7950865,
+          "sha256": "1557b5e897b82cc5b3724c7ce90ad5bcc10e9568b866025971ee40575ad341d9"
+        }
+      }
+    },
+    "vendor/office/fonts/021": {
+      "sha256": "3f86b11698f65f848b631c373b907015cf840650177139341b87f239fe5b5feb",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/3f86b11698f65f848b631c373b907015cf840650177139341b87f239fe5b5feb.br",
+          "size": 2722569,
+          "sha256": "1e6d38269872ad8d7d22257f76f8a715782561f276e2b5293ac379d7ced3255c"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/3f86b11698f65f848b631c373b907015cf840650177139341b87f239fe5b5feb.gzip",
+          "size": 2987037,
+          "sha256": "1a79d74e1b64636ee540c6141924930e57a561468cef078f3851b3784db7e3a8"
+        }
+      }
+    },
+    "vendor/office/fonts/022": {
+      "sha256": "365e370c6a9c9fd72e94196c4e51f056d12917f0c5d86a63f2104fe4886ba214",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/365e370c6a9c9fd72e94196c4e51f056d12917f0c5d86a63f2104fe4886ba214.br",
+          "size": 2932293,
+          "sha256": "d4e12c1195f8f3f61bfd9ba8a945474f856e63e903b9a0eaf0189e13bd247d66"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/365e370c6a9c9fd72e94196c4e51f056d12917f0c5d86a63f2104fe4886ba214.gzip",
+          "size": 3043015,
+          "sha256": "63c37c3576c85d0fb7eb7920d269427ea857b638d085c0e3ff3b35ff96ded9b9"
+        }
+      }
+    },
+    "vendor/office/fonts/023": {
+      "sha256": "2a88ab3e9b2de90528474b31e091cfe52b857b91eb790eca7667b0e1facbe780",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/2a88ab3e9b2de90528474b31e091cfe52b857b91eb790eca7667b0e1facbe780.br",
+          "size": 1776,
+          "sha256": "1d3e0f7e1216e67764a52622a212a7e3d1cc19cc2051396a4aa59d06d5d2a68c"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/2a88ab3e9b2de90528474b31e091cfe52b857b91eb790eca7667b0e1facbe780.gzip",
+          "size": 1821,
+          "sha256": "22ccc573bf4534ea5fe4a7e23e9723b1379e75c02868de37a5e523f04613b2ae"
+        }
+      }
+    },
+    "vendor/office/fonts/024": {
+      "sha256": "91ebd7e692d6bcdce3af782f88f68e5dc95a4aa0c45370bed60d460ae84369e3",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/91ebd7e692d6bcdce3af782f88f68e5dc95a4aa0c45370bed60d460ae84369e3.br",
+          "size": 2378302,
+          "sha256": "b3880902a832d72ccfcb952db4e902726019686edf162826327398445b464fd3"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/91ebd7e692d6bcdce3af782f88f68e5dc95a4aa0c45370bed60d460ae84369e3.gzip",
+          "size": 2467193,
+          "sha256": "4a3d318d8aee1558d2f63fb5c65e8759930b032409ac7c5f2877374cc7574d1c"
+        }
+      }
+    },
+    "vendor/office/fonts/025": {
+      "sha256": "4636509ba6a49c645c909f0d538e824c6b2fa8fb12d85157d165f1660b6a0bf1",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/4636509ba6a49c645c909f0d538e824c6b2fa8fb12d85157d165f1660b6a0bf1.br",
+          "size": 2424094,
+          "sha256": "2ca61f1f5a66e9baa4678fac04e31577c1cc8b7a244219df7176a375ef332bf6"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/4636509ba6a49c645c909f0d538e824c6b2fa8fb12d85157d165f1660b6a0bf1.gzip",
+          "size": 2506801,
+          "sha256": "182b382de271f58e9b9e7b137f4e715360a4465301065f4637b6e8c144f20efb"
+        }
+      }
+    },
+    "vendor/office/fonts/026": {
+      "sha256": "eccf53712a145f6df9f11a2a4ef4a380644d2cfe80e118c8aa7b53d8a53a1eb4",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/eccf53712a145f6df9f11a2a4ef4a380644d2cfe80e118c8aa7b53d8a53a1eb4.br",
+          "size": 2168867,
+          "sha256": "c2bb74f7a1397e0ccc8d76a9147e8fcccc516e6a54cec8fcb01390f4f2d3ecd2"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/eccf53712a145f6df9f11a2a4ef4a380644d2cfe80e118c8aa7b53d8a53a1eb4.gzip",
+          "size": 2230959,
+          "sha256": "72d6c928feb0055e14ff3dd87f1184f461725d0423b10e780a2814ae7e29b540"
+        }
+      }
+    },
+    "vendor/office/fonts/027": {
+      "sha256": "e3564bfc5ef2599ad8354d0cdef47888e64ec3d9054f33322f53b7d9ce30d36c",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/e3564bfc5ef2599ad8354d0cdef47888e64ec3d9054f33322f53b7d9ce30d36c.br",
+          "size": 2164,
+          "sha256": "cdd83d32af94c894b84943f52a533554e4519ad8d1a0a5badd09382cffcdf02f"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/e3564bfc5ef2599ad8354d0cdef47888e64ec3d9054f33322f53b7d9ce30d36c.gzip",
+          "size": 2176,
+          "sha256": "46ac860bed44587970fcf5250990e7853b0e5264bbee124bbb31be392c7ba619"
+        }
+      }
+    },
+    "vendor/office/fonts/028": {
+      "sha256": "7bcdfd22aeeb5ab49668c8fdcfbc38c029ff9a4726cb9742cf44a50abfc9c89d",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/7bcdfd22aeeb5ab49668c8fdcfbc38c029ff9a4726cb9742cf44a50abfc9c89d.br",
+          "size": 2371102,
+          "sha256": "c644c90f952684babf700387343160d5c1923bbd7aa339e2626a7efde9f71a62"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/7bcdfd22aeeb5ab49668c8fdcfbc38c029ff9a4726cb9742cf44a50abfc9c89d.gzip",
+          "size": 2530265,
+          "sha256": "fa02c1157502581ae155ba3a6831ef7ceae9fda9fdb252cdb0665d5c210f470e"
+        }
+      }
+    },
+    "vendor/office/fonts/029": {
+      "sha256": "64cea75ff0ec1d079c16ee93b998707173bff09fe70daafe729d66bc5803dca7",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/64cea75ff0ec1d079c16ee93b998707173bff09fe70daafe729d66bc5803dca7.br",
+          "size": 1296,
+          "sha256": "013d640aac52a654f799ca12ce2b99ae9c68b2eab1515ad0f355de969198952e"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/64cea75ff0ec1d079c16ee93b998707173bff09fe70daafe729d66bc5803dca7.gzip",
+          "size": 1325,
+          "sha256": "547e50f69ec550108dc07d708391ae64500ae141a7210f910044b5124ff874b3"
+        }
+      }
+    },
+    "vendor/office/fonts/030": {
+      "sha256": "da5fdeec001428bc74eaba3811d00a795ed8187b564085800df8de9bfccc4d23",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/da5fdeec001428bc74eaba3811d00a795ed8187b564085800df8de9bfccc4d23.br",
+          "size": 1933,
+          "sha256": "b467a306f92e18823bbd2df010ef174a7cf5c166c6a1930877f808c5d4626341"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/da5fdeec001428bc74eaba3811d00a795ed8187b564085800df8de9bfccc4d23.gzip",
+          "size": 1942,
+          "sha256": "37db09057b9144be453df2f2834f1509130a09891ca1fda332701d98f13ad249"
+        }
+      }
+    },
+    "vendor/office/fonts/031": {
+      "sha256": "490928419d5bb5875ee70807f1a6e967733ee74fa5f2e21dfa3c52aba9811f52",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/490928419d5bb5875ee70807f1a6e967733ee74fa5f2e21dfa3c52aba9811f52.br",
+          "size": 4947,
+          "sha256": "77815c452df4912524e9c748ab0363089e7a8cc0d8dce9b993012eba4b9cff28"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/490928419d5bb5875ee70807f1a6e967733ee74fa5f2e21dfa3c52aba9811f52.gzip",
+          "size": 5036,
+          "sha256": "b0686557380509c5914cf0cded731235dd82f55a846f727a0ced972628c7052c"
+        }
+      }
+    },
+    "vendor/office/fonts/032": {
+      "sha256": "eb3afe191bda036b1408da5a56ba4b4de1a80c970d26781efb15d3923893dc55",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/eb3afe191bda036b1408da5a56ba4b4de1a80c970d26781efb15d3923893dc55.br",
+          "size": 4329,
+          "sha256": "4526ccd741ccf3ba72880337cf0ef04a2c9b93bad2f51d4d763e7fbe1243d90d"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/eb3afe191bda036b1408da5a56ba4b4de1a80c970d26781efb15d3923893dc55.gzip",
+          "size": 4401,
+          "sha256": "59f5d59fdb5fe3fea70fc627d4a6f36609913911899273473e418899bd9fde4b"
+        }
+      }
+    },
+    "vendor/office/fonts/033": {
+      "sha256": "4dffe76aa1ff7270b068574bfbb5fe0ee01f7c4aad03a2ae2c9a9ed2dcd45c9f",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/4dffe76aa1ff7270b068574bfbb5fe0ee01f7c4aad03a2ae2c9a9ed2dcd45c9f.br",
+          "size": 3657,
+          "sha256": "2051354db1b2fa20a426bed7f980bbf5b96243e5474ca184559ae4eb1075623d"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/4dffe76aa1ff7270b068574bfbb5fe0ee01f7c4aad03a2ae2c9a9ed2dcd45c9f.gzip",
+          "size": 3754,
+          "sha256": "c6f3c5ba225c8ef175d6e4414d830b260867b058f2fc5a06df26cfea7d4e687a"
+        }
+      }
+    },
+    "vendor/office/fonts/034": {
+      "sha256": "c9cb559a9c484949223c704aa31189f91c3a417b4de6753a2fe2de75f6100da0",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c9cb559a9c484949223c704aa31189f91c3a417b4de6753a2fe2de75f6100da0.br",
+          "size": 4759,
+          "sha256": "a6d45c7ce065a505d3ce7b6ee13dc022170e725bc9d912224e4f4767e9718596"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c9cb559a9c484949223c704aa31189f91c3a417b4de6753a2fe2de75f6100da0.gzip",
+          "size": 4900,
+          "sha256": "5645a0978e2e83108643303484aaf101dabbab36c6d42fbdb35ea01d2d4328f1"
+        }
+      }
+    },
+    "vendor/office/fonts/035": {
+      "sha256": "5854a3810e4a21197ca7f9ab7de463ca21fa36105c33e47fb8643e91214b03c9",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/5854a3810e4a21197ca7f9ab7de463ca21fa36105c33e47fb8643e91214b03c9.br",
+          "size": 4437,
+          "sha256": "2abe71c319bd1699d16989c92fc54ddd36fd1a6ae8b27d4b9597a73207b82116"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/5854a3810e4a21197ca7f9ab7de463ca21fa36105c33e47fb8643e91214b03c9.gzip",
+          "size": 4529,
+          "sha256": "c32341e23ba1076aca5aa354154a5dc5279d3ebd4ee8f1821713a9e4c342032c"
+        }
+      }
+    },
+    "vendor/office/fonts/036": {
+      "sha256": "c583be3d58df2a216fc6aa3be4e4c5c37e80cf32bae463dbb36612a635ebbe55",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c583be3d58df2a216fc6aa3be4e4c5c37e80cf32bae463dbb36612a635ebbe55.br",
+          "size": 4466,
+          "sha256": "5045f283e822bcfb71aa8dbe699068dfce8590f5598f4d2bd9254fe73d910725"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c583be3d58df2a216fc6aa3be4e4c5c37e80cf32bae463dbb36612a635ebbe55.gzip",
+          "size": 4555,
+          "sha256": "e9142a9d827f4adf9ca4abe88d1cc2bb08605fb9e6fdb5778ada7f9d856269d0"
+        }
+      }
+    },
+    "vendor/office/fonts/037": {
+      "sha256": "5cbc6e9200888ae591883dcf6501a43d59421acbfdacb2b512e8faabf4ac7161",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/5cbc6e9200888ae591883dcf6501a43d59421acbfdacb2b512e8faabf4ac7161.br",
+          "size": 3666,
+          "sha256": "827ec096d89451afd013c7f4ec77090861e26c052cbb2c75e8648de02abaef79"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/5cbc6e9200888ae591883dcf6501a43d59421acbfdacb2b512e8faabf4ac7161.gzip",
+          "size": 3736,
+          "sha256": "0dc6aad963e120e6b252142688e875bd9b117ff92681d6080235aeb23fa6eec6"
+        }
+      }
+    },
+    "vendor/office/fonts/038": {
+      "sha256": "4fa2b25f150a439534d4d0f74afba6ce5393d576a4431a45a3d9ca8c24315190",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/4fa2b25f150a439534d4d0f74afba6ce5393d576a4431a45a3d9ca8c24315190.br",
+          "size": 4517,
+          "sha256": "41ebef2e9ff8875d843ed77424801ae4169a8a5d45d25a96161b674b37c16039"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/4fa2b25f150a439534d4d0f74afba6ce5393d576a4431a45a3d9ca8c24315190.gzip",
+          "size": 4543,
+          "sha256": "7368000cc5498b9f47841e2e240f3e38914e9b44c8915edf8c819374922d87f5"
+        }
+      }
+    },
+    "vendor/office/fonts/039": {
+      "sha256": "6a2137b676111316c5ad10c78294e748a5049e5d6dd6652a48bc47289f1041d8",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/6a2137b676111316c5ad10c78294e748a5049e5d6dd6652a48bc47289f1041d8.br",
+          "size": 4536,
+          "sha256": "7fe72c4339b4956f751d36324716a9d99425937fa8a5148b7270d4ceefadfc25"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/6a2137b676111316c5ad10c78294e748a5049e5d6dd6652a48bc47289f1041d8.gzip",
+          "size": 4584,
+          "sha256": "6266676e85af0f33be61a3da1fca3d9f6e0333b8bc16d1b8025e2fa8dbddbd9a"
+        }
+      }
+    },
+    "vendor/office/fonts/040": {
+      "sha256": "9bc8d27f1fb31b771885060dfbc901ebd12cfc35f34edc0cf1752a71356c147b",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/9bc8d27f1fb31b771885060dfbc901ebd12cfc35f34edc0cf1752a71356c147b.br",
+          "size": 4330,
+          "sha256": "ad87902f9c0a8217637e3a8738d8aaf6e6e97ddf3e375656ebadef83f30cea7b"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/9bc8d27f1fb31b771885060dfbc901ebd12cfc35f34edc0cf1752a71356c147b.gzip",
+          "size": 4414,
+          "sha256": "a559ef4d5bf0ec6e9fb490553a0c557852a3de5b9251cc114e5423d6d783a5ec"
+        }
+      }
+    },
+    "vendor/office/fonts/041": {
+      "sha256": "131de8e3a2be5b6e234b57884cb964c4c5c49866a47b325bb7badfd0d6137ba3",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/131de8e3a2be5b6e234b57884cb964c4c5c49866a47b325bb7badfd0d6137ba3.br",
+          "size": 2378,
+          "sha256": "11af7dd61a4fb01303910663a3fe3163266c8c2c9d5e97e6435e664c9266e7b6"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/131de8e3a2be5b6e234b57884cb964c4c5c49866a47b325bb7badfd0d6137ba3.gzip",
+          "size": 2401,
+          "sha256": "6eca67b1a757052b7a5c64dc3699073b95bb4de7b21bf67b93463aa9f56b9fd1"
+        }
+      }
+    },
+    "vendor/office/fonts/042": {
+      "sha256": "2f04eb017981738793514de10196530fe1148ab2af633337c054129693dc817b",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/2f04eb017981738793514de10196530fe1148ab2af633337c054129693dc817b.br",
+          "size": 2520105,
+          "sha256": "c7af3ddcc5ab9b22de014f2e9aa28884d1b40e07aea69bdd41ad4b948ddff7b6"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/2f04eb017981738793514de10196530fe1148ab2af633337c054129693dc817b.gzip",
+          "size": 2615597,
+          "sha256": "0be7a98fee2f26cdb298695cf9392e1290aafd50f4c7556a926140773b6bf8d8"
+        }
+      }
+    },
+    "vendor/office/fonts/043": {
+      "sha256": "dc779e4aa712f981facf763ea1bd685f5e63e84c83c271c2e1aa6dd07527e8e0",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/dc779e4aa712f981facf763ea1bd685f5e63e84c83c271c2e1aa6dd07527e8e0.br",
+          "size": 2002,
+          "sha256": "1158b8d52217969ceed8b73d8f44e3a455bcb703c6edc108122fa2618af68b79"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/dc779e4aa712f981facf763ea1bd685f5e63e84c83c271c2e1aa6dd07527e8e0.gzip",
+          "size": 2029,
+          "sha256": "af9cb315ece743407370cd0788b2a3e481166c308c5cb59ed1e88423660c9097"
+        }
+      }
+    },
+    "vendor/office/fonts/044": {
+      "sha256": "42f57e76024163b132b378eaccae157394765bb3654dd87c774231c20be861cb",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/42f57e76024163b132b378eaccae157394765bb3654dd87c774231c20be861cb.br",
+          "size": 1022601,
+          "sha256": "57ee335998f9a438bb2341f00eaf7209ff9102d9d241c38a75a34ae10784e275"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/42f57e76024163b132b378eaccae157394765bb3654dd87c774231c20be861cb.gzip",
+          "size": 1083578,
+          "sha256": "57f0a59c1877ea6101cde309754145bee00e121bdc14f33ea6971b4394799350"
+        }
+      }
+    },
+    "vendor/office/fonts/045": {
+      "sha256": "4a7200aded7a35253db86031b31c5087ada617c55103b469605ead79653922c7",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/4a7200aded7a35253db86031b31c5087ada617c55103b469605ead79653922c7.br",
+          "size": 1694,
+          "sha256": "e712c6eafc9c8a6efb6c43fd5739eb023f8258b9870687922930b21665d9ae15"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/4a7200aded7a35253db86031b31c5087ada617c55103b469605ead79653922c7.gzip",
+          "size": 1720,
+          "sha256": "d1f562f25eed2ed076fd79eda3210142c9844080d16aab2e3bf5d52db440eb4d"
+        }
+      }
+    },
+    "vendor/office/fonts/046": {
+      "sha256": "15411f3f676251017842a8071b24148f8af73151a28433f23f03bbd96c358cc1",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/15411f3f676251017842a8071b24148f8af73151a28433f23f03bbd96c358cc1.br",
+          "size": 1701986,
+          "sha256": "dea2cd6d319fcacbb918fc940f342fd7585d94e6e081a79d912448ab353fb0de"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/15411f3f676251017842a8071b24148f8af73151a28433f23f03bbd96c358cc1.gzip",
+          "size": 1783250,
+          "sha256": "0a7ca516fa30db24da97a81c48383674e842f948305d15f5fd43c57a2137f120"
+        }
+      }
+    },
+    "vendor/office/fonts/047": {
+      "sha256": "400fe729151493406379e86924722085e9464d6135a695f9f152ce450d692cb7",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/400fe729151493406379e86924722085e9464d6135a695f9f152ce450d692cb7.br",
+          "size": 1781339,
+          "sha256": "fa38fca99e1c1994c18f58cb535b6a3174a336278916624ff6e60d4fe83c08c6"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/400fe729151493406379e86924722085e9464d6135a695f9f152ce450d692cb7.gzip",
+          "size": 3328020,
+          "sha256": "c766aac7054dcb3f84db373de5bdd163ee403b7157d9885fe0e17b32d74e03b4"
+        }
+      }
+    },
+    "vendor/office/fonts/048": {
+      "sha256": "3eca36ee73e4efecf58879d111fdad13fe73ead609f73b1de9e67a292f92420a",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/3eca36ee73e4efecf58879d111fdad13fe73ead609f73b1de9e67a292f92420a.br",
+          "size": 1381,
+          "sha256": "dd557365ea2f089cc654621690a9e2ea4cc2f052f34ab59f1dc3b83fb89e4a21"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/3eca36ee73e4efecf58879d111fdad13fe73ead609f73b1de9e67a292f92420a.gzip",
+          "size": 1431,
+          "sha256": "7b2776fb0837b9dee3da46d8de5b3c3f59942969bcfb0744294952509b7cf102"
+        }
+      }
+    },
+    "vendor/office/fonts/049": {
+      "sha256": "fc1ad518386a1e4d01d29a295869377f79998f397ab59b26256d941323923b7e",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/fc1ad518386a1e4d01d29a295869377f79998f397ab59b26256d941323923b7e.br",
+          "size": 653792,
+          "sha256": "958a3024b3bbe32a912f83db55a885f927c76269d7d30e2fc1f03fa87e71ccfc"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/fc1ad518386a1e4d01d29a295869377f79998f397ab59b26256d941323923b7e.gzip",
+          "size": 788968,
+          "sha256": "2acef36b8325efac109522aca4183c18be0619ce953bc1dda9e6e2038e345308"
+        }
+      }
+    },
+    "vendor/office/fonts/050": {
+      "sha256": "2a6bc04169fc1e273ede5e55ec7c666eb4ebf6da438202cdf61d415a77f83a69",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/2a6bc04169fc1e273ede5e55ec7c666eb4ebf6da438202cdf61d415a77f83a69.br",
+          "size": 315212,
+          "sha256": "7aa3181516de060ab886ddd1d7edc73d73587a4072cefa299324021c75a83108"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/2a6bc04169fc1e273ede5e55ec7c666eb4ebf6da438202cdf61d415a77f83a69.gzip",
+          "size": 359542,
+          "sha256": "58ba4c9d814fb0c6e0ffcfecbd68be5044157108b8647a9a56d0c0c37ceda9df"
+        }
+      }
+    },
+    "vendor/office/fonts/051": {
+      "sha256": "e94cc053899070f138a3f72bf6df0d7b6b0ee5419ef2bee44ed2d81ed00510a2",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/e94cc053899070f138a3f72bf6df0d7b6b0ee5419ef2bee44ed2d81ed00510a2.br",
+          "size": 184064,
+          "sha256": "85a49bb5f6ea8ef3a12032d2b409c6ed9a11ca36eca3ba70d5a5ed05f888436c"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/e94cc053899070f138a3f72bf6df0d7b6b0ee5419ef2bee44ed2d81ed00510a2.gzip",
+          "size": 203283,
+          "sha256": "c1da14dcc4935abd17b74c3758f46045901e5c8876627cbf0750d5fc83dfb1a0"
+        }
+      }
+    },
+    "vendor/office/fonts/052": {
+      "sha256": "6f85c0205abec1715ae1e651ea01cc7a340ac984e53f498bf29e70b403960f2d",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/6f85c0205abec1715ae1e651ea01cc7a340ac984e53f498bf29e70b403960f2d.br",
+          "size": 140641,
+          "sha256": "7ce415be22d050694fc681b234cf757f6d74589d7330fa958bbf65ffd9ffa6e4"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/6f85c0205abec1715ae1e651ea01cc7a340ac984e53f498bf29e70b403960f2d.gzip",
+          "size": 154267,
+          "sha256": "613353f2a3eb55e22f1722f30f44f5e642ab9ea09b23e56df8caf7f81b962061"
+        }
+      }
+    },
+    "vendor/office/fonts/053": {
+      "sha256": "25f2253bac5d4fca87952c521f35d23d503d846f95209f8a3423b9478ff4854b",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/25f2253bac5d4fca87952c521f35d23d503d846f95209f8a3423b9478ff4854b.br",
+          "size": 139140,
+          "sha256": "7044a7f50ccf58fe078034838bc2e47d0a55b69f0849dad44fd4a95d1fe7b33f"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/25f2253bac5d4fca87952c521f35d23d503d846f95209f8a3423b9478ff4854b.gzip",
+          "size": 153153,
+          "sha256": "ac0ff838d6179f0581f63a72d2fc9542bd7d7e337d8f5490159d441d7ff91158"
+        }
+      }
+    },
+    "vendor/office/fonts/054": {
+      "sha256": "5438118a299082ddf2d04c42a022ae1b7fd2c450d22ccf56348e9df845b73346",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/5438118a299082ddf2d04c42a022ae1b7fd2c450d22ccf56348e9df845b73346.br",
+          "size": 173910,
+          "sha256": "5cbcc3e660a16201b4b70e823a8ca7ecc91b75d810770417f96dc69dd7b767ed"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/5438118a299082ddf2d04c42a022ae1b7fd2c450d22ccf56348e9df845b73346.gzip",
+          "size": 198808,
+          "sha256": "6e9c159e9b43398b93cc087c833d45c02eb71f7ecf7587f0657d483c8fd3625f"
+        }
+      }
+    },
+    "vendor/office/fonts/055": {
+      "sha256": "9c5d1972b7f8eb79366c9adbdf3c08333fa29992faaf32282e2e44da5e7435af",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/9c5d1972b7f8eb79366c9adbdf3c08333fa29992faaf32282e2e44da5e7435af.br",
+          "size": 158291,
+          "sha256": "ad167cc371c319df3db885356dc2c2b3dc322fc156b00c058a7070852e6cff34"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/9c5d1972b7f8eb79366c9adbdf3c08333fa29992faaf32282e2e44da5e7435af.gzip",
+          "size": 175960,
+          "sha256": "8c91225dd87dcb4d07239e1f3c782ab2e3710e6b7c2f2bb0fb9c5c5dd8361582"
+        }
+      }
+    },
+    "vendor/office/fonts/056": {
+      "sha256": "e3b7d164b5dbaab7a25d8058efddf1f3556d9037d9c60e97457dd76566db6283",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/e3b7d164b5dbaab7a25d8058efddf1f3556d9037d9c60e97457dd76566db6283.br",
+          "size": 152254,
+          "sha256": "9a8d05167ee4aac58302e28679f4a9ec30e98926eb29b047bb8512fc2a1d6130"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/e3b7d164b5dbaab7a25d8058efddf1f3556d9037d9c60e97457dd76566db6283.gzip",
+          "size": 168172,
+          "sha256": "8a9998702f59be2643a6262ad69aba66637d80d0b567b9020af991e82e62a459"
+        }
+      }
+    },
+    "vendor/office/fonts/057": {
+      "sha256": "e15bcbf5d37e2dc4371f6dcae600ab263a3d87c471e7b9952a33e8bb60cd0fa3",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/e15bcbf5d37e2dc4371f6dcae600ab263a3d87c471e7b9952a33e8bb60cd0fa3.br",
+          "size": 149622,
+          "sha256": "1149aa8a68e3ecb41e7ed77de22da15d89c14823c3fc35958eb81083fc53b993"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/e15bcbf5d37e2dc4371f6dcae600ab263a3d87c471e7b9952a33e8bb60cd0fa3.gzip",
+          "size": 165905,
+          "sha256": "892b7d374ddf7a17698721a788b98e851107ba61ca801701b56099de0f0b1237"
+        }
+      }
+    },
+    "vendor/office/fonts/058": {
+      "sha256": "55870e38e292e4bb0b52d1cb3efb1824bc6a6a281f275adc15502a2fb15adbd3",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/55870e38e292e4bb0b52d1cb3efb1824bc6a6a281f275adc15502a2fb15adbd3.br",
+          "size": 162236,
+          "sha256": "10f5be891463529e88de96e8043d90ffa563269c804b0b20429016c3e72977ad"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/55870e38e292e4bb0b52d1cb3efb1824bc6a6a281f275adc15502a2fb15adbd3.gzip",
+          "size": 180721,
+          "sha256": "03ccf1c2bbea30b85fbe3772f546f2b778b069c9b7ddfafb836a119deab032d9"
+        }
+      }
+    },
+    "vendor/office/fonts/059": {
+      "sha256": "fe752189141ef8960edcc295b6d2de29cfe21ca33dbece68634dcf863c699476",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/fe752189141ef8960edcc295b6d2de29cfe21ca33dbece68634dcf863c699476.br",
+          "size": 191532,
+          "sha256": "cc35fc969b686fa4ad2c21b36224f3ddcc4e25b81f2edc3e16465659b822561e"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/fe752189141ef8960edcc295b6d2de29cfe21ca33dbece68634dcf863c699476.gzip",
+          "size": 214889,
+          "sha256": "f194c448585e5c1ddf50ecb3b3ba98e950ba86326dd970e08ac5222aa8f09029"
+        }
+      }
+    },
+    "vendor/office/fonts/060": {
+      "sha256": "5bc6c3c19748526286dd19e1712d6066c193021b41b61d8681b764121f557011",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/5bc6c3c19748526286dd19e1712d6066c193021b41b61d8681b764121f557011.br",
+          "size": 195834,
+          "sha256": "8aa7941d320fd06cc9bf054d99b730ba436229ebfb071bc41f7b0a79f3fe46aa"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/5bc6c3c19748526286dd19e1712d6066c193021b41b61d8681b764121f557011.gzip",
+          "size": 216656,
+          "sha256": "562496e6a5f9ce34d4bedc5b60bfa9800cd3c736af26082b4e561290360b99cc"
+        }
+      }
+    },
+    "vendor/office/fonts/061": {
+      "sha256": "23f3924a9971c00c257b074f07b4bee2a3813b7bb37da164d1b7ef0e6b19d3d8",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/23f3924a9971c00c257b074f07b4bee2a3813b7bb37da164d1b7ef0e6b19d3d8.br",
+          "size": 197292,
+          "sha256": "32a9e025bec4fe1682c860c327e6741ee59d34982b5bd2cb2bca392338c0edfc"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/23f3924a9971c00c257b074f07b4bee2a3813b7bb37da164d1b7ef0e6b19d3d8.gzip",
+          "size": 219989,
+          "sha256": "35b8aa19de08c06b42e8635d2d950193fc5531541dab74b05cfb0212c0227f53"
+        }
+      }
+    },
+    "vendor/office/fonts/062": {
+      "sha256": "e29100abb1da998fc544c5ae2d522774bcc27138e934e9fb659388a9b6041e9f",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/e29100abb1da998fc544c5ae2d522774bcc27138e934e9fb659388a9b6041e9f.br",
+          "size": 190305,
+          "sha256": "b82da5645a88f3f403aa6baecca9d325a36bf571a25bddc52e3b12e42c646199"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/e29100abb1da998fc544c5ae2d522774bcc27138e934e9fb659388a9b6041e9f.gzip",
+          "size": 213500,
+          "sha256": "3c08df22e19ecb35026343fa8ee6045601b348a4e75813275a1c39224d6ddf8e"
+        }
+      }
+    },
+    "vendor/office/fonts/063": {
+      "sha256": "8aef99a23d46f35c974ed824606fb5b2f700b111e5220bf60d0548820f856382",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/8aef99a23d46f35c974ed824606fb5b2f700b111e5220bf60d0548820f856382.br",
+          "size": 60590,
+          "sha256": "17f0cdaa9324c0291efa9fa208a8bd1e929f17a1fa4daefe2ab860b40712b3fd"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/8aef99a23d46f35c974ed824606fb5b2f700b111e5220bf60d0548820f856382.gzip",
+          "size": 65768,
+          "sha256": "f0b8b94fa42cefc8489310d4372ef65aca5082d421718c8a6395e68c3696d385"
+        }
+      }
+    },
+    "vendor/office/fonts/064": {
+      "sha256": "d07708ebf8ac2aadbf8b657b2f18abd83036a211194b872c46d140d87c3980cb",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/d07708ebf8ac2aadbf8b657b2f18abd83036a211194b872c46d140d87c3980cb.br",
+          "size": 70223,
+          "sha256": "68a46825db2b22018f9ebad9704e1a987fb0ff64a69eb293ed0d37cac3dc36a2"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/d07708ebf8ac2aadbf8b657b2f18abd83036a211194b872c46d140d87c3980cb.gzip",
+          "size": 76250,
+          "sha256": "d3d325043f238ac2904ecbead4725cb372185baace86fc5e1ae7e29ec3ee685e"
+        }
+      }
+    },
+    "vendor/office/fonts/065": {
+      "sha256": "a5313d29f6d733fb8bcb1793abab948097a4f6e7a6d73c2c8e4ea2ab12bf7cba",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/a5313d29f6d733fb8bcb1793abab948097a4f6e7a6d73c2c8e4ea2ab12bf7cba.br",
+          "size": 71115,
+          "sha256": "e63ea80e68fb5cf0e0e1652bcac184dd9348f4f4b96682f44a223da3765dbaf4"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/a5313d29f6d733fb8bcb1793abab948097a4f6e7a6d73c2c8e4ea2ab12bf7cba.gzip",
+          "size": 77844,
+          "sha256": "119b1948299012c73702ee42f913ca352d97b68f1b4c1de80b5938e52225403b"
+        }
+      }
+    },
+    "vendor/office/fonts/066": {
+      "sha256": "a0867a3077b66b5e92bc3e0a331945a8ea4cde10908589c068a5e1c8d2b6dfe6",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/a0867a3077b66b5e92bc3e0a331945a8ea4cde10908589c068a5e1c8d2b6dfe6.br",
+          "size": 62013,
+          "sha256": "17114af87f4626e0ea3b0de9c66764e3699707eb78173b3ed13a0b66a7f1b43d"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/a0867a3077b66b5e92bc3e0a331945a8ea4cde10908589c068a5e1c8d2b6dfe6.gzip",
+          "size": 67259,
+          "sha256": "83731468f092c8fd90950723913449983acd2e2515af2dd0219182a3093a8577"
+        }
+      }
+    },
+    "vendor/office/fonts/067": {
+      "sha256": "a373b72bb4dc42ac550d63381790beac5b723612c18670b0f3a2673200a81ff6",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/a373b72bb4dc42ac550d63381790beac5b723612c18670b0f3a2673200a81ff6.br",
+          "size": 182003,
+          "sha256": "adaf717a5fb878189a1506c72a207a0cb790fa2c461383be56837f9a3f9b9b90"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/a373b72bb4dc42ac550d63381790beac5b723612c18670b0f3a2673200a81ff6.gzip",
+          "size": 204111,
+          "sha256": "bb2429330e1d8c697714d5e80e8f9895e89fa3ab067a3b0c791df8651c2e345e"
+        }
+      }
+    },
+    "vendor/office/fonts/068": {
+      "sha256": "63111e070929fdc2283ec792f017c556d1b61e36c4e6fbb3b6dd86647f88b9d7",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/63111e070929fdc2283ec792f017c556d1b61e36c4e6fbb3b6dd86647f88b9d7.br",
+          "size": 189701,
+          "sha256": "662e107218a8b8bb9b6a7005694758df8ca9d7b53c021136a0d93e5c6de27df9"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/63111e070929fdc2283ec792f017c556d1b61e36c4e6fbb3b6dd86647f88b9d7.gzip",
+          "size": 214247,
+          "sha256": "4a9cae9b39c88fc60400fb896c92312ee8b5002077fd466d9f8d59ef97dcf2ca"
+        }
+      }
+    },
+    "vendor/office/fonts/069": {
+      "sha256": "7e3d504e6636580e607c231c99964823bd05312fce9a278c160e72000faf6c9d",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/7e3d504e6636580e607c231c99964823bd05312fce9a278c160e72000faf6c9d.br",
+          "size": 189589,
+          "sha256": "9a64f3f14f5b4355f478a0b007de8dd8f91d16765b985eb8fab821d694fa8768"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/7e3d504e6636580e607c231c99964823bd05312fce9a278c160e72000faf6c9d.gzip",
+          "size": 212784,
+          "sha256": "3161cfbd92615d5179d9241f23d38bb739501699fa73e38bc350830a793584fb"
+        }
+      }
+    },
+    "vendor/office/fonts/070": {
+      "sha256": "9f160f67efc62b5e6bd30f4a4898f86c8a02049272e6488e60126141f1774810",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/9f160f67efc62b5e6bd30f4a4898f86c8a02049272e6488e60126141f1774810.br",
+          "size": 189791,
+          "sha256": "ff93863ea5b2ac02b4904dee6d17222743baae64c330c0b50034be7051126688"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/9f160f67efc62b5e6bd30f4a4898f86c8a02049272e6488e60126141f1774810.gzip",
+          "size": 214219,
+          "sha256": "50801f1cdc89bc3bb720e2106782c1a0d4167497374c3990b1542bea420c6630"
+        }
+      }
+    },
+    "vendor/office/fonts/071": {
+      "sha256": "8706c8762dacee54dca584489b00a98e8250917af41e240101db14fd0fe5d966",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/8706c8762dacee54dca584489b00a98e8250917af41e240101db14fd0fe5d966.br",
+          "size": 63019,
+          "sha256": "0a2848370a7b7f1a2b93d73fe39394e5dd49f548216f6e338e691e3a62e92cd6"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/8706c8762dacee54dca584489b00a98e8250917af41e240101db14fd0fe5d966.gzip",
+          "size": 65859,
+          "sha256": "8ff0c7625b461da80806a283bc1ee71ccbdf66af746fad864cc9871cdcba388a"
+        }
+      }
+    },
+    "vendor/office/fonts/072": {
+      "sha256": "eaf9193b24c28d78cdd199638ff395f761fb5951ca31f68d587e84e78cd722f7",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/eaf9193b24c28d78cdd199638ff395f761fb5951ca31f68d587e84e78cd722f7.br",
+          "size": 146416,
+          "sha256": "706e88898c062b0b3b2d0683c47aff93c028813d428c3016e32a3c0fb73c3b7a"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/eaf9193b24c28d78cdd199638ff395f761fb5951ca31f68d587e84e78cd722f7.gzip",
+          "size": 156891,
+          "sha256": "11f778bcb6cab42ee395fc7ce6552b95b17d455afd88030fb959029afa4bee66"
+        }
+      }
+    },
+    "vendor/office/fonts/073": {
+      "sha256": "365916802f95a4040bfe28b9dcf4f230df9047f8b7ff5fed07aeb7af3bfe1e45",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/365916802f95a4040bfe28b9dcf4f230df9047f8b7ff5fed07aeb7af3bfe1e45.br",
+          "size": 67795,
+          "sha256": "7e5c55f497af3c9c8d89d38266a615b34be16f86fd4f062ae731f33a3c5c0039"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/365916802f95a4040bfe28b9dcf4f230df9047f8b7ff5fed07aeb7af3bfe1e45.gzip",
+          "size": 72746,
+          "sha256": "77579e3ead277a15391aa7d15a68822e842781fbdb86d011d30a2810bed926bb"
+        }
+      }
+    },
+    "vendor/office/fonts/074": {
+      "sha256": "1ae8adccdf71dacda1379fd3a9f83730b8f3cf1894441eaadbff74c5d5c0e2a8",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/1ae8adccdf71dacda1379fd3a9f83730b8f3cf1894441eaadbff74c5d5c0e2a8.br",
+          "size": 152439,
+          "sha256": "2b8104216a660332626cddca5a610d948b23241fa0adbb27fd0f845914c94abd"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/1ae8adccdf71dacda1379fd3a9f83730b8f3cf1894441eaadbff74c5d5c0e2a8.gzip",
+          "size": 163772,
+          "sha256": "3e3f41e48b7a125b8714252293ec56ef7f099e555a5557925c3862b85a2f5d3c"
+        }
+      }
+    },
+    "vendor/office/fonts/075": {
+      "sha256": "c23e73a223a6f9756a6fa4d7f42c1446d7fd9845986e87c1e3311c23d86811d1",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c23e73a223a6f9756a6fa4d7f42c1446d7fd9845986e87c1e3311c23d86811d1.br",
+          "size": 130831,
+          "sha256": "057623360dafa3b9d08c0244350c2881b3f1cffa04221d51836b955ae1c0da79"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c23e73a223a6f9756a6fa4d7f42c1446d7fd9845986e87c1e3311c23d86811d1.gzip",
+          "size": 140083,
+          "sha256": "e92ba413f968fe8a4be08ab73cde673334915e07131669cfc792654e34ab6f52"
+        }
+      }
+    },
+    "vendor/office/fonts/076": {
+      "sha256": "ff12f29720b8239f2aa0e8cf6e26f2d7210fce107a959e00e0ecd07e51a7cefe",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/ff12f29720b8239f2aa0e8cf6e26f2d7210fce107a959e00e0ecd07e51a7cefe.br",
+          "size": 114863,
+          "sha256": "59c3faccd3156f3d8b0713d6ecbd20450cb41d98003923e2defedb50fc6e6534"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/ff12f29720b8239f2aa0e8cf6e26f2d7210fce107a959e00e0ecd07e51a7cefe.gzip",
+          "size": 123134,
+          "sha256": "9839a82d40b7be226fd999859613c483a3e7639f3cb250f314e180dc366426c2"
+        }
+      }
+    },
+    "vendor/office/fonts/077": {
+      "sha256": "ab11e91a35fae78e64195404e6f5b491b7c029dff50b9fb0d37a46c2210853ce",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/ab11e91a35fae78e64195404e6f5b491b7c029dff50b9fb0d37a46c2210853ce.br",
+          "size": 85246,
+          "sha256": "6ffb5e2eacd8e7dccd5fc428f95bcc45ae928dfa8262781db75ed4d0718a4e98"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/ab11e91a35fae78e64195404e6f5b491b7c029dff50b9fb0d37a46c2210853ce.gzip",
+          "size": 89165,
+          "sha256": "e80edc46aa7f958f6ebefa2a98bd39e489d1e2abce1f60eaa9e1e1059020f246"
+        }
+      }
+    },
+    "vendor/office/fonts/078": {
+      "sha256": "7fbf68ecc12978f3e54cd3947605a8e498b5ce49c4ccc7cbf8db98aa48e7bdbf",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/7fbf68ecc12978f3e54cd3947605a8e498b5ce49c4ccc7cbf8db98aa48e7bdbf.br",
+          "size": 72316,
+          "sha256": "ebc39282dcb79666457bcbc3508dc8b3983b20a8a73a08398ade606c15858d2b"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/7fbf68ecc12978f3e54cd3947605a8e498b5ce49c4ccc7cbf8db98aa48e7bdbf.gzip",
+          "size": 75039,
+          "sha256": "85c23fced435a51cf8fc92d5436ce6cf48ec8ac969a7eb862f5d4bebf0c6937d"
+        }
+      }
+    },
+    "vendor/office/fonts/079": {
+      "sha256": "aada40c3c02e2b8a58cf21d5a63c7ec9ca7856445f252d6a20c5fb29a555d3a1",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/aada40c3c02e2b8a58cf21d5a63c7ec9ca7856445f252d6a20c5fb29a555d3a1.br",
+          "size": 169400,
+          "sha256": "876c10299a574658fa48d5ffdcd19938d74cd2ffe627690d525ae7a53b8f7709"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/aada40c3c02e2b8a58cf21d5a63c7ec9ca7856445f252d6a20c5fb29a555d3a1.gzip",
+          "size": 179003,
+          "sha256": "ae6247bd57c11b2745c173306a70bac0f1d6e006a7cb021525b8824405331c3c"
+        }
+      }
+    },
+    "vendor/office/fonts/080": {
+      "sha256": "7d410427837b84375d6f14957eae118a2a01624a83f31609d1ebb5cba65714cd",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/7d410427837b84375d6f14957eae118a2a01624a83f31609d1ebb5cba65714cd.br",
+          "size": 176282,
+          "sha256": "2297fbedf1c600d10551a46df416b712185d84add9723c298139e90d52a4c592"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/7d410427837b84375d6f14957eae118a2a01624a83f31609d1ebb5cba65714cd.gzip",
+          "size": 187692,
+          "sha256": "ba99dee515ea51a503bee7f7687d1840312eeb06e7bad64870da4f8b68d46faf"
+        }
+      }
+    },
+    "vendor/office/fonts/081": {
+      "sha256": "387302bb9e6d61e9a04aab4ce2f656029e6a8ce0c3e243c4fb8228c91679ce72",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/387302bb9e6d61e9a04aab4ce2f656029e6a8ce0c3e243c4fb8228c91679ce72.br",
+          "size": 136948,
+          "sha256": "c7debc711e04b8bc514f9cc3af3098e6a65115ac4071a8439c51dec5107deb94"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/387302bb9e6d61e9a04aab4ce2f656029e6a8ce0c3e243c4fb8228c91679ce72.gzip",
+          "size": 144248,
+          "sha256": "6209bed7ebd212b2282a833513a40e171f1cf97d3941caf37ab836436bdf0531"
+        }
+      }
+    },
+    "vendor/office/fonts/082": {
+      "sha256": "7105f7c22b07c8276c270d243775a5d812f9f03b8eb141f804458fc7c5f0946e",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/7105f7c22b07c8276c270d243775a5d812f9f03b8eb141f804458fc7c5f0946e.br",
+          "size": 139732,
+          "sha256": "f6de88c41baf258487fc6c7339cb706b971d53e1d5ccd9b0efec12d0b83bcbf5"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/7105f7c22b07c8276c270d243775a5d812f9f03b8eb141f804458fc7c5f0946e.gzip",
+          "size": 147019,
+          "sha256": "6e66e580d7b9ecb005d10264fe7a2f0f3f026086ff1eaeeef81a365a182703da"
+        }
+      }
+    },
+    "vendor/office/fonts/083": {
+      "sha256": "4171a02c51c9b033ac5d90be913a4fbfe3e113d41e7492108ee24661f9fed321",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/4171a02c51c9b033ac5d90be913a4fbfe3e113d41e7492108ee24661f9fed321.br",
+          "size": 83798,
+          "sha256": "837b85875b57d7d5be90a3b0c5f5ecc672942846538dc79748b343581beff617"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/4171a02c51c9b033ac5d90be913a4fbfe3e113d41e7492108ee24661f9fed321.gzip",
+          "size": 91570,
+          "sha256": "446353f7d3e8dde85f427ea8e7b4b3dc8e6e48a51beaf78fbc2706756dd1dd04"
+        }
+      }
+    },
+    "vendor/office/fonts/084": {
+      "sha256": "aa11e54a6afb4016c76aece8bb2c5f9889b8c65d507b8b4095aa37b8a6f000f0",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/aa11e54a6afb4016c76aece8bb2c5f9889b8c65d507b8b4095aa37b8a6f000f0.br",
+          "size": 81793,
+          "sha256": "604269fc8be66dca7dc1684c91f690effcc70d34449109517d0f3dc32ec4cb5f"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/aa11e54a6afb4016c76aece8bb2c5f9889b8c65d507b8b4095aa37b8a6f000f0.gzip",
+          "size": 88847,
+          "sha256": "99d13205557dd587c3d920b38d4c89efc574a95d400f722d99f727284780626f"
+        }
+      }
+    },
+    "vendor/office/fonts/085": {
+      "sha256": "b9e57501a661303547d3ef23fbc3a903c9f2adfc5a02d59f13067b9ad2987548",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/b9e57501a661303547d3ef23fbc3a903c9f2adfc5a02d59f13067b9ad2987548.br",
+          "size": 94307,
+          "sha256": "d5681ab36cb48f88382c31e7ded72785261cbf4215a92a97276d8b4f5c9c4525"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/b9e57501a661303547d3ef23fbc3a903c9f2adfc5a02d59f13067b9ad2987548.gzip",
+          "size": 103214,
+          "sha256": "10f73f53209b552f76c92dae8550d01eed3d60eebf8c0f6bed3bd4e272d3b611"
+        }
+      }
+    },
+    "vendor/office/fonts/086": {
+      "sha256": "7282360dd22b19a13c8d44ffc45137fa5a5d6c9aaa308b936b2705f64787679d",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/7282360dd22b19a13c8d44ffc45137fa5a5d6c9aaa308b936b2705f64787679d.br",
+          "size": 91134,
+          "sha256": "84a22b5742dacfa90ea0c8874c01087429ff1e170f608946594048f0097a1539"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/7282360dd22b19a13c8d44ffc45137fa5a5d6c9aaa308b936b2705f64787679d.gzip",
+          "size": 100083,
+          "sha256": "6333d9c7ca1ba05acc802bfb2f8e095bf757d6ac2e7fb854191c7a786f333e9d"
+        }
+      }
+    },
+    "vendor/office/fonts/087": {
+      "sha256": "15f5e0b0e3216d647d183ced5deb836d66cf6560689daf600d9e01e902ae5ce9",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/15f5e0b0e3216d647d183ced5deb836d66cf6560689daf600d9e01e902ae5ce9.br",
+          "size": 72967,
+          "sha256": "c53e23bdf12e049a8c04ca2848d6d341d4391e84a2aa71303a6300629593fc6d"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/15f5e0b0e3216d647d183ced5deb836d66cf6560689daf600d9e01e902ae5ce9.gzip",
+          "size": 81458,
+          "sha256": "796971c4b686bd4d759025ed2c54e60095f4e855904148a109ce525bb24e412f"
+        }
+      }
+    },
+    "vendor/office/fonts/088": {
+      "sha256": "ccaf835ca461cd27a949eb50d65c9065cd8d5c6082fb32531049ad85defb77b6",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/ccaf835ca461cd27a949eb50d65c9065cd8d5c6082fb32531049ad85defb77b6.br",
+          "size": 184129,
+          "sha256": "7c1ae916030ec150221b1579079c9e0ab8a25ead57117ac55c33544ed4baf90e"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/ccaf835ca461cd27a949eb50d65c9065cd8d5c6082fb32531049ad85defb77b6.gzip",
+          "size": 197045,
+          "sha256": "949dd4c295e0f839b4a5911fbf9b65a6be655105f875a34532ad430eec41ac6e"
+        }
+      }
+    },
+    "vendor/office/fonts/089": {
+      "sha256": "e02eacf20cf07e0a589b93da818acdabba0bcb98c80e4324f75ca5789696eeb7",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/e02eacf20cf07e0a589b93da818acdabba0bcb98c80e4324f75ca5789696eeb7.br",
+          "size": 137753,
+          "sha256": "c0d1d4c6d0917cf210002ebd1d0048ae90d54ea3cba14e3f7993a09876ce0741"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/e02eacf20cf07e0a589b93da818acdabba0bcb98c80e4324f75ca5789696eeb7.gzip",
+          "size": 146191,
+          "sha256": "7539ae080da95b1ccf742e0aa140640524592bef86dbd62d1444b598f1f98ec1"
+        }
+      }
+    },
+    "vendor/office/fonts/090": {
+      "sha256": "d19cbf5fe219c92808581fa981ed29d4d3ee00af9141fcd4e480538e0d72b6d0",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/d19cbf5fe219c92808581fa981ed29d4d3ee00af9141fcd4e480538e0d72b6d0.br",
+          "size": 143842,
+          "sha256": "8b751d483dc235dc7b42414169a74a506c9346433aca66735a887bcf8d7bcf66"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/d19cbf5fe219c92808581fa981ed29d4d3ee00af9141fcd4e480538e0d72b6d0.gzip",
+          "size": 152915,
+          "sha256": "0df75389ba211829eeffa5a2e586cbf3d3ba0f084c49764202ae54e79fdc857a"
+        }
+      }
+    },
+    "vendor/office/fonts/091": {
+      "sha256": "c5cec2fc8cb37cbca203657de79b0287b793be911bfd7960625328a932e9827a",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c5cec2fc8cb37cbca203657de79b0287b793be911bfd7960625328a932e9827a.br",
+          "size": 75537,
+          "sha256": "77b00af4157c40065da4a46a92a5efc51701d2b22f3bafea44cf5b9d608dbdaa"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c5cec2fc8cb37cbca203657de79b0287b793be911bfd7960625328a932e9827a.gzip",
+          "size": 79529,
+          "sha256": "e4b6ce3379a113640e08c417b1215bcfe047369a7c3d15fea87dddee9642cb57"
+        }
+      }
+    },
+    "vendor/office/fonts/092": {
+      "sha256": "67e5bd72f84a358f52b5c2df6e4b6eda897416a48eb1f3d3064f80a9d0633b31",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/67e5bd72f84a358f52b5c2df6e4b6eda897416a48eb1f3d3064f80a9d0633b31.br",
+          "size": 72728,
+          "sha256": "c5a585944808b926a230677d149399c17c8d01769b9092148575060375f0cea0"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/67e5bd72f84a358f52b5c2df6e4b6eda897416a48eb1f3d3064f80a9d0633b31.gzip",
+          "size": 77304,
+          "sha256": "25f2db8809ee6525fc8e22542e94d5411df2f2106b2f9dca78dd4c47f4221918"
+        }
+      }
+    },
+    "vendor/office/fonts/093": {
+      "sha256": "978b90d673ddecf87aa6e2be822860b81a9711df9d4b6028db2fbf443057afce",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/978b90d673ddecf87aa6e2be822860b81a9711df9d4b6028db2fbf443057afce.br",
+          "size": 77327,
+          "sha256": "e428914bd2c7587acbda545aba5b11f2d28458a4fc930749fa3a6d3ed4d836b7"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/978b90d673ddecf87aa6e2be822860b81a9711df9d4b6028db2fbf443057afce.gzip",
+          "size": 82842,
+          "sha256": "b17a7d4235d049fe513d0dc31c59eaaa801150a4cd657126120e3ca7249b4203"
+        }
+      }
+    },
+    "vendor/office/fonts/094": {
+      "sha256": "ee38927d9a2948784b95f5f8edcbeedf8b014cf6ac24b9acf7ee4700b5f50ee7",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/ee38927d9a2948784b95f5f8edcbeedf8b014cf6ac24b9acf7ee4700b5f50ee7.br",
+          "size": 81404,
+          "sha256": "27019e1a83b9abd712aaa0f5a9f58d30961a47e76fe9fd27933750be3fec9520"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/ee38927d9a2948784b95f5f8edcbeedf8b014cf6ac24b9acf7ee4700b5f50ee7.gzip",
+          "size": 87573,
+          "sha256": "b3b88a69930b27ac2569ab01255aae8160f5436bf22f1abee443e8bfb04de04a"
+        }
+      }
+    },
+    "vendor/office/fonts/095": {
+      "sha256": "15b20980893860ba60c20e3b0698472423e3c12515cdb22140620eaa76fc8d15",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/15b20980893860ba60c20e3b0698472423e3c12515cdb22140620eaa76fc8d15.br",
+          "size": 76267,
+          "sha256": "b99692b9f9ca91af3b4b063e2906687edc54506f76bc4b3cc388272c4f3ade70"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/15b20980893860ba60c20e3b0698472423e3c12515cdb22140620eaa76fc8d15.gzip",
+          "size": 82197,
+          "sha256": "3681f1a77fb54fbfa94a1632772753d8be2cb481cd2b0df3eb0e1cb750a865c2"
+        }
+      }
+    },
+    "vendor/office/fonts/096": {
+      "sha256": "8a135a23651aed2581453757efb44ce2dd7e6b7a67fc5668c3095879f856dfdc",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/8a135a23651aed2581453757efb44ce2dd7e6b7a67fc5668c3095879f856dfdc.br",
+          "size": 74013,
+          "sha256": "fb4c290c0d3c7d60b4c9d1bc84cdbfc8a4ce833dcce455dcc6590147e930cb11"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/8a135a23651aed2581453757efb44ce2dd7e6b7a67fc5668c3095879f856dfdc.gzip",
+          "size": 79929,
+          "sha256": "95850aebd18c9b58b26a800e6a8bf2357697fa5c83631b3427d064e810d9a136"
+        }
+      }
+    },
+    "vendor/office/fonts/097": {
+      "sha256": "09dc135e7fc3333146c984e33ad89d1e49ab11a2dd82875bd9850cdf6a34dd92",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/09dc135e7fc3333146c984e33ad89d1e49ab11a2dd82875bd9850cdf6a34dd92.br",
+          "size": 82612,
+          "sha256": "d48ed5d3d280356e352a464f6da8c4a9150704571b92366c30937f1cdd57b641"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/09dc135e7fc3333146c984e33ad89d1e49ab11a2dd82875bd9850cdf6a34dd92.gzip",
+          "size": 90500,
+          "sha256": "854807acb613f9af9d42bead22b270db4e2cfc43c2144f1726258738666ce6c3"
+        }
+      }
+    },
+    "vendor/office/fonts/098": {
+      "sha256": "bd0b816449aa774be5aa397e5e594f6df6ed8fa509d8efb90be3e0c74e42c99b",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/bd0b816449aa774be5aa397e5e594f6df6ed8fa509d8efb90be3e0c74e42c99b.br",
+          "size": 81934,
+          "sha256": "6aa59b4eb82b144025d1ff4a474e329da7f20ab6c32cacc3a92a9bc17cb90e10"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/bd0b816449aa774be5aa397e5e594f6df6ed8fa509d8efb90be3e0c74e42c99b.gzip",
+          "size": 90119,
+          "sha256": "22bd12f616b386ba5da7bd29c62a5431c874591e8b71021c03ae1612ac9f4fb9"
+        }
+      }
+    },
+    "vendor/office/fonts/099": {
+      "sha256": "9b320cec0feae25f23c43e42bd3b3252116e187fc831da30d2c328111ba9f6b6",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/9b320cec0feae25f23c43e42bd3b3252116e187fc831da30d2c328111ba9f6b6.br",
+          "size": 84507,
+          "sha256": "86f7f1e1312ea5de5f1f451a02c414e5bbcd25fb4257be6ec0592ea65a6b194b"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/9b320cec0feae25f23c43e42bd3b3252116e187fc831da30d2c328111ba9f6b6.gzip",
+          "size": 85654,
+          "sha256": "14b9fd9608947351f5e52b75cdb8bd6cbb8a3a84f821398618c1208bf577c493"
+        }
+      }
+    },
+    "vendor/office/fonts/100": {
+      "sha256": "ddfb8a36f48419deceab57dc8fa59b2273c334cdeba945dd9e6683ee4be6aa28",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/ddfb8a36f48419deceab57dc8fa59b2273c334cdeba945dd9e6683ee4be6aa28.br",
+          "size": 3354,
+          "sha256": "d912fe4b08cc63ee95fcb235184d3598454275134083713b382802401311ca68"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/ddfb8a36f48419deceab57dc8fa59b2273c334cdeba945dd9e6683ee4be6aa28.gzip",
+          "size": 3496,
+          "sha256": "983b1b0d91b28420c30b765b5cf814a49084d52b03af79c7169f7035e798f343"
+        }
+      }
+    },
+    "vendor/office/fonts/101": {
+      "sha256": "c9612a08de0ab20c3470aeaa3466ae6fea17ac457f58062d564fe1550cabd5d6",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c9612a08de0ab20c3470aeaa3466ae6fea17ac457f58062d564fe1550cabd5d6.br",
+          "size": 225636,
+          "sha256": "c953086d392a1cefbb8a9f950448ff5eb0388b83ad17bfa10d6b3e363bbca4fd"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c9612a08de0ab20c3470aeaa3466ae6fea17ac457f58062d564fe1550cabd5d6.gzip",
+          "size": 266359,
+          "sha256": "4e7a9155e9ef3c6c4610d49a49f4922de9e8cc86227eb45a1229edca5a9566c8"
+        }
+      }
+    },
+    "vendor/office/fonts/102": {
+      "sha256": "fc78387a028d73b9f653fbb245d5221f246d12310b02b9ab62b8a853bd494b5d",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/fc78387a028d73b9f653fbb245d5221f246d12310b02b9ab62b8a853bd494b5d.br",
+          "size": 1402329,
+          "sha256": "2b7d49e11ed094fd7085f35f97b808b2a12a0a2a1cb0a56cb97d97c2443de91c"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/fc78387a028d73b9f653fbb245d5221f246d12310b02b9ab62b8a853bd494b5d.gzip",
+          "size": 1521608,
+          "sha256": "cab0388c0fcaeff45bc289d4d2b588e84d26a4369f2c00d1d50d6e04eef88169"
+        }
+      }
+    },
+    "vendor/office/fonts/103": {
+      "sha256": "ac69cd99488aa4c5514ee566c49ff6863d949f49ab01544d9400e14c3bb4eb17",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/ac69cd99488aa4c5514ee566c49ff6863d949f49ab01544d9400e14c3bb4eb17.br",
+          "size": 8936885,
+          "sha256": "181fbab17bfae196435bc07cabce6a4c5960862cb2a09b1cc0a3c67b385e5789"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/ac69cd99488aa4c5514ee566c49ff6863d949f49ab01544d9400e14c3bb4eb17.gzip",
+          "size": 9703011,
+          "sha256": "2148bd55e7a2219aeeb87e258b8a22a5c6f9227fc6f66ee2f8992b6750f75dd9"
+        }
+      }
+    },
+    "vendor/office/fonts/104": {
+      "sha256": "7d2e8f1c60fb1ee08e78d6b5024935e34effe21294b17aad1292852cd7ccd3b9",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/7d2e8f1c60fb1ee08e78d6b5024935e34effe21294b17aad1292852cd7ccd3b9.br",
+          "size": 273471,
+          "sha256": "68a478e597589563a069c9a1800f5cc6f665facd43835fafd96413d57ba7a402"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/7d2e8f1c60fb1ee08e78d6b5024935e34effe21294b17aad1292852cd7ccd3b9.gzip",
+          "size": 460851,
+          "sha256": "643aea8a8579adbb58eb09920af1085279d6ac052babd3834f64ad4371ba81e3"
+        }
+      }
+    },
+    "vendor/office/fonts/105": {
+      "sha256": "3a4df6f08a828ffaa1d2cbca2d6a6bde3ef96bf73b68263f70cdb5e6f835c1f6",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/3a4df6f08a828ffaa1d2cbca2d6a6bde3ef96bf73b68263f70cdb5e6f835c1f6.br",
+          "size": 26062,
+          "sha256": "0a3e2d7c36b927b35fbf4700aa4d44276dc1ea7f034af5a39b0b33cd1b78ab9e"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/3a4df6f08a828ffaa1d2cbca2d6a6bde3ef96bf73b68263f70cdb5e6f835c1f6.gzip",
+          "size": 27906,
+          "sha256": "0616fe534ac1be80100352d7b01de07b2f8b80c3d945040949924805ee6ea6ef"
+        }
+      }
+    },
+    "vendor/office/fonts/106": {
+      "sha256": "0adae1054b1c6823e3dc77108727b2bea3344734826f8574791e8b093cf299f4",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/0adae1054b1c6823e3dc77108727b2bea3344734826f8574791e8b093cf299f4.br",
+          "size": 27062,
+          "sha256": "edfdfd68eb7d9399dcfdc69b90b66d7ba870559f13e97507b351d6538ae787b9"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/0adae1054b1c6823e3dc77108727b2bea3344734826f8574791e8b093cf299f4.gzip",
+          "size": 29007,
+          "sha256": "d9fbd193d26ce0376f294e8b0bcc191e24ef1c2ebde3de7323a13ef14586013d"
+        }
+      }
+    },
+    "vendor/office/fonts/107": {
+      "sha256": "da623a9e0d04754010b4201f5233569e15c8cef1c4bce1d8b3ed751cc3211f6f",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/da623a9e0d04754010b4201f5233569e15c8cef1c4bce1d8b3ed751cc3211f6f.br",
+          "size": 27389,
+          "sha256": "0f1617b5223e4efb5a87b43a087fca49c5ef7133b1afdc79cd6b40b51a770ac0"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/da623a9e0d04754010b4201f5233569e15c8cef1c4bce1d8b3ed751cc3211f6f.gzip",
+          "size": 29298,
+          "sha256": "f9a310659a73ada45757fba319c11b8a2898fa4ea677be0b0a004b64f521641d"
+        }
+      }
+    },
+    "vendor/office/fonts/108": {
+      "sha256": "defb20806037410a951363907c58f18bf58fd4a28ea9f9493154047a633c753f",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/defb20806037410a951363907c58f18bf58fd4a28ea9f9493154047a633c753f.br",
+          "size": 26385,
+          "sha256": "9307cecbdee584ab74d07e981eb10c2ceda044a3b16c6c5554c8701b7f2fdfe7"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/defb20806037410a951363907c58f18bf58fd4a28ea9f9493154047a633c753f.gzip",
+          "size": 28213,
+          "sha256": "26332976441659c60df7aa58b1eb82cc2b0b7a6f12d087ffc4882d204c3738f2"
+        }
+      }
+    },
+    "vendor/office/fonts/109": {
+      "sha256": "03a236a0b3c3a4da6ac2f9d0b5d962f38d2f5ceb14246d66ca1eedd79f97e030",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/03a236a0b3c3a4da6ac2f9d0b5d962f38d2f5ceb14246d66ca1eedd79f97e030.br",
+          "size": 245369,
+          "sha256": "34e5ba610941901d2d21d9079f7a0c71154abc5a4108524abc3b9d2cbd74e0c8"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/03a236a0b3c3a4da6ac2f9d0b5d962f38d2f5ceb14246d66ca1eedd79f97e030.gzip",
+          "size": 284307,
+          "sha256": "518272995a8f4658193fa15828b5fca31301849fab3cd592b6a6162b3c31bdf0"
+        }
+      }
+    },
+    "vendor/office/fonts/110": {
+      "sha256": "b46d10175c700494bf992a3a81949f34a5c176abf09e09b36a9f55becfd2f560",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/b46d10175c700494bf992a3a81949f34a5c176abf09e09b36a9f55becfd2f560.br",
+          "size": 264283,
+          "sha256": "25640d467578f18ab5571d18dbe7d1a0b1f8d5fbf0a3b3bb8fdd78a74c7ebb31"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/b46d10175c700494bf992a3a81949f34a5c176abf09e09b36a9f55becfd2f560.gzip",
+          "size": 326875,
+          "sha256": "ff9a25fcea9e21ced43cf474d7f847eea43393f381ebf4d91d89a2035db6cd38"
+        }
+      }
+    },
+    "vendor/office/fonts/111": {
+      "sha256": "7fa3a6a42852c755fbb1f344f2e025634670acecd26dd69a6688a0d3cd44b539",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/7fa3a6a42852c755fbb1f344f2e025634670acecd26dd69a6688a0d3cd44b539.br",
+          "size": 251686,
+          "sha256": "26603bdc5901c78aeaff4c36303c07b9c58267af2f6f7dedadc92cf41d2084f4"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/7fa3a6a42852c755fbb1f344f2e025634670acecd26dd69a6688a0d3cd44b539.gzip",
+          "size": 286519,
+          "sha256": "00723296fb9fda1643233ba1aebbfaba56358530fa42adc73579958b3eaf5bf5"
+        }
+      }
+    },
+    "vendor/office/fonts/112": {
+      "sha256": "c97db17e503495edd158fdc84ed11d32a95f60e70305521488414e328c1c999e",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c97db17e503495edd158fdc84ed11d32a95f60e70305521488414e328c1c999e.br",
+          "size": 235778,
+          "sha256": "0d5c438c0a62d009fd1472ffc2af8de6981cfdf07f3b65e468f03287e1c7298a"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c97db17e503495edd158fdc84ed11d32a95f60e70305521488414e328c1c999e.gzip",
+          "size": 272749,
+          "sha256": "7a14b8a7f37136115aa89e2f842b94e21fee469a2c501646b873835f567fafb8"
+        }
+      }
+    },
+    "vendor/office/fonts/113": {
+      "sha256": "1439ab5918864f95c7be862de37f509d36ef08d1a286cf16901582d51b3b7a3a",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/1439ab5918864f95c7be862de37f509d36ef08d1a286cf16901582d51b3b7a3a.br",
+          "size": 235544,
+          "sha256": "469f356bc58c15ac07cbc77725733f5d2d14d36d320cf25f9a90581d2b6f2242"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/1439ab5918864f95c7be862de37f509d36ef08d1a286cf16901582d51b3b7a3a.gzip",
+          "size": 270765,
+          "sha256": "196ea81e930f5bf1c03acfd171d51c0927169fc9d909c6fcd6eb36677a54c40c"
+        }
+      }
+    },
+    "vendor/office/fonts/114": {
+      "sha256": "fa3dc387c3ea526ddf19973d3af1b6f5078e63ca205b5057d09d0e5e4e17d9a3",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/fa3dc387c3ea526ddf19973d3af1b6f5078e63ca205b5057d09d0e5e4e17d9a3.br",
+          "size": 298253,
+          "sha256": "6dec5978677b53914a46c6fffb508127a2e223ac5d379f13f43b76c1962b3054"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/fa3dc387c3ea526ddf19973d3af1b6f5078e63ca205b5057d09d0e5e4e17d9a3.gzip",
+          "size": 335098,
+          "sha256": "cf6a9b50f3d5f1764b71c2f26c13110d87b871f2151c16af9da1bb2d162afc8a"
+        }
+      }
+    },
+    "vendor/office/fonts/115": {
+      "sha256": "28553710514e584d14f154cb4bd095ec256432de4483a50364b5dde214d378cd",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/28553710514e584d14f154cb4bd095ec256432de4483a50364b5dde214d378cd.br",
+          "size": 112528,
+          "sha256": "6e3688847d4eb13a49ac820825ec23fa4d61c0e553299147aa896c987127b7dd"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/28553710514e584d14f154cb4bd095ec256432de4483a50364b5dde214d378cd.gzip",
+          "size": 174822,
+          "sha256": "804a54a1058d56cd777fe25f7b19be84bb759672cd7662b581eee767300506eb"
+        }
+      }
+    },
+    "vendor/office/fonts/116": {
+      "sha256": "c084576f782f212b64624afb15655cc3892904f3a563ed50e3eee63196ff77d0",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c084576f782f212b64624afb15655cc3892904f3a563ed50e3eee63196ff77d0.br",
+          "size": 296661,
+          "sha256": "0838835e0d4a023344caf6d40c4d6e1e84e75ee4dc64355a7979c54a17fd7448"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c084576f782f212b64624afb15655cc3892904f3a563ed50e3eee63196ff77d0.gzip",
+          "size": 331815,
+          "sha256": "701a1ef11431ca8f809196cfecfa14b8a753730f878b0e49eb252a98ae3a0360"
+        }
+      }
+    },
+    "vendor/office/fonts/117": {
+      "sha256": "c2a820482cd6dca5057a75ecd2d91cf4579d0f075a64048041a65042ab26c718",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c2a820482cd6dca5057a75ecd2d91cf4579d0f075a64048041a65042ab26c718.br",
+          "size": 339389,
+          "sha256": "37b09bc04c7b463710ac59da5ca2b9e5ef3c24d4b8192eb62b1528150bee96d1"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c2a820482cd6dca5057a75ecd2d91cf4579d0f075a64048041a65042ab26c718.gzip",
+          "size": 386451,
+          "sha256": "6f89793d492378f01c724366e6c7784c7c8fc2b1b9f7e3cbeb418d26285ae5b3"
+        }
+      }
+    },
+    "vendor/office/fonts/118": {
+      "sha256": "a92a1a452eb004f3c281c7a7a65ef5aa9ced572667a0e4f2039d6b4abe64d51c",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/a92a1a452eb004f3c281c7a7a65ef5aa9ced572667a0e4f2039d6b4abe64d51c.br",
+          "size": 292325,
+          "sha256": "e0b3114355fc0bacda5316aa448204ce59600a085254005daa8839582299c92c"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/a92a1a452eb004f3c281c7a7a65ef5aa9ced572667a0e4f2039d6b4abe64d51c.gzip",
+          "size": 333272,
+          "sha256": "360930738d6435981a1fceb3c2b434bfa09e68305b1a590b972d447eeb88b93a"
+        }
+      }
+    },
+    "vendor/office/fonts/119": {
+      "sha256": "a928f6e758ab65ec1d73fca37fb882855ee9208c5e5b04bde107c4ad14b896f6",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/a928f6e758ab65ec1d73fca37fb882855ee9208c5e5b04bde107c4ad14b896f6.br",
+          "size": 286140,
+          "sha256": "4556dc628a2925dd18e27474d768477025bd8dd501fef283aff7009a0421ffbc"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/a928f6e758ab65ec1d73fca37fb882855ee9208c5e5b04bde107c4ad14b896f6.gzip",
+          "size": 319880,
+          "sha256": "56643cf4b0f665bc9d60666ee73ac5b0c49fa609085c25316ea56986596711a3"
+        }
+      }
+    },
+    "vendor/office/fonts/120": {
+      "sha256": "b61828748885bcb26e673e93cb30472a74c738e33ae51dbbe024abc885310f5a",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/b61828748885bcb26e673e93cb30472a74c738e33ae51dbbe024abc885310f5a.br",
+          "size": 281517,
+          "sha256": "315cac9b6c2a4734e8beba761e30d4442672a1c07e95ff27821d7176bb9f73df"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/b61828748885bcb26e673e93cb30472a74c738e33ae51dbbe024abc885310f5a.gzip",
+          "size": 314018,
+          "sha256": "d21a08d00f3a742b63ebc7512410c88f20e616bc47534c4860d9ae15d3398b43"
+        }
+      }
+    },
+    "vendor/office/fonts/121": {
+      "sha256": "fed7c2b3a28bf34605b06ef8f7708cc3974cf7061de5a6e394973eeac916d233",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/fed7c2b3a28bf34605b06ef8f7708cc3974cf7061de5a6e394973eeac916d233.br",
+          "size": 296291,
+          "sha256": "b146294a224e35ba49ee7a829d2afa2118aca9b331b0bab3d0220a01d1bbad2d"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/fed7c2b3a28bf34605b06ef8f7708cc3974cf7061de5a6e394973eeac916d233.gzip",
+          "size": 339153,
+          "sha256": "6180ebc6211a0b8eb5fc4d03d3984992b37a828058a76284b23ff03dddb1fdf3"
+        }
+      }
+    },
+    "vendor/office/fonts/122": {
+      "sha256": "8519aea62571a377cb7aadf17596763961ad42113515db291ca2ee0d1e9bba64",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/8519aea62571a377cb7aadf17596763961ad42113515db291ca2ee0d1e9bba64.br",
+          "size": 184713,
+          "sha256": "6ef33f2d3a2f59e9f41b68c0f6e35dd61bb4d7cccc7b7cea032d8ea1ede6a5d1"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/8519aea62571a377cb7aadf17596763961ad42113515db291ca2ee0d1e9bba64.gzip",
+          "size": 204527,
+          "sha256": "5c394fd72f725787010f4f9c015ba1b07f41ddcef6496332977c6e57f12dca7e"
+        }
+      }
+    },
+    "vendor/office/fonts/123": {
+      "sha256": "05c952313c6e3197ff4d2e90138397d2100d2b231ab743184931da65c44e1e11",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/05c952313c6e3197ff4d2e90138397d2100d2b231ab743184931da65c44e1e11.br",
+          "size": 176278,
+          "sha256": "1e4cbf39ab4dba86127993965465768051c9ad0a9ed0e606aaeca0e2f460830b"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/05c952313c6e3197ff4d2e90138397d2100d2b231ab743184931da65c44e1e11.gzip",
+          "size": 199968,
+          "sha256": "895e124f182f4e7f4666ac8452135cb98f38ae0bd68ba82b5551336160f38f46"
+        }
+      }
+    },
+    "vendor/office/fonts/124": {
+      "sha256": "cc5eaf2aed94aa53175b09b6afd468e2e45a62e048b199d48bde6b27b3a8737b",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/cc5eaf2aed94aa53175b09b6afd468e2e45a62e048b199d48bde6b27b3a8737b.br",
+          "size": 175627,
+          "sha256": "a2c97249ca8243cce7deb56c2d75f47a208d4187edfe10832ecf20a573fd04ab"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/cc5eaf2aed94aa53175b09b6afd468e2e45a62e048b199d48bde6b27b3a8737b.gzip",
+          "size": 198674,
+          "sha256": "1b614ccb9af995fce7adea06c71aa8c83b8f990dd23b1b1265704f24c17b7b09"
+        }
+      }
+    },
+    "vendor/office/fonts/125": {
+      "sha256": "c7de35ad32bb9703e1470956bfc0ce6ac804744fe28214c124335aae9792affa",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c7de35ad32bb9703e1470956bfc0ce6ac804744fe28214c124335aae9792affa.br",
+          "size": 190176,
+          "sha256": "b5b9b36fc2793c92c50386f19c0e7f21923cc3be2803e9c4e54cfa504c48ede9"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c7de35ad32bb9703e1470956bfc0ce6ac804744fe28214c124335aae9792affa.gzip",
+          "size": 215567,
+          "sha256": "0206e9892db01a29786e72a4ad450aa1e4259e2b85a2efb01fa4791703b9fa95"
+        }
+      }
+    },
+    "vendor/office/fonts/126": {
+      "sha256": "0a3b8e9c531f91ef71b8a4e8a73ffc84076fa986271b89c6a7bd4dfb96dcfbc6",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/0a3b8e9c531f91ef71b8a4e8a73ffc84076fa986271b89c6a7bd4dfb96dcfbc6.br",
+          "size": 159850,
+          "sha256": "ae8e2d8bd16316d58de7bab72a24d64e07c98a6df947d4e66f9acd8bafeb5ed1"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/0a3b8e9c531f91ef71b8a4e8a73ffc84076fa986271b89c6a7bd4dfb96dcfbc6.gzip",
+          "size": 182609,
+          "sha256": "648e00cb721ba06803199b333a00d860b2f004397206cc1118895bf1c318955b"
+        }
+      }
+    },
+    "vendor/office/fonts/127": {
+      "sha256": "1ef5fa6e1c89a5fa97c65d65621366a7db2b74cec3f0d8a3d561e39bda21203d",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/1ef5fa6e1c89a5fa97c65d65621366a7db2b74cec3f0d8a3d561e39bda21203d.br",
+          "size": 179168,
+          "sha256": "6cb811285c9935abf31123b97fb223459aaacbee878cd17f5ca76e2dd134e124"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/1ef5fa6e1c89a5fa97c65d65621366a7db2b74cec3f0d8a3d561e39bda21203d.gzip",
+          "size": 201948,
+          "sha256": "a954bdf97dc394444311e502feeef8e16687905b7bf12672fa53a2c59b1570ad"
+        }
+      }
+    },
+    "vendor/office/fonts/128": {
+      "sha256": "59d6c9a8fbf27a7e9cbb161386cadf5f898209c8f84e5717a5098d644aa78318",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/59d6c9a8fbf27a7e9cbb161386cadf5f898209c8f84e5717a5098d644aa78318.br",
+          "size": 177833,
+          "sha256": "78ca92fdabad15089c672e3ab43cb38e6c560dda21e81c66935c781ccc679870"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/59d6c9a8fbf27a7e9cbb161386cadf5f898209c8f84e5717a5098d644aa78318.gzip",
+          "size": 201040,
+          "sha256": "dfb942a94c0d780805013fc3bfc1f28cfed3566336e6aae2a70a430a853e03ce"
+        }
+      }
+    },
+    "vendor/office/fonts/129": {
+      "sha256": "bc19c2cf7453203b115fadf8590a9f95a812877832208f791bacca2a517b0478",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/bc19c2cf7453203b115fadf8590a9f95a812877832208f791bacca2a517b0478.br",
+          "size": 171029,
+          "sha256": "74c9a34609622410f45d393b8136fc2f38f892d7a5d48eb4f650d246b0aebf2b"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/bc19c2cf7453203b115fadf8590a9f95a812877832208f791bacca2a517b0478.gzip",
+          "size": 194282,
+          "sha256": "74038edc6dc6f6ab244e67dce9a12abdf1a2b1e59af05d37163d9d7428eaa9e0"
+        }
+      }
+    },
+    "vendor/office/fonts/130": {
+      "sha256": "857e60287a1282664494b76a115291deb75ae59090ec43aa8100fb5facefca36",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/857e60287a1282664494b76a115291deb75ae59090ec43aa8100fb5facefca36.br",
+          "size": 1896833,
+          "sha256": "6fbdb099b050765bd27ed50b335c988542dd2f6c71a80ed8d21ac3b9d5a42315"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/857e60287a1282664494b76a115291deb75ae59090ec43aa8100fb5facefca36.gzip",
+          "size": 2152049,
+          "sha256": "bf87a1f3a0f7111e2481a86020f460903448a1108ed6a92186fbd83bb8d9b540"
+        }
+      }
+    },
+    "vendor/office/fonts/131": {
+      "sha256": "4f437e65237e0b4791200dafb708c97a408f708f567c52bfec3edd0e8cdad9fa",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/4f437e65237e0b4791200dafb708c97a408f708f567c52bfec3edd0e8cdad9fa.br",
+          "size": 59446,
+          "sha256": "e7c27e66b4c4087776c821455b22b251e8a9e4aa5e9c0d024bad2c5a78aab1fe"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/4f437e65237e0b4791200dafb708c97a408f708f567c52bfec3edd0e8cdad9fa.gzip",
+          "size": 62438,
+          "sha256": "f686c61a612f8d6c2aeac935845a207a8aca55f1eb227a526af298381d1d9e00"
+        }
+      }
+    },
+    "vendor/office/fonts/132": {
+      "sha256": "ef955291f25c871a19c49e5f90edf3cc3b578173c1329ccb4fae76499b026f86",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/ef955291f25c871a19c49e5f90edf3cc3b578173c1329ccb4fae76499b026f86.br",
+          "size": 63825,
+          "sha256": "38ec340f7d90d468b7c0d8e68f0efaa42a0ca4ff3c8d3ff745b84f9b430fe066"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/ef955291f25c871a19c49e5f90edf3cc3b578173c1329ccb4fae76499b026f86.gzip",
+          "size": 65581,
+          "sha256": "a184179fceb3ca8673c5fed90dfdfadc8401d19d225c043dc29aa954aef60795"
+        }
+      }
+    },
+    "vendor/office/fonts/133": {
+      "sha256": "0a618b75011e550f2e6826c35824986102ebff28849640ac2da027c9c35dfba9",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/0a618b75011e550f2e6826c35824986102ebff28849640ac2da027c9c35dfba9.br",
+          "size": 60310,
+          "sha256": "c444008818197baaabff185780bcc7c3599c97824fcf550a1150c0a86ca38c1c"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/0a618b75011e550f2e6826c35824986102ebff28849640ac2da027c9c35dfba9.gzip",
+          "size": 63520,
+          "sha256": "4489753f2fa9add4064748ac65656fc1f9ec25b5c83ad216bc3dc84836a83472"
+        }
+      }
+    },
+    "vendor/office/fonts/134": {
+      "sha256": "3f71c0b0dd8e1396399c669e56999d5b1dbff4c8e2601b99b61afada69849bf1",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/3f71c0b0dd8e1396399c669e56999d5b1dbff4c8e2601b99b61afada69849bf1.br",
+          "size": 47958,
+          "sha256": "7a3213134d3f493cd05948292e18ad2d8d89a4390b826f3354b64c0dcb1ee1e7"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/3f71c0b0dd8e1396399c669e56999d5b1dbff4c8e2601b99b61afada69849bf1.gzip",
+          "size": 49621,
+          "sha256": "d96bba37999c41819710837c68dd83614409798886fad502abdf393e5e25c45d"
+        }
+      }
+    },
+    "vendor/office/fonts/135": {
+      "sha256": "1e6bc2eff217b31bcf16f38c4edcf6ef4e662c74f0c958601dffab70f39d0127",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/1e6bc2eff217b31bcf16f38c4edcf6ef4e662c74f0c958601dffab70f39d0127.br",
+          "size": 76278,
+          "sha256": "5c9f69d2052266ad2b4d63ed061d6ec6e84a574eadfbf52578cc89a9ec628bde"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/1e6bc2eff217b31bcf16f38c4edcf6ef4e662c74f0c958601dffab70f39d0127.gzip",
+          "size": 82970,
+          "sha256": "2dc8aaa7982fcffff203150e3169e90e673a5230e5cf50108e4331be6aeae63a"
+        }
+      }
+    },
+    "vendor/office/fonts/136": {
+      "sha256": "c28d9832bc2365c6ac22a76025e2293bc882862f98482571adea60c55d2bd2bd",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c28d9832bc2365c6ac22a76025e2293bc882862f98482571adea60c55d2bd2bd.br",
+          "size": 35901,
+          "sha256": "699463d60a35b266802940fa5f5f6d19cea5814d038e10f0d50925149752c7d4"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c28d9832bc2365c6ac22a76025e2293bc882862f98482571adea60c55d2bd2bd.gzip",
+          "size": 38773,
+          "sha256": "9e692a23f43a14fa1b30f2b693f8a2259bb3ae57ebf22ac873ce89f3624b48cf"
+        }
+      }
+    },
+    "vendor/office/fonts/137": {
+      "sha256": "ee760f44e73a79a90ec8de625ea42b1865d3a4df51fcde95780b1e9cc91dd5ed",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/ee760f44e73a79a90ec8de625ea42b1865d3a4df51fcde95780b1e9cc91dd5ed.br",
+          "size": 45282,
+          "sha256": "a81c093cde6b2668efc66073f355cc79531b489c29043b019507c050e4cddf78"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/ee760f44e73a79a90ec8de625ea42b1865d3a4df51fcde95780b1e9cc91dd5ed.gzip",
+          "size": 47164,
+          "sha256": "ed4e28dd65384b74bdc8d0cf46966b11e29679c070231dd6de699480305804e8"
+        }
+      }
+    },
+    "vendor/office/fonts/138": {
+      "sha256": "4bd139f6b7cfd9af137e93ca82610215e468406ef28aa8eae61483c3aecede49",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/4bd139f6b7cfd9af137e93ca82610215e468406ef28aa8eae61483c3aecede49.br",
+          "size": 40376,
+          "sha256": "84d39bb086d3e1097a62fee3b8ac1f2b169c637d401b3a465fa04a0e0aca0bf0"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/4bd139f6b7cfd9af137e93ca82610215e468406ef28aa8eae61483c3aecede49.gzip",
+          "size": 41183,
+          "sha256": "b490f8e8e2002e08e779bb13408590e295856e3ef5221a74b7a3f1339e6f47bf"
+        }
+      }
+    },
+    "vendor/office/fonts/139": {
+      "sha256": "c8354b1dfb6040eea8fffb2db18413062c5da1558918ad1dcbd94aa8856c9d60",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c8354b1dfb6040eea8fffb2db18413062c5da1558918ad1dcbd94aa8856c9d60.br",
+          "size": 102729,
+          "sha256": "1bff58c96cea5015cfcd640cf8a53d7f7c09175776637654838ef74157dc559f"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c8354b1dfb6040eea8fffb2db18413062c5da1558918ad1dcbd94aa8856c9d60.gzip",
+          "size": 108545,
+          "sha256": "ebea413315cf43cfb42dc948c59f669523384fcf0b693415da9d995ebb0c9173"
+        }
+      }
+    },
+    "vendor/office/fonts/140": {
+      "sha256": "becafa65881c7bce1421d1efd4448728f40a48e19509b1454af52928937f0a5c",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/becafa65881c7bce1421d1efd4448728f40a48e19509b1454af52928937f0a5c.br",
+          "size": 100329,
+          "sha256": "bddb7a484648b4b1405006f517bd2348415052a588bfb94f8528dcaad253fcc9"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/becafa65881c7bce1421d1efd4448728f40a48e19509b1454af52928937f0a5c.gzip",
+          "size": 106906,
+          "sha256": "71844d5b2c2f43711d71272b4b16f35956dff4e2a136f889ba3cf685c9e4d6cd"
+        }
+      }
+    },
+    "vendor/office/fonts/141": {
+      "sha256": "87c8b089bab29fa39f026f6ffdbc60c5305882e678de7975c61df995883e649a",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/87c8b089bab29fa39f026f6ffdbc60c5305882e678de7975c61df995883e649a.br",
+          "size": 269606,
+          "sha256": "9a79bdb9a198ce53e4a41e59c2faf4cdcf8fec0eaec5ac9d4f3927568f6d8179"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/87c8b089bab29fa39f026f6ffdbc60c5305882e678de7975c61df995883e649a.gzip",
+          "size": 307438,
+          "sha256": "2216c434cb3fcef44fe19ece54b7b12bfdf33216f6cfde165cebbeca1b6a549d"
+        }
+      }
+    },
+    "vendor/office/fonts/142": {
+      "sha256": "f34326b0afd9ac251ead9608f811c494ae08325306c20e023a2058580c613d02",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/f34326b0afd9ac251ead9608f811c494ae08325306c20e023a2058580c613d02.br",
+          "size": 146764,
+          "sha256": "a360021f55e5492cf18ed52bd8b6259ac1bbbfd9a2c4005dd5ab6184a19ac4e9"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/f34326b0afd9ac251ead9608f811c494ae08325306c20e023a2058580c613d02.gzip",
+          "size": 164834,
+          "sha256": "e931ec58bdad068aa15abaf91310f50c18f3862d8cad91786e70761d74263afa"
+        }
+      }
+    },
+    "vendor/office/fonts/143": {
+      "sha256": "16801aee3e70b4b82295a5277bf6d59fbcaefd4094f532641a510b967bebf8a6",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/16801aee3e70b4b82295a5277bf6d59fbcaefd4094f532641a510b967bebf8a6.br",
+          "size": 163521,
+          "sha256": "b501fca0fc5c8f997fe76d54751488c5a08299660cfd4984540ba0cae447cff1"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/16801aee3e70b4b82295a5277bf6d59fbcaefd4094f532641a510b967bebf8a6.gzip",
+          "size": 179355,
+          "sha256": "d8ffaecdc480873868406be5b49e374473c0cb682c784ffd7aba8beaa29da871"
+        }
+      }
+    },
+    "vendor/office/fonts/144": {
+      "sha256": "25cc1196b37501b4cef1687e3766774b88de24b831bae4129026fbe62567cb1c",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/25cc1196b37501b4cef1687e3766774b88de24b831bae4129026fbe62567cb1c.br",
+          "size": 203244,
+          "sha256": "9d84bd2a8f651c4d2b2e07358edf5ac6d98248b0f9b5ded8d4cc6ba43fcb67f1"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/25cc1196b37501b4cef1687e3766774b88de24b831bae4129026fbe62567cb1c.gzip",
+          "size": 228849,
+          "sha256": "0751d9d60eea954602881e25eed2c8ce3addbd52f644538d93da73aae2b125a4"
+        }
+      }
+    },
+    "vendor/office/fonts/145": {
+      "sha256": "0f0b003a5978d783cba0e3479658857443e45efce6cac4d1581610a02e2e251a",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/0f0b003a5978d783cba0e3479658857443e45efce6cac4d1581610a02e2e251a.br",
+          "size": 732916,
+          "sha256": "e00bb3b076bc2ce1e393082f1376b56dd727c7cf6c6ccbc65bb335cf594dff76"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/0f0b003a5978d783cba0e3479658857443e45efce6cac4d1581610a02e2e251a.gzip",
+          "size": 816449,
+          "sha256": "b86779441529405e65f3c3bc74b986705fb5fe200a48dcc4352c203a6316ec56"
+        }
+      }
+    },
+    "vendor/office/fonts/146": {
+      "sha256": "d9868d9e7757c9a4f66ad7f1032fc421a1bbbeeca0a7d3e7a40f2525a28855b0",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/d9868d9e7757c9a4f66ad7f1032fc421a1bbbeeca0a7d3e7a40f2525a28855b0.br",
+          "size": 215848,
+          "sha256": "c4afa4aa067c43b65878ed90c88b0c6c5c032e2b401e6d8c65b25cdca579fb93"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/d9868d9e7757c9a4f66ad7f1032fc421a1bbbeeca0a7d3e7a40f2525a28855b0.gzip",
+          "size": 241588,
+          "sha256": "7f641e806df5603c2a9a5b7a839a703a18133c121ac25fd14bc6ed8733bee920"
+        }
+      }
+    },
+    "vendor/office/fonts/147": {
+      "sha256": "7c363e3cf2ce238313fbbdd7f49bc1a6d2a037e82aebe5287a36620cd0a55103",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/7c363e3cf2ce238313fbbdd7f49bc1a6d2a037e82aebe5287a36620cd0a55103.br",
+          "size": 179825,
+          "sha256": "d691386db15a594bdeb099cec0b04f730aa38a767fc9682e4b108e96fe1cb00f"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/7c363e3cf2ce238313fbbdd7f49bc1a6d2a037e82aebe5287a36620cd0a55103.gzip",
+          "size": 201199,
+          "sha256": "6ab7015ec13713a80beb8b5fc3493c6420830ee094f71c602e9530dd6a2e30fa"
+        }
+      }
+    },
+    "vendor/office/fonts/148": {
+      "sha256": "c507c6136fc8c0849eaf4d02167b524aadbe5907f1e7337e6789bbfa684d9e04",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c507c6136fc8c0849eaf4d02167b524aadbe5907f1e7337e6789bbfa684d9e04.br",
+          "size": 361378,
+          "sha256": "71d3a846a1556115b468f6a1fea5a0c27cb0df399f77ca3b9d61334bb8323146"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c507c6136fc8c0849eaf4d02167b524aadbe5907f1e7337e6789bbfa684d9e04.gzip",
+          "size": 432740,
+          "sha256": "3b20d12789decbd488d822163f1a1ed9cda9dd2b12f3d7db3b6e04e0aa84121f"
+        }
+      }
+    },
+    "vendor/office/fonts/149": {
+      "sha256": "f155006c7d539c2d78b311a0c174904cfb64accd8ee1375e0d93f34f01f73369",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/f155006c7d539c2d78b311a0c174904cfb64accd8ee1375e0d93f34f01f73369.br",
+          "size": 1617026,
+          "sha256": "ed77f0648b9cb4654e27df088fe88d6283f9d69aa9e286c9a9cae56188d06d7e"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/f155006c7d539c2d78b311a0c174904cfb64accd8ee1375e0d93f34f01f73369.gzip",
+          "size": 1852720,
+          "sha256": "217e4a8b236ebf308900ccf43ccc0c7c2602ff126c5d5ca811f72baa56ea0b4f"
+        }
+      }
+    },
+    "vendor/office/fonts/150": {
+      "sha256": "53016adc26ab09582e51d1c7f8c3f6c49914ec4f39477b65ffe3c350b81b7ae7",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/53016adc26ab09582e51d1c7f8c3f6c49914ec4f39477b65ffe3c350b81b7ae7.br",
+          "size": 542101,
+          "sha256": "8bc36db632a1d650678d28195bd302ac648a005c84dada4ff655a17f4452d988"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/53016adc26ab09582e51d1c7f8c3f6c49914ec4f39477b65ffe3c350b81b7ae7.gzip",
+          "size": 691716,
+          "sha256": "8c20a8798173c4132d68f4f54d75a4a9068d808a850deebff6f10e73f6ac34db"
+        }
+      }
+    },
+    "vendor/office/fonts/151": {
+      "sha256": "489b6965e020f3009d8186084428c48562d72217c8684e268658b969a617eb44",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/489b6965e020f3009d8186084428c48562d72217c8684e268658b969a617eb44.br",
+          "size": 304331,
+          "sha256": "2b1341d6a7f5fd4bdd10279d96a77345c93152631452f26836fc9dceb41c49ac"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/489b6965e020f3009d8186084428c48562d72217c8684e268658b969a617eb44.gzip",
+          "size": 361165,
+          "sha256": "2285b3c3d359f92531af96cd70e2ffeaf429d99628c9a84ac09c25e78e8af784"
+        }
+      }
+    },
+    "vendor/office/fonts/152": {
+      "sha256": "1d48b651298d940e6adbe69183b612cce7fdf5a581822873b365cc8d074b8e31",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/1d48b651298d940e6adbe69183b612cce7fdf5a581822873b365cc8d074b8e31.br",
+          "size": 470671,
+          "sha256": "7d7fa9a95f4dc3c0f9141a03937cd2c0a13615fe77e34664c335e7d75fcef496"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/1d48b651298d940e6adbe69183b612cce7fdf5a581822873b365cc8d074b8e31.gzip",
+          "size": 549554,
+          "sha256": "b4099c0a2373de438a53c4d31babcee10e049aa12bfc763dceb96338052e46b1"
+        }
+      }
+    },
+    "vendor/office/fonts/153": {
+      "sha256": "181986c21b7502d499914f55e5b52e59523f96016d9523c1519e6b97adeca1f8",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/181986c21b7502d499914f55e5b52e59523f96016d9523c1519e6b97adeca1f8.br",
+          "size": 28015,
+          "sha256": "fa94233104122b6c553a28dc3825aac9532f589ceccb1ff49553e0d8eb17ea8b"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/181986c21b7502d499914f55e5b52e59523f96016d9523c1519e6b97adeca1f8.gzip",
+          "size": 29403,
+          "sha256": "cee8a8a86a5701570c7e32fac2f0a5d91850c41b1aa24fb57c96707d1a113836"
+        }
+      }
+    },
+    "vendor/office/fonts/154": {
+      "sha256": "ce082a2ecc68937413a990a5e89552f2d1204b86506079dbf66449a2da6fd83c",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/ce082a2ecc68937413a990a5e89552f2d1204b86506079dbf66449a2da6fd83c.br",
+          "size": 26572,
+          "sha256": "2918f3df30a702c4d5820b7831e0c97748b5f484855aacd892bdf6c96e649371"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/ce082a2ecc68937413a990a5e89552f2d1204b86506079dbf66449a2da6fd83c.gzip",
+          "size": 28005,
+          "sha256": "071c6abff34c883cb1c4f8dfb1cd3e6181f0ce791695dcb1114c996a59048c98"
+        }
+      }
+    },
+    "vendor/office/fonts/155": {
+      "sha256": "76129051da69911ca4c4010d8c8f69f8a980376454819e6e564d345180c5c066",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/76129051da69911ca4c4010d8c8f69f8a980376454819e6e564d345180c5c066.br",
+          "size": 20146,
+          "sha256": "3e69d39bc55cd961ef824bf00b381ee13f61989077e1e0a032db311399ececd9"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/76129051da69911ca4c4010d8c8f69f8a980376454819e6e564d345180c5c066.gzip",
+          "size": 21342,
+          "sha256": "2e8ef49754fb4e81268c4b70fd995dcf2338ae8f02b57235d8a5970727f521d3"
+        }
+      }
+    },
+    "vendor/office/fonts/156": {
+      "sha256": "394230ddc233dc30b2195ad8204a628c9afc247dfa4afb968651b5f9de1df0ae",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/394230ddc233dc30b2195ad8204a628c9afc247dfa4afb968651b5f9de1df0ae.br",
+          "size": 31325,
+          "sha256": "849e93eb5b7bbc705aba4fc5476d5cad25348709fa7e5f676922a8123664bb0f"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/394230ddc233dc30b2195ad8204a628c9afc247dfa4afb968651b5f9de1df0ae.gzip",
+          "size": 33682,
+          "sha256": "80c635599da1ea5a6fa26d55cb6f7872d732265148b594c29f6230d480d314ce"
+        }
+      }
+    },
+    "vendor/office/fonts/157": {
+      "sha256": "9887310096c825cce818ca397a7a386dafbb63cadb391f2eaa965d85a9e8109c",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/9887310096c825cce818ca397a7a386dafbb63cadb391f2eaa965d85a9e8109c.br",
+          "size": 17972,
+          "sha256": "c23120f5aa1fa153d0ce6e8fd7af2646c2196d0acdde55c26b2c4aee733b48df"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/9887310096c825cce818ca397a7a386dafbb63cadb391f2eaa965d85a9e8109c.gzip",
+          "size": 18908,
+          "sha256": "4cb73e855147dde181f6ac9e37c2f34eaa485fca96aa00fc01d8d73f6ba991d0"
+        }
+      }
+    },
+    "vendor/office/fonts/158": {
+      "sha256": "1931afaf5e932a388dde74565f1dcc5ad31966b4895b7f60497fadfd27c41ac0",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/1931afaf5e932a388dde74565f1dcc5ad31966b4895b7f60497fadfd27c41ac0.br",
+          "size": 14869,
+          "sha256": "3f0abaf63b715b156f2acdb33d1ea1015d898d6c4ab870cd84cb750d7023daf7"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/1931afaf5e932a388dde74565f1dcc5ad31966b4895b7f60497fadfd27c41ac0.gzip",
+          "size": 15745,
+          "sha256": "2389de45179f714c064dc83184fab6ec6d445e08c1a162f3e042c259fdaf7641"
+        }
+      }
+    },
+    "vendor/office/fonts/159": {
+      "sha256": "c17a997c499ca8598fb8f61c6da135f5d82f7ebc0aa7223549f52720cdd316e9",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c17a997c499ca8598fb8f61c6da135f5d82f7ebc0aa7223549f52720cdd316e9.br",
+          "size": 24168,
+          "sha256": "6853e03699d859547d4311ecc999c41d3e6f7ce91703ce0ee39e62f61880eb29"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c17a997c499ca8598fb8f61c6da135f5d82f7ebc0aa7223549f52720cdd316e9.gzip",
+          "size": 25871,
+          "sha256": "714746588a54ff0078bc71953cd2f247161db2ee1d500c9921d04f3ee41103a0"
+        }
+      }
+    },
+    "vendor/office/fonts/160": {
+      "sha256": "2cf846ab5545692ecc8bc805cb00c3270852615b49b22738b20e976673b43201",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/2cf846ab5545692ecc8bc805cb00c3270852615b49b22738b20e976673b43201.br",
+          "size": 26112,
+          "sha256": "6b962d8556b8f78b30e0209fed095251c99011002c4a633d248f8158c35037ff"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/2cf846ab5545692ecc8bc805cb00c3270852615b49b22738b20e976673b43201.gzip",
+          "size": 27185,
+          "sha256": "fef9d21024e35c38c74ae1285d6b5bdeffedab3ea34c8da8220a07507b67b332"
+        }
+      }
+    },
+    "vendor/office/fonts/161": {
+      "sha256": "7cf8b1c4e54c00f8dc6d0d67c86093c2f52db2a8538323d28fc6a9129c4ebcfc",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/7cf8b1c4e54c00f8dc6d0d67c86093c2f52db2a8538323d28fc6a9129c4ebcfc.br",
+          "size": 29170,
+          "sha256": "32ba1684da83bd5dd760f2e166f783cc8352d7ec9e270b9fc93f622d8e181621"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/7cf8b1c4e54c00f8dc6d0d67c86093c2f52db2a8538323d28fc6a9129c4ebcfc.gzip",
+          "size": 31903,
+          "sha256": "18f1b3d44b90d3e9510134f3f4238e1d220930b95fc089b072413f026191a324"
+        }
+      }
+    },
+    "vendor/office/fonts/162": {
+      "sha256": "ccda1d6f3b7eeab1d9690818da0f459a9527853388ad3196d50c77949475d2aa",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/ccda1d6f3b7eeab1d9690818da0f459a9527853388ad3196d50c77949475d2aa.br",
+          "size": 32808,
+          "sha256": "ca70e1dcad85f8555657d09fc208a48c84c5f90ab3c8a0409f67926502da5efc"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/ccda1d6f3b7eeab1d9690818da0f459a9527853388ad3196d50c77949475d2aa.gzip",
+          "size": 36971,
+          "sha256": "a2f36e691708921560cdaf77be1eb328b912e522b68dbb888d7359488a805484"
+        }
+      }
+    },
+    "vendor/office/fonts/163": {
+      "sha256": "a8cdbe00c2a060bb13f1795c61c5b35e971ef2a0c6ba4808f152cba6e06ba63e",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/a8cdbe00c2a060bb13f1795c61c5b35e971ef2a0c6ba4808f152cba6e06ba63e.br",
+          "size": 23318,
+          "sha256": "ada597879fd5e2b5d339032917d930e279f837e409d936bb5d990aeaf89bf52a"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/a8cdbe00c2a060bb13f1795c61c5b35e971ef2a0c6ba4808f152cba6e06ba63e.gzip",
+          "size": 24308,
+          "sha256": "5864a0f1115944cf24881f97b2f5e9a3c9484d69e24ffabf5ce32c64948c048b"
+        }
+      }
+    },
+    "vendor/office/fonts/164": {
+      "sha256": "4422e93913c6f9a8ad05529ffb85c87e349b031e019bcfc80260ca82b3cc4f3c",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/4422e93913c6f9a8ad05529ffb85c87e349b031e019bcfc80260ca82b3cc4f3c.br",
+          "size": 16642,
+          "sha256": "1b5588eeba829a791a8eceb5c42d126d32674580817a44c56002bc19d47547cf"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/4422e93913c6f9a8ad05529ffb85c87e349b031e019bcfc80260ca82b3cc4f3c.gzip",
+          "size": 17664,
+          "sha256": "c613546f73812580af373ae824077dce795a784b25cfb5d9de9f1ea7f7d3eeab"
+        }
+      }
+    },
+    "vendor/office/fonts/165": {
+      "sha256": "63b0391b259677da1ccdb8a487682af481ed301e808a45fee897ecf584dc403d",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/63b0391b259677da1ccdb8a487682af481ed301e808a45fee897ecf584dc403d.br",
+          "size": 36095,
+          "sha256": "a9fca41ecc16854a8cdd0ec75e8e77eb56202d5130d526d45be1dddd5132ae39"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/63b0391b259677da1ccdb8a487682af481ed301e808a45fee897ecf584dc403d.gzip",
+          "size": 40492,
+          "sha256": "e501af4761885bc00f48fa7ab7041d5cb01f0d2c22aec1dfad70068928a10f78"
+        }
+      }
+    },
+    "vendor/office/fonts/166": {
+      "sha256": "caa6842a79647c3bf74229125134545add8638b00b7063da0a76d12701340dde",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/caa6842a79647c3bf74229125134545add8638b00b7063da0a76d12701340dde.br",
+          "size": 17227,
+          "sha256": "01f583df97a35fd18e756f4b83695463d0f7f1de4c900d06f81d421f02cc7af8"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/caa6842a79647c3bf74229125134545add8638b00b7063da0a76d12701340dde.gzip",
+          "size": 18315,
+          "sha256": "1a734208769bcd9ecc7fbec38638669885ad0454c1e3b4bae5a0d6618708dd01"
+        }
+      }
+    },
+    "vendor/office/fonts/167": {
+      "sha256": "80432fb045bfa656c7c0a53df417608fee70d45551332f51c7dde85873225862",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/80432fb045bfa656c7c0a53df417608fee70d45551332f51c7dde85873225862.br",
+          "size": 25348,
+          "sha256": "37b9e9ed1398c22aef7f5c399787db983f0ad91e9f74c58640a353a0c290e4e1"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/80432fb045bfa656c7c0a53df417608fee70d45551332f51c7dde85873225862.gzip",
+          "size": 29011,
+          "sha256": "f6bd73e4e58a0607e1af085d7a406067c7c22c508de9fbb17597a0c12b7368c1"
+        }
+      }
+    },
+    "vendor/office/fonts/168": {
+      "sha256": "8dd2676b2b4f767d83808ce8257e01676adcef7dbe72c473c4a5762e5e2ed686",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/8dd2676b2b4f767d83808ce8257e01676adcef7dbe72c473c4a5762e5e2ed686.br",
+          "size": 47123,
+          "sha256": "f87b57389550896083534f862a4f6a855c99f51649a86c34b686a252463942ae"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/8dd2676b2b4f767d83808ce8257e01676adcef7dbe72c473c4a5762e5e2ed686.gzip",
+          "size": 60210,
+          "sha256": "c2494a28848dc65a1fd27e51b06a2fec5a778615865f2abd67620e0d5657e18f"
+        }
+      }
+    },
+    "vendor/office/fonts/169": {
+      "sha256": "92d4229fc634a2d7fe9795c8243ee0b2e796e583cee5ae060f819ee95048ec04",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/92d4229fc634a2d7fe9795c8243ee0b2e796e583cee5ae060f819ee95048ec04.br",
+          "size": 73262,
+          "sha256": "c7061a5b3b6d6c0dadbaff7da97d58b0ca4f8ca093730b4751e5bcfc884b6c5f"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/92d4229fc634a2d7fe9795c8243ee0b2e796e583cee5ae060f819ee95048ec04.gzip",
+          "size": 77011,
+          "sha256": "17045bc89371830abff98ebece4c3ea06548b0c38da65d6e74e739d1910a76bc"
+        }
+      }
+    },
+    "vendor/office/fonts/170": {
+      "sha256": "fcc2182ddd44546b95cb8a94695b65c3f6dde9d7864a2facd9568fd646fcb08e",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/fcc2182ddd44546b95cb8a94695b65c3f6dde9d7864a2facd9568fd646fcb08e.br",
+          "size": 62932,
+          "sha256": "a675a83e1dc41458a8e6e455e8444780575e706968f86fe2ef112eb4627f6920"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/fcc2182ddd44546b95cb8a94695b65c3f6dde9d7864a2facd9568fd646fcb08e.gzip",
+          "size": 66192,
+          "sha256": "d91bdd1c9568fbd5b4f91460f50402d618105d89c7d6727ade7ce3c6bfc0e24d"
+        }
+      }
+    },
+    "vendor/office/fonts/171": {
+      "sha256": "927b7e26cbaac22b3f14c3de28dbca3946223618a69f14a99ce33ced3ad2030e",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/927b7e26cbaac22b3f14c3de28dbca3946223618a69f14a99ce33ced3ad2030e.br",
+          "size": 62937,
+          "sha256": "3026dc24051bcd1bb4ec6eb8624e71ded69aaa10505aa3cfc2fcf1af5b215fbd"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/927b7e26cbaac22b3f14c3de28dbca3946223618a69f14a99ce33ced3ad2030e.gzip",
+          "size": 66190,
+          "sha256": "748f1da634d47ce19bec9958968222bdad1894159f1ff1f7de46e1fd83544241"
+        }
+      }
+    },
+    "vendor/office/fonts/172": {
+      "sha256": "4de65b06804b070a7dc56bba60f966575a8f7ef5a55a0ed47d344e8ecfc7a33c",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/4de65b06804b070a7dc56bba60f966575a8f7ef5a55a0ed47d344e8ecfc7a33c.br",
+          "size": 75184,
+          "sha256": "59dd7c44416001b576746b1f56c5d68208ab096c87b683bd07c16de529749501"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/4de65b06804b070a7dc56bba60f966575a8f7ef5a55a0ed47d344e8ecfc7a33c.gzip",
+          "size": 79895,
+          "sha256": "c4071932643ea356b3d7468b485f4625ddc5b233d5d8c65170a3033d1324e781"
+        }
+      }
+    },
+    "vendor/office/fonts/173": {
+      "sha256": "76eade85ee22fe0166c00ce6a318edc5a608da8964989531ddebe875fee2c0db",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/76eade85ee22fe0166c00ce6a318edc5a608da8964989531ddebe875fee2c0db.br",
+          "size": 28786,
+          "sha256": "08fbe8e3a8fb5886772502380c1d016620c74a4970f34f01c343c4a9049a4706"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/76eade85ee22fe0166c00ce6a318edc5a608da8964989531ddebe875fee2c0db.gzip",
+          "size": 29773,
+          "sha256": "0023268fedbb0b00979a4ec813e410de43b8c6cb6f87363cc6896ce532f64168"
+        }
+      }
+    },
+    "vendor/office/fonts/174": {
+      "sha256": "524a22812bf0214215f48e0e057d4b6584d0926b3a015a768135fa4269e98ad9",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/524a22812bf0214215f48e0e057d4b6584d0926b3a015a768135fa4269e98ad9.br",
+          "size": 44135,
+          "sha256": "4e72eec5099babd7cd4dc47e1e60d7512394bf2ac34be985367a0dd3931026b2"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/524a22812bf0214215f48e0e057d4b6584d0926b3a015a768135fa4269e98ad9.gzip",
+          "size": 49526,
+          "sha256": "bcc679217f4640ee2de24698af154ea8badd983d9797d6d3513f30fe9f8dc450"
+        }
+      }
+    },
+    "vendor/office/fonts/175": {
+      "sha256": "5d6ba58be8222c1dce767ac2e093740b2119ba4197c8908793aacc62befef483",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/5d6ba58be8222c1dce767ac2e093740b2119ba4197c8908793aacc62befef483.br",
+          "size": 26415,
+          "sha256": "f9b04b0a19f69c1fb55153a95b938e8b19ed7c0262e504fb70f63ad9d1038072"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/5d6ba58be8222c1dce767ac2e093740b2119ba4197c8908793aacc62befef483.gzip",
+          "size": 26887,
+          "sha256": "aa5b977b8a9cecdaaa72145010e664021c7820d70adc3aa4be3ae1effd77fdb4"
+        }
+      }
+    },
+    "vendor/office/fonts/176": {
+      "sha256": "e42d325a9a45951a6176eabd2eedc36921c4c97d6aef16db5489d09d5ea18a51",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/e42d325a9a45951a6176eabd2eedc36921c4c97d6aef16db5489d09d5ea18a51.br",
+          "size": 45080,
+          "sha256": "bc4fe0c757c76de4f39dd9e296a10eae10c444411206e387f7d87214d652328c"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/e42d325a9a45951a6176eabd2eedc36921c4c97d6aef16db5489d09d5ea18a51.gzip",
+          "size": 46778,
+          "sha256": "f86dee8b9f929c85e38ad632941afead25e89cde2f7af69edf6468cb5fc64217"
+        }
+      }
+    },
+    "vendor/office/fonts/177": {
+      "sha256": "8b7a823bf93d6b554fbd813f84373518ddd802ed03324a5e6a7508c5e67b025e",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/8b7a823bf93d6b554fbd813f84373518ddd802ed03324a5e6a7508c5e67b025e.br",
+          "size": 13111,
+          "sha256": "d3c5bb42bbc5c93e6a13ad949aef28951771f622b522b6c00bfb8c0f189ffb60"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/8b7a823bf93d6b554fbd813f84373518ddd802ed03324a5e6a7508c5e67b025e.gzip",
+          "size": 13442,
+          "sha256": "da76d095861cc4224e5c2eeb8519d3e763839f808a7eb2d7606de80238e8f250"
+        }
+      }
+    },
+    "vendor/office/fonts/178": {
+      "sha256": "d802a05bc660faa5ed8ab500eeaea7b246a9d865b5d1ff37ca4d72627a03f71b",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/d802a05bc660faa5ed8ab500eeaea7b246a9d865b5d1ff37ca4d72627a03f71b.br",
+          "size": 25964,
+          "sha256": "6712b0dac55760df31369ea953cc585ea005ecc08c17a555cf600d1eca670707"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/d802a05bc660faa5ed8ab500eeaea7b246a9d865b5d1ff37ca4d72627a03f71b.gzip",
+          "size": 27616,
+          "sha256": "b3eb03952a723dc61e4a3edcea22b22c9e336238bec3ebff08f64b77077b528d"
+        }
+      }
+    },
+    "vendor/office/fonts/179": {
+      "sha256": "63dc8074c637c6dc17237263bc8b3f444ce167a43f5454411fb7565a194cd775",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/63dc8074c637c6dc17237263bc8b3f444ce167a43f5454411fb7565a194cd775.br",
+          "size": 22453,
+          "sha256": "538d15388ddffb2978aaad175c47162f22f45bf445099b131ff6ef9b9fb3176c"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/63dc8074c637c6dc17237263bc8b3f444ce167a43f5454411fb7565a194cd775.gzip",
+          "size": 23086,
+          "sha256": "558cb14fcb53cbdcfadfac4ac16ad5c8e825971111a495e7128b3f195b684650"
+        }
+      }
+    },
+    "vendor/office/fonts/180": {
+      "sha256": "fea1414942063caa02aacec63db643a7cf94007aa04ff355a52699dc9a94d862",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/fea1414942063caa02aacec63db643a7cf94007aa04ff355a52699dc9a94d862.br",
+          "size": 115742,
+          "sha256": "464f9ae717a145c95c5d1efb2e74632772252582663ba4a0d0324a9c2ef910c4"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/fea1414942063caa02aacec63db643a7cf94007aa04ff355a52699dc9a94d862.gzip",
+          "size": 129686,
+          "sha256": "4399c74e1b68f1a1daeca0aa24fc920f7eba4b4c28c77c06015f8d79d35909a6"
+        }
+      }
+    },
+    "vendor/office/fonts/181": {
+      "sha256": "daeb38deb4eb53be4a11f6bd63c1df4108d239f00f74bd3471693fc9466272dc",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/daeb38deb4eb53be4a11f6bd63c1df4108d239f00f74bd3471693fc9466272dc.br",
+          "size": 1833823,
+          "sha256": "bfaa8bdc367cd8f89b83e554e94bf166441b08c4cdc3571451b2150116716939"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/daeb38deb4eb53be4a11f6bd63c1df4108d239f00f74bd3471693fc9466272dc.gzip",
+          "size": 2094392,
+          "sha256": "b97bbe3874c9eadbfbf44c5ddd0449ee981beed81ab1dcb6aaaec2e031239973"
+        }
+      }
+    },
+    "vendor/office/fonts/182": {
+      "sha256": "54bbcfd0cef7e512fba600447ae6ecf6b9a6aaace7a2d299fa0d448baa59f0f3",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/54bbcfd0cef7e512fba600447ae6ecf6b9a6aaace7a2d299fa0d448baa59f0f3.br",
+          "size": 1944470,
+          "sha256": "3697aeb8008f6866b1b4f725cfd07527e8c018e81e61e1b0e31a8169eb0f5493"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/54bbcfd0cef7e512fba600447ae6ecf6b9a6aaace7a2d299fa0d448baa59f0f3.gzip",
+          "size": 2220271,
+          "sha256": "c64fbd8a54189c0239927a134523c7f199f10380085a2b9cbea8d1a6dc8132ab"
+        }
+      }
+    },
+    "vendor/office/fonts/183": {
+      "sha256": "1ccd17b3a3a63bb8ac4dd49fd3dd45fc549bcc9cec08d02e6af59c8e3ab82fba",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/1ccd17b3a3a63bb8ac4dd49fd3dd45fc549bcc9cec08d02e6af59c8e3ab82fba.br",
+          "size": 2188715,
+          "sha256": "1a2c3c8c6dcd9a731714a68fa41692017bd8b8f1823512614d55e05772f184d2"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/1ccd17b3a3a63bb8ac4dd49fd3dd45fc549bcc9cec08d02e6af59c8e3ab82fba.gzip",
+          "size": 2478205,
+          "sha256": "e393252c629e1c9ac1fba861025aa9b8a562d8089075288936ebd5c4900d87c2"
+        }
+      }
+    },
+    "vendor/office/fonts/184": {
+      "sha256": "0e051194266362ea5280e62f98a05c31e63dd7a19cc3940c61b358757c0d388e",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/0e051194266362ea5280e62f98a05c31e63dd7a19cc3940c61b358757c0d388e.br",
+          "size": 2251772,
+          "sha256": "eb6c931ebaaa50ed1fd8716855b74a90162ab578ac1c6fb4b33d4ad9d130b5e5"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/0e051194266362ea5280e62f98a05c31e63dd7a19cc3940c61b358757c0d388e.gzip",
+          "size": 2532394,
+          "sha256": "10ddf69985631c7d746933603b7b7a5b64a2594afada03204a0629ed2e132243"
+        }
+      }
+    },
+    "vendor/office/fonts/185": {
+      "sha256": "7237460cd2f0bcd589543493ef7555f530d94292c43d3673ed08a0d84f8696c8",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/7237460cd2f0bcd589543493ef7555f530d94292c43d3673ed08a0d84f8696c8.br",
+          "size": 987289,
+          "sha256": "1be673aff8bd0174827e1447fd4e1931335f13df24464ba3a7dfe190e29eb270"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/7237460cd2f0bcd589543493ef7555f530d94292c43d3673ed08a0d84f8696c8.gzip",
+          "size": 1373314,
+          "sha256": "5bdc6dc6658d7863a67efdf2aa220b5f3dab52f081aaf590bd35f8731fdf7a41"
+        }
+      }
+    },
+    "vendor/office/fonts/186": {
+      "sha256": "8b0312c4d454611f827a04ffb08635f381169d2c10dd9757b9e84fb647101b84",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/8b0312c4d454611f827a04ffb08635f381169d2c10dd9757b9e84fb647101b84.br",
+          "size": 248031,
+          "sha256": "c3473e630f4ce761e7b1cc37f4e7aa29bee10462e8be2387a4a09db02bb54047"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/8b0312c4d454611f827a04ffb08635f381169d2c10dd9757b9e84fb647101b84.gzip",
+          "size": 285674,
+          "sha256": "65c035e9a24a396c0ad8277f94e0b4f2df6c1543a4c5c975ba9d17b611b497cf"
+        }
+      }
+    },
+    "vendor/office/fonts/187": {
+      "sha256": "04b36a73f5fc580070d78a5ccc2575a942ef5c11280d5a404374aedd796aca02",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/04b36a73f5fc580070d78a5ccc2575a942ef5c11280d5a404374aedd796aca02.br",
+          "size": 249705,
+          "sha256": "cbee8298817f34b66f1a7f4b960f3420734ea2798e0fb1959d754e7aacf75f45"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/04b36a73f5fc580070d78a5ccc2575a942ef5c11280d5a404374aedd796aca02.gzip",
+          "size": 285134,
+          "sha256": "ab61ebfc5eefa8f19480960bd073838eefee94802b676bc1d1d2983c40304398"
+        }
+      }
+    },
+    "vendor/office/fonts/188": {
+      "sha256": "a2ca29295a55e9b6a00ffb3c205b588ee4a37c2a648782874854b1a17fc2a14c",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/a2ca29295a55e9b6a00ffb3c205b588ee4a37c2a648782874854b1a17fc2a14c.br",
+          "size": 286578,
+          "sha256": "121bc5508e2fd72d04ebe3d4d002d10e7968f7fba58b00a4c8ea7796e7ed954a"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/a2ca29295a55e9b6a00ffb3c205b588ee4a37c2a648782874854b1a17fc2a14c.gzip",
+          "size": 293232,
+          "sha256": "2b892a9700297266904e4c3b5aecc301c315aaf4a910c5a8fe1b86a860388497"
+        }
+      }
+    },
+    "vendor/office/fonts/189": {
+      "sha256": "92a087c76a308e663738478fffbe0432c5b3595dd9354447b83c66c0dccc54b3",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/92a087c76a308e663738478fffbe0432c5b3595dd9354447b83c66c0dccc54b3.br",
+          "size": 108189,
+          "sha256": "b885cd5e97057072e544a12c1cea2e16d1e83a27e2ace0a820d210c25e1d854b"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/92a087c76a308e663738478fffbe0432c5b3595dd9354447b83c66c0dccc54b3.gzip",
+          "size": 119500,
+          "sha256": "af0dbd7b174d9b3bab1029e7343c77efcdb760e4e00e4292672eebead06dcdd2"
+        }
+      }
+    },
+    "vendor/office/fonts/190": {
+      "sha256": "c671515981626564ac44c7370dffd4283c2cb2a9af7866a79695ccc1a2378667",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c671515981626564ac44c7370dffd4283c2cb2a9af7866a79695ccc1a2378667.br",
+          "size": 111509,
+          "sha256": "191d1070e97638f6c424efc8a1c6ba7a760cc93e77ff6906f08f015d7e4f547a"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c671515981626564ac44c7370dffd4283c2cb2a9af7866a79695ccc1a2378667.gzip",
+          "size": 126082,
+          "sha256": "54a296d9a3a7c63412a33c2f405e8d776578e0e371633e20e0d6ac5fdac1620a"
+        }
+      }
+    },
+    "vendor/office/fonts/191": {
+      "sha256": "fcd6719bac4b2f6b6a88aeb74d07fd6659afedf346ef1fed35c769bc05d16f13",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/fcd6719bac4b2f6b6a88aeb74d07fd6659afedf346ef1fed35c769bc05d16f13.br",
+          "size": 114829,
+          "sha256": "0dc7d7050e2246f040b11b0a783e32be0b9a7fbcaf1ea089d8ff50abe278cab6"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/fcd6719bac4b2f6b6a88aeb74d07fd6659afedf346ef1fed35c769bc05d16f13.gzip",
+          "size": 128501,
+          "sha256": "257b2d7ae521429b5bbe011d77cc6fd20bef2c87c2b441404f1471f22d57cbaa"
+        }
+      }
+    },
+    "vendor/office/fonts/192": {
+      "sha256": "f2827efa21af1e48533d6afe167b447f5b4cc4fc071ef80bdcb1b67dfe7c9803",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/f2827efa21af1e48533d6afe167b447f5b4cc4fc071ef80bdcb1b67dfe7c9803.br",
+          "size": 114710,
+          "sha256": "5492a70baba5f51c5811aeffe1e1fae27c52b97474f06b6f402acbc16da70434"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/f2827efa21af1e48533d6afe167b447f5b4cc4fc071ef80bdcb1b67dfe7c9803.gzip",
+          "size": 128727,
+          "sha256": "5890c2c07276024d99412bb8085dc9410a8f060e479f9706688d5cc68e5b1ec8"
+        }
+      }
+    },
+    "vendor/office/fonts/193": {
+      "sha256": "8edde5c1bfcb6dd11456f88f62fc7d28a6f3fb9ce28ab9c6159dc545a92344eb",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/8edde5c1bfcb6dd11456f88f62fc7d28a6f3fb9ce28ab9c6159dc545a92344eb.br",
+          "size": 20761,
+          "sha256": "1a0ea63b906adb8ae3b7f925b1b3842a754bbdbaa87b96c3e6e362f65654a4c7"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/8edde5c1bfcb6dd11456f88f62fc7d28a6f3fb9ce28ab9c6159dc545a92344eb.gzip",
+          "size": 21145,
+          "sha256": "b4552c652bac92e56261b6b5bd2b5ca7fbb70335eeecc9a680d2c23847399c69"
+        }
+      }
+    },
+    "vendor/office/fonts/194": {
+      "sha256": "f181bdb256ca8a15a0f2cc60dc42c95a334fb05d74bd0444e943b72cdb657595",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/f181bdb256ca8a15a0f2cc60dc42c95a334fb05d74bd0444e943b72cdb657595.br",
+          "size": 127559,
+          "sha256": "db0c7faab583d7411c30086e24c8b2ffcf6e2f7da0634003bffb239e74b14107"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/f181bdb256ca8a15a0f2cc60dc42c95a334fb05d74bd0444e943b72cdb657595.gzip",
+          "size": 132222,
+          "sha256": "5e4d7e0b113b7e4254a97c53d7371b29a1b432ef679fa79418d5a98d55daaa26"
+        }
+      }
+    },
+    "vendor/office/fonts/195": {
+      "sha256": "f96b179b8921d8d2c576862eb489cad2bbc832b84e1a8c3c5f52eb015a917f11",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/f96b179b8921d8d2c576862eb489cad2bbc832b84e1a8c3c5f52eb015a917f11.br",
+          "size": 12516,
+          "sha256": "8e0ff34f8fce69987a6887e8488d47e8b3df8dd11562049aa146cf58452ad71d"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/f96b179b8921d8d2c576862eb489cad2bbc832b84e1a8c3c5f52eb015a917f11.gzip",
+          "size": 12921,
+          "sha256": "0704f5f8644d386ce2f685ab4d3c22851dfaa2e01b02358e16c6070ba01e4cc0"
+        }
+      }
+    },
+    "vendor/office/fonts/196": {
+      "sha256": "288094b7b526c81b1c03b66150aa3d7ce8a96f8843c940850197c728d78ffb74",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/288094b7b526c81b1c03b66150aa3d7ce8a96f8843c940850197c728d78ffb74.br",
+          "size": 139396,
+          "sha256": "4ef3757b71ec9c5369598b26d13a4ef8147f054545076578535b2d5d56fe0d50"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/288094b7b526c81b1c03b66150aa3d7ce8a96f8843c940850197c728d78ffb74.gzip",
+          "size": 145979,
+          "sha256": "ad1e198ff0f636a5e21090a9a3789f80fe29168565c93a838fedbf5a29b77b8f"
+        }
+      }
+    },
+    "vendor/office/fonts/197": {
+      "sha256": "5d95872f8f278cd059fdade52c5cf3a0537ee3a3b019527b8de5f9e293d7c82f",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/5d95872f8f278cd059fdade52c5cf3a0537ee3a3b019527b8de5f9e293d7c82f.br",
+          "size": 13311,
+          "sha256": "fe022b1aac70d61f0e1a64cfb32d618ccbb86b25273245abf24e50b5370e2db5"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/5d95872f8f278cd059fdade52c5cf3a0537ee3a3b019527b8de5f9e293d7c82f.gzip",
+          "size": 13563,
+          "sha256": "b386802767bd36f7d079214f386230b5907e132275fe2b091ad70e67361d66dc"
+        }
+      }
+    },
+    "vendor/office/fonts/198": {
+      "sha256": "5d23eaaae0aabf17a5940dbcaaabec08c6d399cacf4658811b554e3cd5542bc5",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/5d23eaaae0aabf17a5940dbcaaabec08c6d399cacf4658811b554e3cd5542bc5.br",
+          "size": 4667,
+          "sha256": "43a6a7b15faf330018692a04b16a26f322f8c652b4c32110ac8268c68d744dee"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/5d23eaaae0aabf17a5940dbcaaabec08c6d399cacf4658811b554e3cd5542bc5.gzip",
+          "size": 4807,
+          "sha256": "efde08957d6fd9b78ddc278c4d60a1c20f17d14dc4960b7fe440544dbec46241"
+        }
+      }
+    },
+    "vendor/office/fonts/199": {
+      "sha256": "d3f6c5b4b7727eddd02a337c2e05d3c3050e592fec707342ba3a9576afa34dcf",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/d3f6c5b4b7727eddd02a337c2e05d3c3050e592fec707342ba3a9576afa34dcf.br",
+          "size": 23253,
+          "sha256": "ad1a17cd5f4555177c016fea81d5baf9ff0cb4fc2a85365a0f0b335798d1e6f6"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/d3f6c5b4b7727eddd02a337c2e05d3c3050e592fec707342ba3a9576afa34dcf.gzip",
+          "size": 24422,
+          "sha256": "12b3d9a751a28a3b416298fd310daaf9796abc80d046ab4a0c917119d882308b"
+        }
+      }
+    },
+    "vendor/office/fonts/200": {
+      "sha256": "1ba1e752a8adc3a43b1e4784cdb17e9f8f37df75ea70ef8daacfce6109e11d97",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/1ba1e752a8adc3a43b1e4784cdb17e9f8f37df75ea70ef8daacfce6109e11d97.br",
+          "size": 30324,
+          "sha256": "9fdf4789fb193c2b30fa9a02e9b6db970861659e02eb6013d11a8dbc01e7f807"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/1ba1e752a8adc3a43b1e4784cdb17e9f8f37df75ea70ef8daacfce6109e11d97.gzip",
+          "size": 31500,
+          "sha256": "2bea143aa6b942e0257c3267390b1b1aabbe2e0fd141668133e433e337f7245e"
+        }
+      }
+    },
+    "vendor/office/fonts/201": {
+      "sha256": "6c03b9bd548539fc94ecd8bc8c0113207860190643c9354810985bbfa5d33812",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/6c03b9bd548539fc94ecd8bc8c0113207860190643c9354810985bbfa5d33812.br",
+          "size": 360108,
+          "sha256": "d6db99f947c92487c93f482d99b5529962fd10c4c20e511df19effac06b41b89"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/6c03b9bd548539fc94ecd8bc8c0113207860190643c9354810985bbfa5d33812.gzip",
+          "size": 382271,
+          "sha256": "7893e63361c2a7a2b9a5fadc863001a855ec65d764c51111cb797443be124cbb"
+        }
+      }
+    },
+    "vendor/office/fonts/202": {
+      "sha256": "d551c99ae5b9a093adef9851cb6d73110bc161ffe5ed58ce4e87ed104d17c9b1",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/d551c99ae5b9a093adef9851cb6d73110bc161ffe5ed58ce4e87ed104d17c9b1.br",
+          "size": 9046,
+          "sha256": "61903c0624d77c35992f79e05823832ec528f3d6714b839f7164bccdeed85a3e"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/d551c99ae5b9a093adef9851cb6d73110bc161ffe5ed58ce4e87ed104d17c9b1.gzip",
+          "size": 9384,
+          "sha256": "06fd4edbd74c7ae4c26cb3397d4691e753ae2af6c5798efcfed689054745ac59"
+        }
+      }
+    },
+    "vendor/office/fonts/203": {
+      "sha256": "ca53930da1f677cac8d5eca276e3416c442b0a3bc11e3b22b24f07d6a0874267",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/ca53930da1f677cac8d5eca276e3416c442b0a3bc11e3b22b24f07d6a0874267.br",
+          "size": 310673,
+          "sha256": "25c268f643f0aa8b76a6d603bc09ae195d100674cecf775d5159474483f21161"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/ca53930da1f677cac8d5eca276e3416c442b0a3bc11e3b22b24f07d6a0874267.gzip",
+          "size": 322093,
+          "sha256": "ff1ebb8820f152130531cbda4502d4a4c6ba5e17af86e4ec30abe70ee5ae0993"
+        }
+      }
+    },
+    "vendor/office/fonts/204": {
+      "sha256": "a260446f028bb4dc471d720479a992355205404a294412c0233fc97e74ba5822",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/a260446f028bb4dc471d720479a992355205404a294412c0233fc97e74ba5822.br",
+          "size": 21163,
+          "sha256": "799321a3e08845cfeff5bdb5fa4b579502ba859ae25c0a9eb16e480ba33a4c3f"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/a260446f028bb4dc471d720479a992355205404a294412c0233fc97e74ba5822.gzip",
+          "size": 21953,
+          "sha256": "ca57c9f9f50adcee41c007835039516d096c94e63f037a5a72704eb1f6fdf458"
+        }
+      }
+    },
+    "vendor/office/fonts/205": {
+      "sha256": "e16b67054bb1bd240987d0aef257fdb4400660b7837a38fe10b2b1bddf4b2b63",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/e16b67054bb1bd240987d0aef257fdb4400660b7837a38fe10b2b1bddf4b2b63.br",
+          "size": 4174,
+          "sha256": "8c1c78dece659ca95e829acc43dc72d5d7cca0d0c210a26c8fab4228aa221807"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/e16b67054bb1bd240987d0aef257fdb4400660b7837a38fe10b2b1bddf4b2b63.gzip",
+          "size": 4135,
+          "sha256": "a02dde0c1c8b90e1af83f8c5e106167d6e53a34073c260267a05c1d93d8dbc77"
+        }
+      }
+    },
+    "vendor/office/fonts/206": {
+      "sha256": "370470ee46f0f45b1e794dadff7b8c4847e122754fc9f2ef95d0793edde53263",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/370470ee46f0f45b1e794dadff7b8c4847e122754fc9f2ef95d0793edde53263.br",
+          "size": 3563,
+          "sha256": "c598d1c3768faf36ff71c1ebeaed6b228e7ca07a8bfa87edaa57ebd390f50ebd"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/370470ee46f0f45b1e794dadff7b8c4847e122754fc9f2ef95d0793edde53263.gzip",
+          "size": 3578,
+          "sha256": "5c6ec091e7c6a6fb5bb363d733c34bf6f52041906b9957aaf6cc078d19ea9ad7"
+        }
+      }
+    },
+    "vendor/office/fonts/207": {
+      "sha256": "6f771bc5ef136c5749bb12765fccc928b5e51f0da2345e4854ffbbfa8deb8f52",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/6f771bc5ef136c5749bb12765fccc928b5e51f0da2345e4854ffbbfa8deb8f52.br",
+          "size": 4701,
+          "sha256": "4e759f0aee5b4b8b2c7c91b8ea1dbb32fc5faa19949712a7cb2c50e736593736"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/6f771bc5ef136c5749bb12765fccc928b5e51f0da2345e4854ffbbfa8deb8f52.gzip",
+          "size": 4745,
+          "sha256": "4453608b2715a7ac5bb7695ef2b5225137d23191af735cbcc826deff2c123025"
+        }
+      }
+    },
+    "vendor/office/fonts/208": {
+      "sha256": "c811e0ae269e17cb02376a79c05a51273be8c064d8604258b66edceef6c96464",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c811e0ae269e17cb02376a79c05a51273be8c064d8604258b66edceef6c96464.br",
+          "size": 21465,
+          "sha256": "e8a03eacc88456d177c492c56a4367f218ed39744f9a4fe2ec9d798873b369e1"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c811e0ae269e17cb02376a79c05a51273be8c064d8604258b66edceef6c96464.gzip",
+          "size": 21947,
+          "sha256": "fce1dbeaf639f17710c78a409bb0adbcf5078d12c2035906aee0492c0dec1570"
+        }
+      }
+    },
+    "vendor/office/fonts/209": {
+      "sha256": "f19a0f71494a8d748fc97ef61e906f72a36ec619437bdcd580bbc48a8aee2f73",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/f19a0f71494a8d748fc97ef61e906f72a36ec619437bdcd580bbc48a8aee2f73.br",
+          "size": 27405,
+          "sha256": "d171f737485e73fe8fa918828edee9d4749a96ec94180c58222dc6e99f792d56"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/f19a0f71494a8d748fc97ef61e906f72a36ec619437bdcd580bbc48a8aee2f73.gzip",
+          "size": 29179,
+          "sha256": "e931d1c43d1448191cb6de677476ff5f510f3da2663b8fac85a46fe6248e3e9b"
+        }
+      }
+    },
+    "vendor/office/fonts/210": {
+      "sha256": "0c40cd5b09fda0d6a1540cf88e80d7b1ca0c2383870dbbb684d575e7f23f5b42",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/0c40cd5b09fda0d6a1540cf88e80d7b1ca0c2383870dbbb684d575e7f23f5b42.br",
+          "size": 9612,
+          "sha256": "06299135bcfc0e6dbdc6c1af530c2f007a40874bea7d1a8ccda03b190b701cb0"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/0c40cd5b09fda0d6a1540cf88e80d7b1ca0c2383870dbbb684d575e7f23f5b42.gzip",
+          "size": 9912,
+          "sha256": "6067af210d8424f3924239bde47f4b7cb28cdeff6850ac1996ace3bf24345fa3"
+        }
+      }
+    },
+    "vendor/office/fonts/211": {
+      "sha256": "74b7dbeabf78c92653c1e13f65ae757203b1ade5b356e6ab1d133cfcffb16682",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/74b7dbeabf78c92653c1e13f65ae757203b1ade5b356e6ab1d133cfcffb16682.br",
+          "size": 13625,
+          "sha256": "831387bfd79f36be6062e268660e7ea06deee2565e98c23185142985029bacb0"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/74b7dbeabf78c92653c1e13f65ae757203b1ade5b356e6ab1d133cfcffb16682.gzip",
+          "size": 13873,
+          "sha256": "8e8c1f57469c68547ad97040fa54e55e25ff6a9b7e1a7e5ddeaf9d62e4c9e345"
+        }
+      }
+    },
+    "vendor/office/fonts/212": {
+      "sha256": "5cbe258a81787f1f7e683e902b68baae166af0a8e56cdfecdf0493b706e6a724",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/5cbe258a81787f1f7e683e902b68baae166af0a8e56cdfecdf0493b706e6a724.br",
+          "size": 7945,
+          "sha256": "0de3109f5b36683cb4e97f9d23b1c6c75df04b1814c5981d28577410a27b5be4"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/5cbe258a81787f1f7e683e902b68baae166af0a8e56cdfecdf0493b706e6a724.gzip",
+          "size": 8025,
+          "sha256": "c4e81c9ece576e1652af240f1d08c4cfa77e38dcc67128c64267bc3cc95add43"
+        }
+      }
+    },
+    "vendor/office/fonts/213": {
+      "sha256": "3e1a2a28284b3cf87a138e0b63631ac04303c3a0dc69c415e175ac8ef57ba739",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/3e1a2a28284b3cf87a138e0b63631ac04303c3a0dc69c415e175ac8ef57ba739.br",
+          "size": 2742,
+          "sha256": "4230510c4d4d6d40c9175c1bf2342d9ab8746971808ef0eecaf8418eb68385e1"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/3e1a2a28284b3cf87a138e0b63631ac04303c3a0dc69c415e175ac8ef57ba739.gzip",
+          "size": 2788,
+          "sha256": "11d4496b20dfc9b215c559b2a1d017650074d80570d59e042995ee508cbc69bb"
+        }
+      }
+    },
+    "vendor/office/fonts/214": {
+      "sha256": "d0d74bcef1c8bc9a63a63488eb02385c4f5811e3bf67e38a4d071c3233e99885",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/d0d74bcef1c8bc9a63a63488eb02385c4f5811e3bf67e38a4d071c3233e99885.br",
+          "size": 50660,
+          "sha256": "6c8f5ea8b71144f9d942a332b9f6cabc5f2f7688ad026335948024338acf8f4f"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/d0d74bcef1c8bc9a63a63488eb02385c4f5811e3bf67e38a4d071c3233e99885.gzip",
+          "size": 56043,
+          "sha256": "f1a632154a623fa63a02c9c9813350daae47dead27f8ec68a9c9f661d9e9909e"
+        }
+      }
+    },
+    "vendor/office/fonts/215": {
+      "sha256": "70323dc9c51119e73ad725cac45a0d5206af9d6447335fa516119707aa12a834",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/70323dc9c51119e73ad725cac45a0d5206af9d6447335fa516119707aa12a834.br",
+          "size": 8656,
+          "sha256": "d167fe35cc4271bedd5bb1f6623d59f2dbaea053625e775041d9a0e89ca0da46"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/70323dc9c51119e73ad725cac45a0d5206af9d6447335fa516119707aa12a834.gzip",
+          "size": 8934,
+          "sha256": "ce503ba31fb48bac60938ecb50b4f75de7bb0eb8c7d3ce2d2b6932bfec72b158"
+        }
+      }
+    },
+    "vendor/office/fonts/216": {
+      "sha256": "5ef83daeffe1c0b56257847b8b532f85c69301f1bd8bb97faa1b35dc0ab07587",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/5ef83daeffe1c0b56257847b8b532f85c69301f1bd8bb97faa1b35dc0ab07587.br",
+          "size": 10703,
+          "sha256": "c2692b4cda6c27065d8deddfc19aa6face49d44e500036bb26fee8366d8fdf88"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/5ef83daeffe1c0b56257847b8b532f85c69301f1bd8bb97faa1b35dc0ab07587.gzip",
+          "size": 11172,
+          "sha256": "50a4a4e77d1da8de9157417cee1d855fbc6cf65f57714a14bce9cf7a44d5579f"
+        }
+      }
+    },
+    "vendor/office/fonts/217": {
+      "sha256": "2b6ef875cdde44436a0b90ae8c06767f135392b4076db7ac06a2c48cabf07470",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/2b6ef875cdde44436a0b90ae8c06767f135392b4076db7ac06a2c48cabf07470.br",
+          "size": 9601,
+          "sha256": "7567ca44b52965169351ff5680609a6523cf24daef30773738ccbfd1c17bf973"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/2b6ef875cdde44436a0b90ae8c06767f135392b4076db7ac06a2c48cabf07470.gzip",
+          "size": 9897,
+          "sha256": "f3093efd4020eeee966d69b27df39d7a3950112bc89649b76a7b8654c3e8940b"
+        }
+      }
+    },
+    "vendor/office/fonts/218": {
+      "sha256": "39191ec6608ab1741c7393034912e178fb7ac51b4ecf05fd43a88f426f0fd6f9",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/39191ec6608ab1741c7393034912e178fb7ac51b4ecf05fd43a88f426f0fd6f9.br",
+          "size": 4051,
+          "sha256": "2ef4e3f85d2154b75cf13cc4558a4ed8e3d74420e87cb301d5f9ea356b55b6d6"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/39191ec6608ab1741c7393034912e178fb7ac51b4ecf05fd43a88f426f0fd6f9.gzip",
+          "size": 4095,
+          "sha256": "aaaacef7adf9d60b2ebbd46b14aff8407176bc1234b44da8f920b250f1faafb5"
+        }
+      }
+    },
+    "vendor/office/fonts/219": {
+      "sha256": "74830378d5c4fdf6833547676440564151c9c444d8648fdc601ddc0b7abf7409",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/74830378d5c4fdf6833547676440564151c9c444d8648fdc601ddc0b7abf7409.br",
+          "size": 4116,
+          "sha256": "187033fb5bd0d77d3f21095fa34015a988a06cccabefbaef6d3f14d35e0800bf"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/74830378d5c4fdf6833547676440564151c9c444d8648fdc601ddc0b7abf7409.gzip",
+          "size": 4211,
+          "sha256": "006cefd2cf80a81d489c10fc24d2bb41974a98e9ac3eed27b0433eeeaa13cf72"
+        }
+      }
+    },
+    "vendor/office/fonts/220": {
+      "sha256": "abe67d1580d3197c7033df2734d95a55587378707f3668c1c2b2c4e9042ac400",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/abe67d1580d3197c7033df2734d95a55587378707f3668c1c2b2c4e9042ac400.br",
+          "size": 3668,
+          "sha256": "375563fa352be61ea8b89c9aa477af96c29d225abb9a0348ee2dd120f15a22bd"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/abe67d1580d3197c7033df2734d95a55587378707f3668c1c2b2c4e9042ac400.gzip",
+          "size": 3684,
+          "sha256": "dadcd0257fba65b9134dab357f986f2ed78bb19aad84242386206f3880135dfd"
+        }
+      }
+    },
+    "vendor/office/fonts/221": {
+      "sha256": "63de89e1c48c3a4a3731d016de07c54163f92a53fd98e201d53030f37a7d4e10",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/63de89e1c48c3a4a3731d016de07c54163f92a53fd98e201d53030f37a7d4e10.br",
+          "size": 3708,
+          "sha256": "c4b33364f55ebe14c37d82db4865d510b875985bf7b804bd361edbd3f94c19cb"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/63de89e1c48c3a4a3731d016de07c54163f92a53fd98e201d53030f37a7d4e10.gzip",
+          "size": 3729,
+          "sha256": "ead41d199d70b6758ce2e5ac3d4c9a7a8914993c1d090465960d517d39d4fea8"
+        }
+      }
+    },
+    "vendor/office/fonts/222": {
+      "sha256": "f2a6834081579a32fd0e67487ea1148b82268c0d320fb7822a90a651a64b1468",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/f2a6834081579a32fd0e67487ea1148b82268c0d320fb7822a90a651a64b1468.br",
+          "size": 6716,
+          "sha256": "e1266306bbbc924308ecb93a5c7dd567d8a67bcca6b10d566b28dd97f6e596a0"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/f2a6834081579a32fd0e67487ea1148b82268c0d320fb7822a90a651a64b1468.gzip",
+          "size": 6774,
+          "sha256": "22dfb83247a7e263643115e8628e82846b3cb0b7b7b03680e4ed0374d2d09574"
+        }
+      }
+    },
+    "vendor/office/fonts/223": {
+      "sha256": "3b1e61fc5829eb558da1d430a0258f35ea19ac3edd934f65f3cbebde4ceffbfa",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/3b1e61fc5829eb558da1d430a0258f35ea19ac3edd934f65f3cbebde4ceffbfa.br",
+          "size": 27293,
+          "sha256": "a3f3982be3cdbe67af7f29791ea002c7d71926192c761f1555ee2fe23e399d7b"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/3b1e61fc5829eb558da1d430a0258f35ea19ac3edd934f65f3cbebde4ceffbfa.gzip",
+          "size": 28452,
+          "sha256": "a875c90b05e752a37ef80d7576fe58a0e0a084eaf1f3ee682c742765c316313a"
+        }
+      }
+    },
+    "vendor/office/fonts/224": {
+      "sha256": "97c0676e0d6e725aeec72b909b586cb60e6215545c81caed354de744171ccb75",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/97c0676e0d6e725aeec72b909b586cb60e6215545c81caed354de744171ccb75.br",
+          "size": 34754,
+          "sha256": "d6aaf9477f66456c68e7924e0324468149e1692bbdda4505180c36d7e99ee162"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/97c0676e0d6e725aeec72b909b586cb60e6215545c81caed354de744171ccb75.gzip",
+          "size": 36579,
+          "sha256": "04867ca6169dac6567fc3cc9510964e211c60ef893caeb7a73ea26098f5c9910"
+        }
+      }
+    },
+    "vendor/office/fonts/225": {
+      "sha256": "2f9ae65372af4af5c96763be75c55fadd0e588c933713ef92f8aa0b8611cee04",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/2f9ae65372af4af5c96763be75c55fadd0e588c933713ef92f8aa0b8611cee04.br",
+          "size": 70578,
+          "sha256": "cd7dce1e55799dd0b6d41aae835deadf9905427c20f06d4adf95587c2e9373a6"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/2f9ae65372af4af5c96763be75c55fadd0e588c933713ef92f8aa0b8611cee04.gzip",
+          "size": 76713,
+          "sha256": "571141bdb0c5645a2eb388472b9d1843c147cdb667895440a1fea7e0b0677588"
+        }
+      }
+    },
+    "vendor/office/fonts/226": {
+      "sha256": "2550a7822ada90c46ae2ad9918708cf9a5e96b8fbf5e0fddebe68158a7cee3ba",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/2550a7822ada90c46ae2ad9918708cf9a5e96b8fbf5e0fddebe68158a7cee3ba.br",
+          "size": 99743,
+          "sha256": "1fa1695ad951a037181507c425845f6c080cd36487d99d614c9c6b6728135e9c"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/2550a7822ada90c46ae2ad9918708cf9a5e96b8fbf5e0fddebe68158a7cee3ba.gzip",
+          "size": 127529,
+          "sha256": "c39ffc9400954406ba812b726fcb30798c15b1feed5f00bf0ae1d294782e40d6"
+        }
+      }
+    },
+    "vendor/office/fonts/227": {
+      "sha256": "75dd60f69d18a74098b70054dbc78077c9ecb6de1e27699e3c09a69fbceb40bc",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/75dd60f69d18a74098b70054dbc78077c9ecb6de1e27699e3c09a69fbceb40bc.br",
+          "size": 3913614,
+          "sha256": "58eff96e1c226e8912bf2c480d900ea6b95f5fac0927122d396f89ae990dce26"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/75dd60f69d18a74098b70054dbc78077c9ecb6de1e27699e3c09a69fbceb40bc.gzip",
+          "size": 4017054,
+          "sha256": "f7b96ee9c07b8bc21bd89a7a26ac704d1b4ceef3dcd0b876bfb69b91bd9683a5"
+        }
+      }
+    },
+    "vendor/office/fonts/228": {
+      "sha256": "d2d873004870d06a4ae424760123101759d8dd120950f60b9fbb9e2f5e9cc625",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/d2d873004870d06a4ae424760123101759d8dd120950f60b9fbb9e2f5e9cc625.br",
+          "size": 3887977,
+          "sha256": "460ca84dd825ec77bf9bc5d7efde446a4176d6b6f43eaf3ec068020a97d17049"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/d2d873004870d06a4ae424760123101759d8dd120950f60b9fbb9e2f5e9cc625.gzip",
+          "size": 3973223,
+          "sha256": "8baef47608ace1e302d279439f85684f1aec8fb552e5d0d3d7873011ea3f3766"
+        }
+      }
+    },
+    "vendor/office/fonts/229": {
+      "sha256": "156e5ceef929c64a11d16ef7b67ae2a3c0f7e517866274159006733f41285d96",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/156e5ceef929c64a11d16ef7b67ae2a3c0f7e517866274159006733f41285d96.br",
+          "size": 3613930,
+          "sha256": "79d938fbbd9bebdd4f454ccd35abed94aad367688016da49a598d9226e4dec8f"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/156e5ceef929c64a11d16ef7b67ae2a3c0f7e517866274159006733f41285d96.gzip",
+          "size": 3735221,
+          "sha256": "7b6e6b2bf2bc37ad88b27f7f1157d4f277431fb4392845ddc40ebc5ff2c7b018"
+        }
+      }
+    },
+    "vendor/office/fonts/230": {
+      "sha256": "780803d4955eb72ebd9ed28e339b516d5c0288475edcb276cee34eb37dddac61",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/780803d4955eb72ebd9ed28e339b516d5c0288475edcb276cee34eb37dddac61.br",
+          "size": 3805843,
+          "sha256": "dfeec93280ed004495e9c6538a40cb2cc56e88ac23f1b58d1d8ab65d1ad1c5fe"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/780803d4955eb72ebd9ed28e339b516d5c0288475edcb276cee34eb37dddac61.gzip",
+          "size": 3889507,
+          "sha256": "48cfcd57be4d77f2ad77f1c14c38f6c2789bdc960f6158b5b858fa0f0f486d31"
+        }
+      }
+    },
+    "vendor/office/fonts/231": {
+      "sha256": "e77f99283a59fe095973d338a8f6e73af95a59300b9527c850f8db543b86d3f6",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/e77f99283a59fe095973d338a8f6e73af95a59300b9527c850f8db543b86d3f6.br",
+          "size": 3739920,
+          "sha256": "aa8c5e1dda0a0c5e186442a09fbd647876944a7c5465f5c0843fa9c325338268"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/e77f99283a59fe095973d338a8f6e73af95a59300b9527c850f8db543b86d3f6.gzip",
+          "size": 3839576,
+          "sha256": "b75aa45aea8dc1fa34a5365568fce7badb1491543b72febab34047277fc31908"
+        }
+      }
+    },
+    "vendor/office/fonts/232": {
+      "sha256": "a6e6c47fc335308d556ee4c65a31c4b0e34b8913695c4cb03e4e89c1c6a4f253",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/a6e6c47fc335308d556ee4c65a31c4b0e34b8913695c4cb03e4e89c1c6a4f253.br",
+          "size": 3256616,
+          "sha256": "7636b4139c2409e471de39d72ed44994420b0121e6acc4e531b9a1c8e18632a5"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/a6e6c47fc335308d556ee4c65a31c4b0e34b8913695c4cb03e4e89c1c6a4f253.gzip",
+          "size": 3397034,
+          "sha256": "8e7dc55aaeeb476144960f735b9a95cb4aeb34005d97bf6309eeb174c676e271"
+        }
+      }
+    },
+    "vendor/office/fonts/233": {
+      "sha256": "8a6011e92ec9ba3375c4d4e8552706c9d3dd2aa93a5d227c811688c12878b2a1",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/8a6011e92ec9ba3375c4d4e8552706c9d3dd2aa93a5d227c811688c12878b2a1.br",
+          "size": 93508,
+          "sha256": "793ee5d917929d58d3541943e6b3793f6abbb2c7e41042e4d70383bbbe5bf70d"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/8a6011e92ec9ba3375c4d4e8552706c9d3dd2aa93a5d227c811688c12878b2a1.gzip",
+          "size": 123576,
+          "sha256": "98763de6fad3311c5f9d88a45303c455a900d1acb690c60458d93d526e31c7cc"
+        }
+      }
+    },
+    "vendor/office/fonts/234": {
+      "sha256": "c060af2d74bbcbf80b52d8fd08a7d8dc1d40f3d6817dd787a7b7b7445219fdc7",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c060af2d74bbcbf80b52d8fd08a7d8dc1d40f3d6817dd787a7b7b7445219fdc7.br",
+          "size": 84612,
+          "sha256": "a98c46a072888984edec0fefa68e62af982ac67350a2a6f32a5069af620172ef"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c060af2d74bbcbf80b52d8fd08a7d8dc1d40f3d6817dd787a7b7b7445219fdc7.gzip",
+          "size": 120037,
+          "sha256": "54142c88650b7dbe447b95db887c8433bb5de8aaf103504177528b3c5b3a8076"
+        }
+      }
+    },
+    "vendor/office/fonts/235": {
+      "sha256": "57220143d2911dc4a8940c4ff4280fcd1994e41b68f4350f53d2274476dba857",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/57220143d2911dc4a8940c4ff4280fcd1994e41b68f4350f53d2274476dba857.br",
+          "size": 84572,
+          "sha256": "11108957218424c60a7d7bc291b6c926be1bf46ae7f7148dd7928dd3e101400f"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/57220143d2911dc4a8940c4ff4280fcd1994e41b68f4350f53d2274476dba857.gzip",
+          "size": 119575,
+          "sha256": "89616987bfa9888bab025b7123fe882a700cc518afc0ff8a0ec97badfd0684cc"
+        }
+      }
+    },
+    "vendor/office/fonts/236": {
+      "sha256": "669846482e58d8977946e86ca7c51e3535b9c875fb23e4f61520b439e90db070",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/669846482e58d8977946e86ca7c51e3535b9c875fb23e4f61520b439e90db070.br",
+          "size": 83722,
+          "sha256": "ace2229fc23b7ef8cfb938da51c6f2a5d271c65eab779ff357cb256e82ab06e1"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/669846482e58d8977946e86ca7c51e3535b9c875fb23e4f61520b439e90db070.gzip",
+          "size": 118904,
+          "sha256": "b97e002125191ff6a61106949473258e95edb86f0e5f4266c0e9c954e5f612b1"
+        }
+      }
+    },
+    "vendor/office/fonts/237": {
+      "sha256": "6aa396c033036309e19c92c3f99d252f5d5fd806d18cdc8104690467423ed99f",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/6aa396c033036309e19c92c3f99d252f5d5fd806d18cdc8104690467423ed99f.br",
+          "size": 82161,
+          "sha256": "1453416fb5a59adaeaeccedeaa549e9cdd7bf6604af35571605b88a318d0d8dc"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/6aa396c033036309e19c92c3f99d252f5d5fd806d18cdc8104690467423ed99f.gzip",
+          "size": 116574,
+          "sha256": "b1c4dd18f83ee4dfed6f98475bff6c08c4f99c57e8f0d1954b8e86a19ae14179"
+        }
+      }
+    },
+    "vendor/office/fonts/238": {
+      "sha256": "ca315889e0ace541206ee97a4d9a45854dec5a7fef7b44da489234659f7c7780",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/ca315889e0ace541206ee97a4d9a45854dec5a7fef7b44da489234659f7c7780.br",
+          "size": 84331,
+          "sha256": "5695995f5e9e12e7ece5b8941eb141e8dbdc3acc2ef5c799e0f1dcb92d06638e"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/ca315889e0ace541206ee97a4d9a45854dec5a7fef7b44da489234659f7c7780.gzip",
+          "size": 119556,
+          "sha256": "a79252bac1d52a4729c279b367096e11c8946b88f4913efe93385cb545f044f8"
+        }
+      }
+    },
+    "vendor/office/fonts/239": {
+      "sha256": "45a0d02d15658fc52720cd4e29d4ada8bdc6b2c98887c6973e3f8acff70126be",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/45a0d02d15658fc52720cd4e29d4ada8bdc6b2c98887c6973e3f8acff70126be.br",
+          "size": 110944,
+          "sha256": "e40b4d0807b6350e868b2d9a72f0d6a8136ba66d5f25b96dff3a00b931f76bf0"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/45a0d02d15658fc52720cd4e29d4ada8bdc6b2c98887c6973e3f8acff70126be.gzip",
+          "size": 135768,
+          "sha256": "35f9a023bcaf80a498746c71dc6826cb5737bb88c8edf01d8f70c272095549ea"
+        }
+      }
+    },
+    "vendor/office/fonts/240": {
+      "sha256": "8a06457d8d1aa982b08eba2c790b9fc6c6bf381a8846ecacca60621c5aef782d",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/8a06457d8d1aa982b08eba2c790b9fc6c6bf381a8846ecacca60621c5aef782d.br",
+          "size": 115646,
+          "sha256": "17838258575c63edf8f9d17e8acd4d27eb302df883615749c17d2d706bc46846"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/8a06457d8d1aa982b08eba2c790b9fc6c6bf381a8846ecacca60621c5aef782d.gzip",
+          "size": 147212,
+          "sha256": "1b3f59116e355940894988519985ff71cfeaf0c243262affea14430eacca1567"
+        }
+      }
+    },
+    "vendor/office/fonts/241": {
+      "sha256": "4858d865d5d141a117e344197ce0cf532098b9d5523465b9be6df5e0b7ca7d9f",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/4858d865d5d141a117e344197ce0cf532098b9d5523465b9be6df5e0b7ca7d9f.br",
+          "size": 108609,
+          "sha256": "3aad30b38626ed939927b3282f823ffe600fcc9cdd2813e92135e9fe5127ec3a"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/4858d865d5d141a117e344197ce0cf532098b9d5523465b9be6df5e0b7ca7d9f.gzip",
+          "size": 133780,
+          "sha256": "f00c4fd7e37e9b2707748dea9010f102a559122d9f32ce2b22ae19ac42994b61"
+        }
+      }
+    },
+    "vendor/office/fonts/242": {
+      "sha256": "8d78a3d9340fe1b2640edcc7e468173215728bff82d60bf2a3f00315005387e8",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/8d78a3d9340fe1b2640edcc7e468173215728bff82d60bf2a3f00315005387e8.br",
+          "size": 108586,
+          "sha256": "9f06e9a8fed6d4117082ee84d72ef52e43e6195b216de11beaac481288044db3"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/8d78a3d9340fe1b2640edcc7e468173215728bff82d60bf2a3f00315005387e8.gzip",
+          "size": 143387,
+          "sha256": "5378b5ae313b40bd6a39cdc14523caf5615123aa5cabc32cd8a1f1c016dae494"
+        }
+      }
+    },
+    "vendor/office/fonts/243": {
+      "sha256": "1ea74e87ad3131fbfcb7d6b88c86c435789c95014d9f52ef899447bb54ce86f5",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/1ea74e87ad3131fbfcb7d6b88c86c435789c95014d9f52ef899447bb54ce86f5.br",
+          "size": 43357,
+          "sha256": "26be38f27e576efb36073ef3927d09c372e7e7c4e4d52addf0da8dba81ce3fa6"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/1ea74e87ad3131fbfcb7d6b88c86c435789c95014d9f52ef899447bb54ce86f5.gzip",
+          "size": 48617,
+          "sha256": "60a532da451f71480e4956af8d7858a64512263f57fbb358edaf306b7dc1639a"
+        }
+      }
+    },
+    "vendor/office/fonts/244": {
+      "sha256": "39eb70f87edffbe664781b244501d09898b8c613f37b5392b254e8622317ff79",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/39eb70f87edffbe664781b244501d09898b8c613f37b5392b254e8622317ff79.br",
+          "size": 25265,
+          "sha256": "70338f97df3d1fef55851475d20348aad982b5cfea5445797253d432667a8347"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/39eb70f87edffbe664781b244501d09898b8c613f37b5392b254e8622317ff79.gzip",
+          "size": 25919,
+          "sha256": "61835754b5f4a40e8a7ab16a9b39493380661668e797764240d27b89a6843c17"
+        }
+      }
+    },
+    "vendor/office/fonts/245": {
+      "sha256": "f719996003276b721c0c450514d848fe2b75432963680d9aa8cb7299a3b7a237",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/f719996003276b721c0c450514d848fe2b75432963680d9aa8cb7299a3b7a237.br",
+          "size": 21190,
+          "sha256": "4bd395707d919cb5caa120cf135254b420905c6b1d4de89a28f00b7a07fb2bfe"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/f719996003276b721c0c450514d848fe2b75432963680d9aa8cb7299a3b7a237.gzip",
+          "size": 21667,
+          "sha256": "faa7d8b714a67f8b14c9c4405efe77c0669ec7c31c162c9f2184c632d01b18cc"
+        }
+      }
+    },
+    "vendor/office/fonts/246": {
+      "sha256": "ad4d85b5098cae0125bb8facc8b63704037694b51c1c4ea770969dfb6fff4000",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/ad4d85b5098cae0125bb8facc8b63704037694b51c1c4ea770969dfb6fff4000.br",
+          "size": 54753,
+          "sha256": "dd2d53d593993143441d60aee83cedf220ca3a1c0cb2661a13aa336859dbea89"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/ad4d85b5098cae0125bb8facc8b63704037694b51c1c4ea770969dfb6fff4000.gzip",
+          "size": 62165,
+          "sha256": "3154a870553df1f178a9a5c3eb7d2130b82309f68e88ee5a73abc647a4df9fd6"
+        }
+      }
+    },
+    "vendor/office/fonts/247": {
+      "sha256": "40d57b02594c6dc561d94e01cdbcbffa46e053c87b31aff07b952c3271a1872a",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/40d57b02594c6dc561d94e01cdbcbffa46e053c87b31aff07b952c3271a1872a.br",
+          "size": 3780170,
+          "sha256": "bd27fdd5cc19af9707477a11235e64071e54612126e22578736bc85e2ee1a1b5"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/40d57b02594c6dc561d94e01cdbcbffa46e053c87b31aff07b952c3271a1872a.gzip",
+          "size": 4104807,
+          "sha256": "c7fff9c090b19b3d6dbe24c333a138863c6e0dc174be6609642beb288e75560a"
+        }
+      }
+    },
+    "vendor/office/fonts/248": {
+      "sha256": "8b37bb7a5a530dd9d156c997c1f3637b171435d26177b171048deaa26d7e02ac",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/8b37bb7a5a530dd9d156c997c1f3637b171435d26177b171048deaa26d7e02ac.br",
+          "size": 3871092,
+          "sha256": "e9bb2de32416424726cc07f28cb3cd94e0cbfb9099686e32e124585e88b53e23"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/8b37bb7a5a530dd9d156c997c1f3637b171435d26177b171048deaa26d7e02ac.gzip",
+          "size": 4277447,
+          "sha256": "3323f453662b4b268abe2f3751f90779abaf84478802cecfb72d328ccb1f39da"
+        }
+      }
+    },
+    "vendor/office/fonts/249": {
+      "sha256": "26d2ece8c7eb89cdcc94a2427fd6e1377aed0b5551b5b6b3191c6248c0cfe0a1",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/26d2ece8c7eb89cdcc94a2427fd6e1377aed0b5551b5b6b3191c6248c0cfe0a1.br",
+          "size": 3870359,
+          "sha256": "c02487acabba79367631c21686afe9987d73090728672c8175aabeb18194e974"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/26d2ece8c7eb89cdcc94a2427fd6e1377aed0b5551b5b6b3191c6248c0cfe0a1.gzip",
+          "size": 4278447,
+          "sha256": "2cd9ff884a630491876057cc7a7a453dee194e9e95a39057b31b1228cfe98a12"
+        }
+      }
+    },
+    "vendor/office/fonts/250": {
+      "sha256": "5c465121b2aa57958961d6c0f17b45f43685776dcaff9cd7a875d14dc858503a",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/5c465121b2aa57958961d6c0f17b45f43685776dcaff9cd7a875d14dc858503a.br",
+          "size": 1021642,
+          "sha256": "437e3f740106bac1e91b354b780b35ea715cac97a3bb5570c29c04cad046d283"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/5c465121b2aa57958961d6c0f17b45f43685776dcaff9cd7a875d14dc858503a.gzip",
+          "size": 1642344,
+          "sha256": "b21e30d5b8558c68e28285744105c4635d354591d44964fdd2a3935e1c14cbdb"
+        }
+      }
+    },
+    "vendor/office/fonts/251": {
+      "sha256": "92995987f36b8ba3135991021be9a90f80fd2d1fcf93a954c75af5552408630a",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/92995987f36b8ba3135991021be9a90f80fd2d1fcf93a954c75af5552408630a.br",
+          "size": 98840,
+          "sha256": "b3643fa75ddc47796898c250d364fd211be0b7c5f6b6afc935878f7eb3e39fb4"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/92995987f36b8ba3135991021be9a90f80fd2d1fcf93a954c75af5552408630a.gzip",
+          "size": 108082,
+          "sha256": "d1023eff21feaa4dfccdeb41f34ad7adfc43e963236ddab504d38f7c7b4bbcb0"
+        }
+      }
+    },
+    "vendor/office/fonts/252": {
+      "sha256": "0ed56fcc26e3d5bb66031e2774a6153a0aaf71e0b465804b995b3c4d559e6dae",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/0ed56fcc26e3d5bb66031e2774a6153a0aaf71e0b465804b995b3c4d559e6dae.br",
+          "size": 98922,
+          "sha256": "2efb868f56c26f75bd3cd74665dd59d3cd22d5396f3c3ec0edc46c63330e8180"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/0ed56fcc26e3d5bb66031e2774a6153a0aaf71e0b465804b995b3c4d559e6dae.gzip",
+          "size": 108110,
+          "sha256": "34344a1459090763efbc05802834d33db605f63ddfb330a1ab28f2070e3b3261"
+        }
+      }
+    },
+    "vendor/office/fonts/253": {
+      "sha256": "130cd48de4473db342a149d18989192380e883ac0788e22e36f50eeed4aadf98",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/130cd48de4473db342a149d18989192380e883ac0788e22e36f50eeed4aadf98.br",
+          "size": 145139,
+          "sha256": "8cda2d45482b94d809a18287ee661382529c96907c2bf2c7a54446c68e59920e"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/130cd48de4473db342a149d18989192380e883ac0788e22e36f50eeed4aadf98.gzip",
+          "size": 162959,
+          "sha256": "df0ee7479c2b182ede8e78ade55acd1ff7410a37d4da869d9c0fdcdba3e81cfd"
+        }
+      }
+    },
+    "vendor/office/fonts/254": {
+      "sha256": "44141b07b6973d1bc4104604c2773f928810949f2be9003c011233fb7c959b1f",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/44141b07b6973d1bc4104604c2773f928810949f2be9003c011233fb7c959b1f.br",
+          "size": 158122,
+          "sha256": "0641cab819a0cd08ff7331cdca03067598c5affb1d1582c1fd5e80d4103f8042"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/44141b07b6973d1bc4104604c2773f928810949f2be9003c011233fb7c959b1f.gzip",
+          "size": 178950,
+          "sha256": "1d9bb96078197248a5a460e62229a79b479986256a272aee9dbcc3d6f390a303"
+        }
+      }
+    },
+    "vendor/office/fonts/255": {
+      "sha256": "301a781993fc6b4e12c12f0af5454005ce156fc91245c3aaac55f24863754340",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/301a781993fc6b4e12c12f0af5454005ce156fc91245c3aaac55f24863754340.br",
+          "size": 148607,
+          "sha256": "cbec643e341f1770c4b3e0fd4e3156d4c07b8738d006d4e278d7433b03cf5575"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/301a781993fc6b4e12c12f0af5454005ce156fc91245c3aaac55f24863754340.gzip",
+          "size": 171103,
+          "sha256": "64d23dfb2abeaf4a42b847991ad6e0ab2c1212024bb204dc6549c37cf0abea98"
+        }
+      }
+    },
+    "vendor/office/fonts/256": {
+      "sha256": "c7edc42094aee1bb17609ae7d940889f6e8772202326ba1995ff5bb160da9de0",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/c7edc42094aee1bb17609ae7d940889f6e8772202326ba1995ff5bb160da9de0.br",
+          "size": 176444,
+          "sha256": "833095e8e1ec447ae11b768ebcf365930f2a44b6be0e1426f694f9c902d599ab"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/c7edc42094aee1bb17609ae7d940889f6e8772202326ba1995ff5bb160da9de0.gzip",
+          "size": 199554,
+          "sha256": "bf0a75205351d3a6d1322d05c0ff1b7d815e49cc1291d933d4ea3a6d6b6a6ed3"
+        }
+      }
+    },
+    "vendor/office/fonts/257": {
+      "sha256": "d8df4f1b5758f11a77c0d0fa7f9f3f68f8e6fbf14035f3eedfb91ad6a072f2a4",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/d8df4f1b5758f11a77c0d0fa7f9f3f68f8e6fbf14035f3eedfb91ad6a072f2a4.br",
+          "size": 177109,
+          "sha256": "19db775a937e7122172c2fffb52424913e3184fcccf53f94ab301f04515f0191"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/d8df4f1b5758f11a77c0d0fa7f9f3f68f8e6fbf14035f3eedfb91ad6a072f2a4.gzip",
+          "size": 199700,
+          "sha256": "ef6a257e5d749a86900b021917d4519d093362181eae1621bd8b6d14f08a5cab"
+        }
+      }
+    },
+    "vendor/office/fonts/258": {
+      "sha256": "468d386e854850fc1e264648a9e7e1bfc5063c7ec875e1be9266c8d4cf63f955",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/468d386e854850fc1e264648a9e7e1bfc5063c7ec875e1be9266c8d4cf63f955.br",
+          "size": 148139,
+          "sha256": "e192becda24de451aa2105c4cfaec173044e6caa1c153fc8a7e9c233d6bf9758"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/468d386e854850fc1e264648a9e7e1bfc5063c7ec875e1be9266c8d4cf63f955.gzip",
+          "size": 166830,
+          "sha256": "13285de62766d77ac3f3d189586ef2fbb6730da70207ddd01d7efba3dd03ac5b"
+        }
+      }
+    },
+    "vendor/office/fonts/259": {
+      "sha256": "ac498e8ee16b02a3ad14d93bb5ecee24a8d49bc5003463c3579c6825edccde96",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/ac498e8ee16b02a3ad14d93bb5ecee24a8d49bc5003463c3579c6825edccde96.br",
+          "size": 163330,
+          "sha256": "6498de8fbb5d53404bafc93f21da23bc3f94f93fd591f33eec15d6834e6ff08e"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/ac498e8ee16b02a3ad14d93bb5ecee24a8d49bc5003463c3579c6825edccde96.gzip",
+          "size": 183345,
+          "sha256": "78148a5a499c82ab26bc4fd051e368cda5d71c0f12633ac6c960e277c87e818a"
+        }
+      }
+    },
+    "vendor/office/fonts/260": {
+      "sha256": "5f5e4e0894ae64dc326feb0c8c4b2917f5de3df77399c20ac83ab61a43fcb897",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/5f5e4e0894ae64dc326feb0c8c4b2917f5de3df77399c20ac83ab61a43fcb897.br",
+          "size": 155545,
+          "sha256": "375272d2fe73691fdfd89eb6da76ca39819c8789c0957c40bf99278302c0069a"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/5f5e4e0894ae64dc326feb0c8c4b2917f5de3df77399c20ac83ab61a43fcb897.gzip",
+          "size": 175815,
+          "sha256": "2cb3b4ee33718e0b8bdfffd78f982a98462a7f44b079b39104a9c4242920ff3a"
+        }
+      }
+    },
+    "vendor/office/fonts/261": {
+      "sha256": "157f332096a3e0ed69dd0f912a9247a2ab44da360baffc1944322cc0f770895b",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/157f332096a3e0ed69dd0f912a9247a2ab44da360baffc1944322cc0f770895b.br",
+          "size": 169704,
+          "sha256": "ae917fc5eaf4c993209941838b3ff9e0910be05c7d4761eace7d0dd826df1c5b"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/157f332096a3e0ed69dd0f912a9247a2ab44da360baffc1944322cc0f770895b.gzip",
+          "size": 191813,
+          "sha256": "1605c7c9a5460fe85b47040045f810c96b1664a0d43d301d0e5aac54c643d6b6"
+        }
+      }
+    },
+    "vendor/office/fonts/262": {
+      "sha256": "7467252b1602df462a2542945b7606ffc9b97a45e25dcb844b14f60ebb2bfa00",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/7467252b1602df462a2542945b7606ffc9b97a45e25dcb844b14f60ebb2bfa00.br",
+          "size": 100257,
+          "sha256": "ba58c6cbe805450aeb4b4f23443b7776f67d16f3fabc686ddd2baccdf829461b"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/7467252b1602df462a2542945b7606ffc9b97a45e25dcb844b14f60ebb2bfa00.gzip",
+          "size": 109421,
+          "sha256": "85360d656acb9747338affd411c78e605bcadcf8d72c093956a69c5816ff6fb0"
+        }
+      }
+    },
+    "vendor/office/fonts/263": {
+      "sha256": "5b12c9099e5f64116a807eaa0bb3aec8fecc849c05acdb32e986dcca194b8ff3",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/5b12c9099e5f64116a807eaa0bb3aec8fecc849c05acdb32e986dcca194b8ff3.br",
+          "size": 119793,
+          "sha256": "bdcfd48a2752837f1848a99c4bda59a005a2392baf6f56601762c1a8b7cc55be"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/5b12c9099e5f64116a807eaa0bb3aec8fecc849c05acdb32e986dcca194b8ff3.gzip",
+          "size": 128858,
+          "sha256": "6ad8135f5a10a622abbf3655b7ecc8a8fe93fe7afa21175a4e01e91aad0d57db"
+        }
+      }
+    },
+    "vendor/office/fonts/264": {
+      "sha256": "854316bb41f5d3ac71e5592408634ff29c28af3e08f2ba5ac7a282eb6593f09b",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/854316bb41f5d3ac71e5592408634ff29c28af3e08f2ba5ac7a282eb6593f09b.br",
+          "size": 102541,
+          "sha256": "f10a3d94aef52dc479889e18fa5f55387b7084920e7fdd2101d45044d28b2df5"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/854316bb41f5d3ac71e5592408634ff29c28af3e08f2ba5ac7a282eb6593f09b.gzip",
+          "size": 113494,
+          "sha256": "54888526020cd8bea5d33048cd60be116acddcc53ef8d6bc8d14f4a995852c1f"
+        }
+      }
+    },
+    "vendor/office/fonts/265": {
+      "sha256": "0c5a229f69a7e2776bc997060bc0e4d61da3a27bdac45d63674a3e268aceef2d",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/0c5a229f69a7e2776bc997060bc0e4d61da3a27bdac45d63674a3e268aceef2d.br",
+          "size": 105831,
+          "sha256": "37f21ec33c5f98679ede20497a40b4faaaaf85911d253dc05d8370b9dc657177"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/0c5a229f69a7e2776bc997060bc0e4d61da3a27bdac45d63674a3e268aceef2d.gzip",
+          "size": 116067,
+          "sha256": "1548a002d9b4b08e676c53befb9358776787629243dc4785c90e79eb3b857fda"
+        }
+      }
+    },
+    "vendor/office/fonts/266": {
+      "sha256": "81e1ed1dd0c83d6c2b7debecd4af482057f0d7eb376471a2d5ed8c54be287f73",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/81e1ed1dd0c83d6c2b7debecd4af482057f0d7eb376471a2d5ed8c54be287f73.br",
+          "size": 8392056,
+          "sha256": "f23d29334973a3f1dead80d1b1ac50b24368a7ea79f634738c2e5ab84d1a87bd"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/81e1ed1dd0c83d6c2b7debecd4af482057f0d7eb376471a2d5ed8c54be287f73.gzip",
+          "size": 9285356,
+          "sha256": "ee0349684aaf81f344710f73059e1569560344f55be714a63cf9f695d19fbbbc"
+        }
+      }
+    },
+    "vendor/office/fonts/yahei-v5-bold": {
+      "sha256": "b4d0e2b41e920f0311280cc18cada7b90aeb8c8a88d2af6cd6d2d20725d9a0fa",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/b4d0e2b41e920f0311280cc18cada7b90aeb8c8a88d2af6cd6d2d20725d9a0fa.br",
+          "size": 8860648,
+          "sha256": "98664c073eaccdd9ab6380b1de439e02144d76e66eef25a3e1dd2bf994cf42d8"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/b4d0e2b41e920f0311280cc18cada7b90aeb8c8a88d2af6cd6d2d20725d9a0fa.gzip",
+          "size": 9505242,
+          "sha256": "dc6c6859db6b5bb5c64ef003134820702d6a5fdeede413d20540656f7aca3621"
+        }
+      }
+    },
+    "vendor/office/fonts/yahei-v5-regular": {
+      "sha256": "ad104283a40eb0d39b1d1e411e6cc7120c1d755e89e2b2e8cd5bd2a7545c3618",
+      "variants": {
+        "br": {
+          "path": "font-compressed/v1/ad104283a40eb0d39b1d1e411e6cc7120c1d755e89e2b2e8cd5bd2a7545c3618.br",
+          "size": 8575421,
+          "sha256": "ca07b0927cb602b5ece474eb83e6c6eb6d58a5e176360959c991e199d6512fcc"
+        },
+        "gzip": {
+          "path": "font-compressed/v1/ad104283a40eb0d39b1d1e411e6cc7120c1d755e89e2b2e8cd5bd2a7545c3618.gzip",
+          "size": 9234263,
+          "sha256": "4d008b988630b8a7b390b693dbae385f63e8379c6d1eaeb2dac55bd08995906d"
+        }
+      }
+    }
+  }
+}

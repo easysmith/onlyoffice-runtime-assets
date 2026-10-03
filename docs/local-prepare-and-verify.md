@@ -41,6 +41,18 @@ node scripts/verify-office-assets.mjs --asset-root . --en-only
 node --test tests/chinese-fonts.test.mjs
 ```
 
+Generate and verify committed HTTP font variants after the original manifest is
+updated and before publishing:
+
+```sh
+node scripts/prepare-office-fonts.mjs --asset-root .
+node scripts/verify-office-fonts.mjs --asset-root .
+node --test tests/office-font-artifacts.test.mjs
+```
+
+See [Font compression](font-compression.md) for the artifact contract. Include
+`font-compressed/` in the same commit as its original font revision.
+
 ## 5) Commit and publish
 
 - Commit script and asset changes in this repository first.
