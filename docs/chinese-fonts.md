@@ -15,7 +15,12 @@ node --test tests/chinese-fonts.test.mjs
 
 - Maps 宋体/黑体/仿宋/楷体/新宋体/微软雅黑 to the existing SimSun/SimHei/
   FangSong/KaiTi/NSimSun/Microsoft YaHei faces, including the face-selection
-  metrics. It keeps the document's requested family names and all existing
+  metrics. It also maps the 14 localized Office families to their existing
+  canonical faces: 华文宋体→STSong, 华文仿宋→STFangsong, 华文楷体→STKaiti,
+  华文细黑→STXihei, 华文中宋→STZhongsong, 华文行楷→STXingkai,
+  华文隶书→STLiti, 华文新魏→STXinwei, 华文彩云→STCaiyun,
+  华文琥珀→STHupo, 方正舒体→FZShuTi, 方正姚体→FZYaoTi, 隶书→LiSu,
+  and 幼圆→YouYuan. It keeps the document's requested family names and all existing
   family indices stable.
 - Uses the existing WenQuanYi Zen Hei face for covered Han characters and CJK
   punctuation when a requested font lacks a glyph. It only assigns characters
@@ -39,6 +44,13 @@ The original localized 宋体/黑体/仿宋/楷体 payloads each had only two ma
 characters; 新宋体 had three. Their English counterparts have usable Chinese
 coverage. The original fallback assigned some ordinary Han characters (including
 试) to decorative fonts. These are separate defects from browser UI typography.
+
+The 14 localized Office payloads likewise contained only their own two or four
+name characters. The canonical faces each cover all 6,763 GB2312 Han characters
+(7,681–24,368 total Unicode cmap entries). The alias repair reuses those existing
+binaries and their selection metrics; it does not add fonts, remove the original
+payloads, change licensing, or introduce new bold faces. Compression sidecars and
+the font-compression manifest remain unchanged because the font bytes are unchanged.
 
 The initial repair reused existing binaries. The subsequent YaHei update adds
 Microsoft YaHei 5.00 regular and bold, each with 29,066 Unicode cmap entries and
@@ -80,13 +92,20 @@ The two web payloads are tracked as `fonts/yahei-v5-regular` and
 existing family indices. Upstream sync validates and preserves these two payloads
 before replacing the upstream directories, so a sync cannot restore the deficient
 YaHei mapping. A fresh `--asset-root` is seeded from this checkout's licensed pack.
-Deploy the fonts, index, integrity manifest and v4 worker cache
+Deploy the fonts, index, integrity manifest and current worker cache
 together. The two new payloads add approximately 28.4 MiB uncompressed.
 
 ## Regression checks
 
 The Node tests inspect real cmap tables, font aliases, selection metadata,
 fallback coverage, font hashes, conversion handoff, and repair repeatability.
+The 14 Office aliases have independent regression cases for full GB2312 Han,
+Latin, and punctuation coverage. An upgrade test reconstructs their old
+name-only mappings and invalid selection metrics, then verifies that repair
+restores the generated index without changing family names, family/file order,
+source paths, unrelated faces, or fallback ranges. The v5 worker cache retires
+the previous v4 cache. These checks do not replace DOCX round-trip or PDF
+rendering tests.
 For browser QA, use a DOCX containing each Chinese family in regular and bold,
 Latin text, punctuation, and rare characters such as 喆镕龘. Check:
 

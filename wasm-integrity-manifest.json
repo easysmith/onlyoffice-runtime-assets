@@ -1,8 +1,8 @@
 {
   "version": "v1",
-  "generatedAt": "2026-10-02T06:12:19.651Z",
+  "generatedAt": "2026-10-05T16:27:57.130Z",
   "files": {
-    "vendor/office/document_editor_service_worker.js": "82c3823a97692777c7343a264172bf1f2197acb8ec1d8bab7b253cd5ec82a8bc",
+    "vendor/office/document_editor_service_worker.js": "0a3da6cd2997d6ece8dc65a39e329ec0deb7f95861b0a4b67d70bec1d625c7ab",
     "vendor/office/fonts/000": "76710ff62bb81521317d7777d44f745e0d44050bb47f4fce376463edef79513e",
     "vendor/office/fonts/001": "e557087f0ba007d7c91d3955f93b48423c3e7af7f2455b843cfa38afda366d27",
     "vendor/office/fonts/002": "586d9633b1257cd5ca72100585dbfd30a5844ecdf3cf7dc1cac94b3f710b77aa",
@@ -277,7 +277,7 @@
     "vendor/office/sdkjs/cell/css/main.css": "0bc08883c50bc6e473eb28c3cabd2aca96778c0cbf34046e34d04b69ca81b7d8",
     "vendor/office/sdkjs/cell/sdk-all-min.js": "69bd59d5797d1d3d88105df56329aa982c98784db9c09d43b97992a42a631267",
     "vendor/office/sdkjs/cell/sdk-all.js": "365657e1581303075a9f039c2c399ae03c6b2030063f3c68858a39afaa6c9564",
-    "vendor/office/sdkjs/common/AllFonts.js": "43f735eec78a56b1771e57a482ca6f5c6d6326d953eca7a441bcfaebedf4150f",
+    "vendor/office/sdkjs/common/AllFonts.js": "b3ecd50e8d8afcbbfd7f707c996ceaffdd773600d29a8cd303f4d21c32586aa8",
     "vendor/office/sdkjs/common/Charts/ChartStyles.js": "3223234fa996dde5010d99c2945a6d3f95e40fdc2957867749f3128ad6a6a179",
     "vendor/office/sdkjs/common/Drawings/Format/path-boolean-min.js": "f7d7fa208bd40d5a934930c617fa84724391e4da355756b5eed2e766f7cd49e3",
     "vendor/office/sdkjs/common/hash/hash/engine_ie.js": "43c9da864e094d0b9dcdac9ea4aa68f2204742f3be3e4eed4e2fd3d89fbb6115",

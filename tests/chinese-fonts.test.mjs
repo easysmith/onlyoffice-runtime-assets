@@ -23,6 +23,56 @@ const root = fileURLToPath(new URL('../', import.meta.url));
 const { catalog } = await readFontCatalog(root);
 const byName = new Map(catalog.__fonts_infos.map(info => [info[0], info]));
 
+// Keep this regression list independent of the repair map: removing a mapping
+// must fail, even if both the generator and its generic tests use that map.
+const officeAliases = {
+  华文宋体: ['STSong', '036'],
+  华文仿宋: ['STFangsong', '032'],
+  华文楷体: ['STKaiti', '034'],
+  华文细黑: ['STXihei', '037'],
+  华文中宋: ['STZhongsong', '040'],
+  华文行楷: ['STXingkai', '038'],
+  华文隶书: ['STLiti', '035'],
+  华文新魏: ['STXinwei', '039'],
+  华文彩云: ['STCaiyun', '031'],
+  华文琥珀: ['STHupo', '033'],
+  方正舒体: ['FZShuTi', '027'],
+  方正姚体: ['FZYaoTi', '029'],
+  隶书: ['LiSu', '043'],
+  幼圆: ['YouYuan', '048'],
+};
+
+function gb2312Han() {
+  const decoder = new TextDecoder('gb18030');
+  const han = new Set();
+  for (let lead = 0xb0; lead <= 0xf7; lead++) {
+    for (let trail = 0xa1; trail <= 0xfe; trail++) {
+      const cp = decoder.decode(Uint8Array.of(lead, trail)).codePointAt(0);
+      if (cp >= 0x4e00 && cp <= 0x9fff) han.add(cp);
+    }
+  }
+  assert.equal(han.size, 6763);
+  return han;
+}
+
+for (const [alias, [canonical]] of Object.entries(officeAliases)) {
+  test(`${alias} resolves to ${canonical} with complete GB2312 Han coverage`, async () => {
+    assert.equal(CHINESE_FONT_ALIASES[alias], canonical);
+    const info = byName.get(alias);
+    assert.deepEqual(info.slice(1), byName.get(canonical).slice(1));
+    for (const slot of [1, 3, 5, 7]) {
+      if (info[slot] < 0) continue;
+      const covered = await fontCodepoints(root, catalog, [alias, info[slot], info[slot + 1]]);
+      for (const cp of gb2312Han()) {
+        assert.ok(covered.has(cp), `${alias} slot ${slot} missing U+${cp.toString(16)}`);
+      }
+      for (const char of 'ABCxyz0123，。！？') {
+        assert.ok(covered.has(char.codePointAt(0)), `${alias} slot ${slot} missing ${char}`);
+      }
+    }
+  });
+}
+
 test('Chinese family names resolve to real glyphs and the canonical faces', async () => {
   for (const [alias, canonical] of Object.entries(CHINESE_FONT_ALIASES)) {
     const covered = await fontCodepoints(root, catalog, byName.get(alias));
@@ -41,15 +91,7 @@ test('Chinese font selection uses the canonical face metrics', () => {
 });
 
 test('YaHei regular and bold cover GB2312 Han and the presentation regressions', async () => {
-  const decoder = new TextDecoder('gb18030');
-  const han = new Set();
-  for (let lead = 0xb0; lead <= 0xf7; lead++) {
-    for (let trail = 0xa1; trail <= 0xfe; trail++) {
-      const cp = decoder.decode(Uint8Array.of(lead, trail)).codePointAt(0);
-      if (cp >= 0x4e00 && cp <= 0x9fff) han.add(cp);
-    }
-  }
-  assert.equal(han.size, 6763);
+  const han = gb2312Han();
   for (const name of ['Microsoft YaHei', '微软雅黑']) {
     const info = byName.get(name);
     assert.ok(info[5] >= 0 && info[5] !== info[1], 'A real bold font is required');
@@ -149,9 +191,34 @@ test('repair is repeatable and upgrades the old worker cache', async () => {
     await fs.symlink(path.join(root, 'fonts'), path.join(temp, 'fonts'));
     await fs.cp(path.join(root, 'font-packs'), path.join(temp, 'font-packs'), { recursive: true });
     const relative = 'sdkjs/common/AllFonts.js';
-    await fs.copyFile(path.join(root, relative), path.join(temp, relative));
-    await fs.writeFile(path.join(temp, 'document_editor_service_worker.js'), 'var g_cacheName=g_cacheNamePrefix+g_version+"_localfix_v2";');
+    const before = await readFontCatalog(root);
+    const brokenInfos = before.catalog.__fonts_infos.map(info => {
+      const pair = officeAliases[info[0]];
+      return pair ? [info[0], before.catalog.__fonts_files.indexOf(pair[1]), 0, -1, -1, -1, -1, -1, -1] : info;
+    });
+    const records = selectionRecords(before.catalog.g_fonts_selection_bin);
+    const brokenRecords = records.map(record => {
+      const metrics = officeAliases[record.name] ? Buffer.alloc(record.metrics.length) : record.metrics;
+      return Buffer.concat([record.header, metrics]);
+    });
+    const count = Buffer.alloc(4);
+    count.writeUInt32LE(records.length);
+    const brokenSource = before.source
+      .replace(/window\["__fonts_infos"\] = \[[\s\S]*?\];/, `window["__fonts_infos"] = ${JSON.stringify(brokenInfos)};`)
+      .replace(/window\["g_fonts_selection_bin"\] = "[^"]*";/, `window["g_fonts_selection_bin"] = "${Buffer.concat([count, ...brokenRecords]).toString('base64')}";`);
+    await fs.writeFile(path.join(temp, relative), brokenSource);
+    await fs.writeFile(path.join(temp, 'document_editor_service_worker.js'), 'var g_cacheName=g_cacheNamePrefix+g_version+"_localfix_v4_yahei";');
     await repairChineseFonts(temp);
+    const after = await readFontCatalog(temp);
+    assert.equal(JSON.stringify(after.catalog.__fonts_files), JSON.stringify(before.catalog.__fonts_files), 'Payload indices must stay stable');
+    assert.equal(JSON.stringify(after.catalog.__fonts_infos), JSON.stringify(before.catalog.__fonts_infos), 'Family names, order, and unrelated faces must stay stable');
+    assert.equal(JSON.stringify(after.catalog.__fonts_ranges), JSON.stringify(before.catalog.__fonts_ranges), 'Fallbacks must not change');
+    const repairedRecords = selectionRecords(after.catalog.g_fonts_selection_bin);
+    assert.equal(repairedRecords.length, records.length);
+    for (let i = 0; i < records.length; i++) {
+      assert.deepEqual(repairedRecords[i].header, records[i].header, `${records[i].name} must retain its family identity and source path`);
+      assert.deepEqual(repairedRecords[i].metrics, records[i].metrics, records[i].name);
+    }
     const first = await fs.readFile(path.join(temp, relative), 'utf8');
     const firstHelper = await fs.readFile(path.join(temp, helper), 'utf8');
     await repairChineseFonts(temp);
@@ -198,7 +265,7 @@ test('worker activation removes the old font cache and retains unrelated caches'
   const events = {};
   const deleted = [];
   const current = `document_editor_static_office${FONT_CACHE_SUFFIX}`;
-  const old = 'document_editor_static_office_localfix_v2';
+  const old = 'document_editor_static_office_localfix_v4_yahei';
   const worker = await fs.readFile(path.join(root, 'document_editor_service_worker.js'), 'utf8');
   vm.runInNewContext(worker, {
     console,

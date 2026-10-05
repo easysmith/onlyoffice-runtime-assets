@@ -13,9 +13,23 @@ export const CHINESE_FONT_ALIASES = {
   楷体: 'KaiTi',
   新宋体: 'NSimSun',
   微软雅黑: 'Microsoft YaHei',
+  华文宋体: 'STSong',
+  华文仿宋: 'STFangsong',
+  华文楷体: 'STKaiti',
+  华文细黑: 'STXihei',
+  华文中宋: 'STZhongsong',
+  华文行楷: 'STXingkai',
+  华文隶书: 'STLiti',
+  华文新魏: 'STXinwei',
+  华文彩云: 'STCaiyun',
+  华文琥珀: 'STHupo',
+  方正舒体: 'FZShuTi',
+  方正姚体: 'FZYaoTi',
+  隶书: 'LiSu',
+  幼圆: 'YouYuan',
 };
 export const CHINESE_FALLBACK = 'WenQuanYi Zen Hei';
-export const FONT_CACHE_SUFFIX = '_localfix_v4_yahei';
+export const FONT_CACHE_SUFFIX = '_localfix_v5_office_aliases';
 // The bundled SDK XORs the first 32 bytes of font downloads with this key.
 const FONT_KEY = [160, 102, 214, 32, 20, 150, 71, 250, 149, 105, 184, 80, 176, 65, 73, 72];
 
