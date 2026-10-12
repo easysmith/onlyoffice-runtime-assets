@@ -11,7 +11,7 @@ node scripts/hash-office-assets.mjs --asset-root .
 node scripts/prepare-office-fonts.mjs --asset-root .
 node scripts/verify-office-fonts.mjs --asset-root .
 node scripts/prune-office-assets.mjs --asset-root . --dry-run
-node scripts/verify-office-assets.mjs --asset-root . --en-only
+node scripts/verify-office-assets.mjs --asset-root . --locales en,zh --help-locales en --monaco-locales en,zh-cn
 ```
 
 ## Documentation
