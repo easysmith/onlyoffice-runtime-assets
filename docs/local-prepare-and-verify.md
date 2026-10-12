@@ -37,7 +37,7 @@ node scripts/prune-office-assets.mjs --asset-root .
 ## 4) Verify runtime package constraints
 
 ```bash
-node scripts/verify-office-assets.mjs --asset-root . --en-only
+node scripts/verify-office-assets.mjs --asset-root . --locales en,zh --help-locales en --monaco-locales en,zh-cn
 node --test tests/chinese-fonts.test.mjs
 ```
 

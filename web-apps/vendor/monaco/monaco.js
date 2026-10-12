@@ -210,11 +210,23 @@
     script.type = "text/javascript";
     script.src = LOADING.URL;
     script.onload = function(){
-        require.config({
+        var uiLocale = new URLSearchParams(window.location.search).get("uiLocale");
+        if (!uiLocale) {
+            try {
+                uiLocale = new URLSearchParams(window.parent.location.search).get("lang");
+            } catch (e) {
+                // Standalone cross-origin embeds retain Monaco's English default.
+            }
+        }
+        var loaderConfig = {
             paths: {
                 "vs": LOADING.BASE_VS
             }
-        });
+        };
+        if (uiLocale && uiLocale.toLowerCase().split(/[-_]/)[0] === "zh") {
+            loaderConfig["vs/nls"] = { availableLanguages: { "*": "zh-cn" } };
+        }
+        require.config(loaderConfig);
         
         require(["vs/editor/editor.main"], function () {
             LOADED_STATUS = true;

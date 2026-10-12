@@ -24,3 +24,10 @@ Owned in the main app repository:
 - Pull requests to `runtime-en` verify committed compression artifacts too.
 - Any runtime asset update must pass prune, hash, and verify checks before
   publishing a new submodule pointer in the main repository.
+
+## Supported UI languages
+
+The runtime retains English (`en`) and Simplified Chinese (`zh`) editor
+resources, plus Monaco `zh-cn`. Pruning defaults preserve both languages.
+Help remains English because the host disables the help UI. The app sets
+`editorConfig.lang` from its account-synchronized UI locale at mount time.

@@ -2,9 +2,9 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const DEFAULT_ALLOWED_LOCALES = ['en'];
+const DEFAULT_ALLOWED_LOCALES = ['en', 'zh'];
 const DEFAULT_ALLOWED_HELP_LOCALES = ['en'];
-const DEFAULT_ALLOWED_MONACO_LOCALES = ['en'];
+const DEFAULT_ALLOWED_MONACO_LOCALES = ['en', 'zh-cn'];
 const HELP_DIR_ALWAYS_KEEP = new Set(['images', 'search']);
 const HELP_LANG_PATTERN = /^[a-z]{2}(?:-[a-z]{2})?$/i;
 

@@ -7,7 +7,7 @@ runs it automatically):
 ```sh
 node scripts/repair-chinese-fonts.mjs --asset-root .
 node scripts/hash-office-assets.mjs --asset-root .
-node scripts/verify-office-assets.mjs --asset-root . --en-only
+node scripts/verify-office-assets.mjs --asset-root . --locales en,zh --help-locales en --monaco-locales en,zh-cn
 node --test tests/chinese-fonts.test.mjs
 ```
 
