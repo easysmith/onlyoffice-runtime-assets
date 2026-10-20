@@ -1,8 +1,8 @@
 {
   "version": "v1",
-  "generatedAt": "2026-10-12T04:56:52.009Z",
+  "generatedAt": "2026-10-20T02:09:34.052Z",
   "files": {
-    "vendor/office/document_editor_service_worker.js": "82c3823a97692777c7343a264172bf1f2197acb8ec1d8bab7b253cd5ec82a8bc",
+    "vendor/office/document_editor_service_worker.js": "bc373148acb1406ea85b3985aaa60b961780e99701c60cef4a8c56a816bc48f1",
     "vendor/office/fonts/000": "76710ff62bb81521317d7777d44f745e0d44050bb47f4fce376463edef79513e",
     "vendor/office/fonts/001": "e557087f0ba007d7c91d3955f93b48423c3e7af7f2455b843cfa38afda366d27",
     "vendor/office/fonts/002": "586d9633b1257cd5ca72100585dbfd30a5844ecdf3cf7dc1cac94b3f710b77aa",
@@ -457,7 +457,7 @@
     "vendor/office/sdkjs/common/spell/spell/spell_ie.js": "28540bcd04984accac836efca1537a3b5553edf973351d37a2af75527e1505fb",
     "vendor/office/sdkjs/common/spell/spell/spell.js": "42c9b6268f127979d4132c377bdfb46a8580f39865b7c79713d28602f63e9dfa",
     "vendor/office/sdkjs/common/spell/spell/spell.wasm": "9c5c4b4a6329db55b52558962e9625b83194e7d6a085b67d05554d3ec2240984",
-    "vendor/office/sdkjs/common/wasm/x2t/x2t_helper.js": "e00a59e213fffb97fa732b7025300e460ff0233d734f704fef7915796636d27c",
+    "vendor/office/sdkjs/common/wasm/x2t/x2t_helper.js": "8eb86942ed60c82a6fc35b9f727a79014d4407b66cde23b0e8d667abf17bff2c",
     "vendor/office/sdkjs/common/wasm/x2t/x2t.js": "76947c0b44114d57712f581850a6af5f731fc5ffb897679dff16fd0893e39346",
     "vendor/office/sdkjs/common/wasm/x2t/x2t.wasm": "64764f38b835549d2a6594151672896e5a9079cc6dbaeefa4569c315009c27ba",
     "vendor/office/sdkjs/common/zlib/engine/zlib_ie.js": "8836c7787db86cd02fd3d2597dc9073f8bf171d19a6b496f45cf5eae7550a8a7",
