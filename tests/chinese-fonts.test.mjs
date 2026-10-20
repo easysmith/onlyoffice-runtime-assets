@@ -227,3 +227,21 @@ test('worker activation removes the old font cache and retains unrelated caches'
   await activated;
   assert.deepEqual(deleted, [old]);
 });
+
+test('Blob conversion waits for the asynchronously loaded font API', async () => {
+  const originalWindow = globalThis.window;
+  globalThis.window = { AscFonts: {} };
+  let completed = false;
+  try {
+    const loading = copyLoadedFontsToConverter.call({ x2tModule: { FS: { writeFile() {} } } })
+      .then(() => { completed = true; });
+    await new Promise(resolve => setTimeout(resolve, 35));
+    assert.equal(completed, false);
+    globalThis.window.AscFonts = { getFontStreams: () => [], getFontStream() {} };
+    await loading;
+    assert.equal(completed, true);
+  } finally {
+    if (originalWindow === undefined) delete globalThis.window;
+    else globalThis.window = originalWindow;
+  }
+});

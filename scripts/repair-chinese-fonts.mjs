@@ -15,7 +15,7 @@ export const CHINESE_FONT_ALIASES = {
   微软雅黑: 'Microsoft YaHei',
 };
 export const CHINESE_FALLBACK = 'WenQuanYi Zen Hei';
-export const FONT_CACHE_SUFFIX = '_localfix_v4_yahei';
+export const FONT_CACHE_SUFFIX = '_localfix_v5_font_ready';
 // The bundled SDK XORs the first 32 bytes of font downloads with this key.
 const FONT_KEY = [160, 102, 214, 32, 20, 150, 71, 250, 149, 105, 184, 80, 176, 65, 73, 72];
 
@@ -116,10 +116,13 @@ function isChineseCodepoint(cp) {
 
 // Serialized into x2t_helper.js; only use browser globals and the converter's FS.
 export async function copyLoadedFontsToConverter() {
-  const fonts = window.AscFonts;
-  if (!fonts || !fonts.getFontStreams || !fonts.getFontStream) {
-    throw new Error('Office font streams are unavailable');
+  // Blob input can arrive before the asynchronously loaded full SDK exposes fonts.
+  const deadline = Date.now() + 15000;
+  while (!window.AscFonts?.getFontStreams || !window.AscFonts?.getFontStream) {
+    if (Date.now() >= deadline) throw new Error('Office font streams are unavailable');
+    await new Promise(resolve => setTimeout(resolve, 25));
   }
+  const fonts = window.AscFonts;
   const streams = fonts.getFontStreams();
   for (let index = 0; index < streams.length; index++) {
     // getFontStream also expands compressed embedded fonts. These bytes have

@@ -705,10 +705,13 @@
     };
 
     X2TConverter.prototype.fetchFonts = async function copyLoadedFontsToConverter() {
-  const fonts = window.AscFonts;
-  if (!fonts || !fonts.getFontStreams || !fonts.getFontStream) {
-    throw new Error('Office font streams are unavailable');
+  // Blob input can arrive before the asynchronously loaded full SDK exposes fonts.
+  const deadline = Date.now() + 15000;
+  while (!window.AscFonts?.getFontStreams || !window.AscFonts?.getFontStream) {
+    if (Date.now() >= deadline) throw new Error('Office font streams are unavailable');
+    await new Promise(resolve => setTimeout(resolve, 25));
   }
+  const fonts = window.AscFonts;
   const streams = fonts.getFontStreams();
   for (let index = 0; index < streams.length; index++) {
     // getFontStream also expands compressed embedded fonts. These bytes have
